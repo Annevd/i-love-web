@@ -6,7 +6,7 @@
 - [Sveltekit](#sveltekit)
 - [Hoe gebruikt je Sveltekit in je eigen project?](#hoe-gebruik-je-sveltekit-in-je-eigen-project)
 
-- [Ma 2-9-2024 t/m Woe 4-9-2024 Recap](#ma-2-9-2024-tm-woe-4-9-2024-recap)
+- [Week 1 recap](#week-1-recap)
 
 ## Frameworks
 
@@ -101,19 +101,34 @@ Voor een uitgebreide tutorial om ook met Directus te werken klik [hier](https://
 ![image](https://github.com/user-attachments/assets/488089da-abc0-4984-93b8-c99c6c8160df)
 ![image](https://github.com/user-attachments/assets/1b7860ba-cc14-47d1-a8f1-41d8c63cec74)
 
-## Ma 2-9-2024 t/m Woe 4-9-2024 Recap
+## Week 1 Recap
 
 ### Wat heb ik gedaan?
 
+- **2 t/m 4 september:**
+
 Afgelopen 3 dagen heb ik mij bezig gehouden met het verkennen van nieuwe informatie zoals Svelte en Sveltekit, hoe het werkt, wat het doet, en hoe je het zelf kan gebruiken. Ook heb ik samen met mijn team ontwerpen gemaakt voor onze squadpage en zijn we bezig geweest met het opzetten van de sveltekit omgeving en het maken van issues en een taakverdeling.
+
+- **5 september:**
+
+Vandaag ben ik bezig geweest met het zelf opzetten van een Sveltekit project met een koppeling naar Directus. In de repo van mijn persoonlijke visitekaartje kan ik nu data uit Directus ophalen om in de browser te weergeven. 
+
+Ook heb ik mij bezig gehouden met onderzoeken hoe ik container queries kan toepassen in ons Mondriaan grid, voor responsive kaartjes binnen het grid. Daarnaast heb ik ook alvast onderzoek gedaan naar hoe je een custom cursor kan instellen en wat voor design ik ervoor wil maken. 
+
+Tot slot ben ik begonnen met het ontwerpen van mijn visitekaartje.
 
 ### Wat heb ik geleerd?
 
+- **4 september:**
 Ik heb vandaag geleerd aan de hand van kit.svelte.dev en de demo van Justus hoe je zelf een basic Sveltekit project opzet.
 
+- **5 september:**
+Vandaag heb ik geleerd hoe ik data kan ophalen en renderen vanuit Directus met Sveltekit.
+
 ### Leervragen 
+
+- **4 september:**
 
 - Hoe laad ik data in vanuit directus met sveltekit?
 - Hoe link ik naar een detailpagina?
 - Hoe maak ik pagina’s aan met sveltekit?
-
