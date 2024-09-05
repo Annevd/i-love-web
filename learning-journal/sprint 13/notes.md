@@ -1,5 +1,13 @@
 # Learning journal
 
+## Inhoudsopgave
+
+- [Frameworks](#frameworks)
+- [Sveltekit](#sveltekit)
+- [Hoe gebruikt je Sveltekit in je eigen project?](#hoe-gebruik-je-sveltekit-in-je-eigen-project)
+
+- [Ma 2-9-2024 t/m Woe 4-9-2024 Recap](#ma-2-9-2024-tm-woe-4-9-2024-recap)
+
 ## Frameworks
 
 Een framework in de context van frontend is een set van tools, bibliotheken, en richtlijnen helpt bij het bouwen en structureren van softwaretoepassingen. Het biedt een basisstructuur waarbinnen ontwikkelaars hun code kunnen schrijven, waardoor ze niet alles vanaf nul hoeven op te bouwen.
@@ -57,7 +65,7 @@ SvelteKit helps you build web apps while following modern best practices and pro
 
 Zonder een framework kost het meer tijd om basisfunctionaliteiten zelf te ontwikkelen en te onderhouden.
 
-### Hoe gebruik je Sveltekit in je eigen project?
+## Hoe gebruik je Sveltekit in je eigen project?
 
 **In terminal:**
 
@@ -93,7 +101,7 @@ Voor een uitgebreide tutorial om ook met Directus te werken klik [hier](https://
 ![image](https://github.com/user-attachments/assets/488089da-abc0-4984-93b8-c99c6c8160df)
 ![image](https://github.com/user-attachments/assets/1b7860ba-cc14-47d1-a8f1-41d8c63cec74)
 
-## Ma 2-9-2024 t/m Woe 5-9-2024 Recap
+## Ma 2-9-2024 t/m Woe 4-9-2024 Recap
 
 ### Wat heb ik gedaan?
 
