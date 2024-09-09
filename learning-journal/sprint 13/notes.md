@@ -7,6 +7,7 @@
 - [Hoe gebruikt je Sveltekit in je eigen project?](#hoe-gebruik-je-sveltekit-in-je-eigen-project)
 
 - [Week 1 recap](#week-1-recap)
+- [Week 2 recap](#week-2-recap)
 
 ## Frameworks
 
@@ -131,3 +132,19 @@ Tot slot ben ik begonnen met het ontwerpen van mijn visitekaartje.
 - **Wat heb ik geleerd?:**
 
 Vandaag heb ik geleerd hoe ik data kan ophalen en renderen vanuit Directus met Sveltekit.
+
+## Week 2 Recap
+
+### 9-9-2024
+
+- **Wat heb ik gedaan?:**
+
+Vandaag ben ik begonnen met het verder werken aan mijn visitekaartje. Ik heb het ontwerp extra uitgewerkt, een breakdown gemaakt en een wireflow gemaakt. Ook heb ik het in figma zo goed mogelijk proberen te designen.
+
+Daarna kregen we een workshop over Figma met handige tips over het maken van componenten en styles.
+
+Vervolgens heb ik met mijn team weer verder gewerkt aan de squadpage. Wij hebben nu ook in Figma ons design gemaakt en onze inspiratie erin gezet. Ook heb ik nog geholpen een aantal bugs op te lossen in het Mondriaan grid, het reviewen van een pull request en ben ik begonnen aan het design van de custom cursor.
+
+- **Wat heb ik geleerd?:**
+
+Ik heb vandaag geleerd hoe je componenten, styles, auto-layout en grid layout in Figma kan gebruiken.
