@@ -148,3 +148,9 @@ Vervolgens heb ik met mijn team weer verder gewerkt aan de squadpage. Wij hebben
 - **Wat heb ik geleerd?:**
 
 Ik heb vandaag geleerd hoe je componenten, styles, auto-layout en grid layout in Figma kan gebruiken.
+
+### 10-9-2024
+
+- **Wat heb ik gedaan?:**
+
+Ik ben begonnen met het opzetten van het begin van mijn visitekaartje. Ik heb zo goed als alle HTML erin, op 1 svg na, en de basic CSS zoals een grid zit erin. Verder ben ik bezig geweest met de custom cursor en heb ik een pull request van mijn teamgenoot gereviewd en approved.
