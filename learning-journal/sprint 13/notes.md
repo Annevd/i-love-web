@@ -162,3 +162,13 @@ Ik ben begonnen met het opzetten van het begin van mijn visitekaartje. Ik heb zo
 Als eerst ben ik in de ochtend verder gegaan aan mijn visitekaartje totdat de workshop Creative Coding begon. Ik heb aan de CSS gewerkt zoals custom properties, custom fonts met `@font-face`, lettertypes, lettergroottes en de styling.
 
 - **Wat heb ik geleerd?:**
+
+Hoe je een schone sveltekit omgeving klaarzet:
+
+1. maak een tijdelijke kopie van de folder van de squadpage repo
+2. installeer een clean install van sveltekit voor de squadpage
+3. voeg in /routes/+page.js deze regel code toe: export let csr = false
+4. neem in /lib/fetch-node.js de code over uit hetzelfde bestand van je laatste node.js project van sprint 12
+5. importeer deze function in /routes/+page.server.js
+6. check aan de hand van het voorbeeld of je alles goed gedaan hebt
+7. copy/paste als laatste jullie toegevoegde svelte code terug in /routes/+page.svelte
