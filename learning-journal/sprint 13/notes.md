@@ -154,3 +154,11 @@ Ik heb vandaag geleerd hoe je componenten, styles, auto-layout en grid layout in
 - **Wat heb ik gedaan?:**
 
 Ik ben begonnen met het opzetten van het begin van mijn visitekaartje. Ik heb zo goed als alle HTML erin, op 1 svg na, en de basic CSS zoals een grid zit erin. Verder ben ik bezig geweest met de custom cursor en heb ik een pull request van mijn teamgenoot gereviewd en approved.
+
+### 11-9-2024
+
+- **Wat heb ik gedaan?:**
+
+Als eerst ben ik in de ochtend verder gegaan aan mijn visitekaartje totdat de workshop Creative Coding begon. Ik heb aan de CSS gewerkt zoals custom properties, custom fonts met `@font-face`, lettertypes, lettergroottes en de styling.
+
+- **Wat heb ik geleerd?:**
