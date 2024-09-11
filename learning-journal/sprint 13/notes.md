@@ -163,14 +163,31 @@ Als eerst ben ik in de ochtend verder gegaan aan mijn visitekaartje totdat de wo
 
 - **Wat heb ik geleerd?:**
 
+Ik heb vandaag geleerd over Creative Coding met CSS en Javascript, client side en server side.
+Tijdens de [demo](https://github.com/joostf/squadpage-sveltekit/tree/main) van de workshop heeft Justus laten zien hoe je met CSS en JS je visitekaarte of squadpage kan opleuken. Bijvoorbeeld met scroll-driven animations in CSS, of met animations in Javascript. Je kan Javascript server side of client side gebruiken. 
+
+Als je Javascript client side wil gebruiken heb je de functie [`onMount`](https://svelte.dev/docs/svelte#onmount) nodig en je script in de `static` folder(?).
+
+Ook heeft Svelte een aantal standaard [ingebouwde transitions](https://svelte.dev/docs/svelte-transition) en animations die je kan importeren vanuit een library. In de [interactive tutorial](https://learn.svelte.dev/tutorial/transition) kun je oefenen met deze transitions en animations.
+
+
+
 **Hoe je een schone sveltekit omgeving klaarzet:**
 
-[Voorbeeldrepo](https://github.com/ju5tu5/squadpage-sveltekit)
+[Voorbeeldrepo Sveltekit](https://github.com/ju5tu5/squadpage-sveltekit)
 
 1. maak een tijdelijke kopie van de folder van de squadpage repo
 2. installeer een clean install van sveltekit voor de squadpage
-3. voeg in /routes/+page.js deze regel code toe: export let csr = false
-4. neem in /lib/fetch-node.js de code over uit hetzelfde bestand van je laatste node.js project van sprint 12
-5. importeer deze function in /routes/+page.server.js
+3. voeg in `/routes/+page.js` deze regel code toe: `export let csr = false`
+4. neem in `/lib/fetch-node.js` de code over uit hetzelfde bestand van je laatste node.js project van sprint 12
+5. importeer deze function in `/routes/+page.server.js`
 6. check aan de hand van het voorbeeld of je alles goed gedaan hebt
-7. copy/paste als laatste jullie toegevoegde svelte code terug in /routes/+page.svelte
+7. copy/paste als laatste jullie toegevoegde svelte code terug in `/routes/+page.svelte`
+
+### Handige links
+
+- [Voorbeeldrepo Sveltekit](https://github.com/ju5tu5/squadpage-sveltekit)
+- [Voorbeeldrepo Creative Coding](https://github.com/joostf/squadpage-sveltekit/tree/main) CSR en SSR
+- [Svelte transition](https://svelte.dev/docs/svelte-transition)
+- [`onMount`](https://svelte.dev/docs/svelte#onmount)
+- [Interactive tutorial transitions/animations](https://learn.svelte.dev/tutorial/transition)
