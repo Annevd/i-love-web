@@ -163,7 +163,9 @@ Als eerst ben ik in de ochtend verder gegaan aan mijn visitekaartje totdat de wo
 
 - **Wat heb ik geleerd?:**
 
-Hoe je een schone sveltekit omgeving klaarzet:
+**Hoe je een schone sveltekit omgeving klaarzet:**
+
+[Voorbeeldrepo](https://github.com/ju5tu5/squadpage-sveltekit)
 
 1. maak een tijdelijke kopie van de folder van de squadpage repo
 2. installeer een clean install van sveltekit voor de squadpage
