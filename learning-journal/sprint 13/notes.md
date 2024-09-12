@@ -170,6 +170,13 @@ Als je Javascript client side wil gebruiken heb je de functie [`onMount`](https:
 
 Ook heeft Svelte een aantal standaard [ingebouwde transitions](https://svelte.dev/docs/svelte-transition) en animations die je kan importeren vanuit een library. In de [interactive tutorial](https://learn.svelte.dev/tutorial/transition) kun je oefenen met deze transitions en animations.
 
+Tot slot heb ik geleerd hoe je je website live kan zetten met Vercel:
+
+- [x] Voeg een nieuw project toe
+- [x] Connect met je Git provider (GitHub in mijn geval)
+- [x] Kies de juiste GitHub repository
+- [x] Vercel start automatisch met het deployen van je project!
+
 
 
 **Hoe je een schone sveltekit omgeving klaarzet:**
@@ -183,6 +190,13 @@ Ook heeft Svelte een aantal standaard [ingebouwde transitions](https://svelte.de
 5. importeer deze function in `/routes/+page.server.js`
 6. check aan de hand van het voorbeeld of je alles goed gedaan hebt
 7. copy/paste als laatste jullie toegevoegde svelte code terug in `/routes/+page.svelte`
+
+## 12-9-2024
+
+**Wat heb ik gedaan:?**
+
+Vandaag heb ik verder gewerkt aan mijn visitekaartje. Ik ben begonnen met het maken van de ster animatie, ik moet alleen nog 1 issue daarvan oplossen en dan is het klaar. De SVG van de ster heb ik zelf in Figma gemaakt, omdat ik op internet geen perfecte svg naar mijn wensen kon vinden.
+Ook heb ik de custom cursor omgezet tot SVG, die nu klaar is om te gebruiken.
 
 ### Handige links
 
