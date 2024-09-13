@@ -202,7 +202,14 @@ Ook heb ik de custom cursor omgezet tot SVG, die nu klaar is om te gebruiken.
 
 **Wat heb ik gedaan?:**
 
-De animatie van de sterren om het kaartje heen heb ik vanochtend afgemaakt.
+De animatie van de sterren om het kaartje heen heb ik vanochtend afgemaakt. Ook heb ik een we love web gevolgd van Vasilis van Gemert over leuke en "nutteloze" dingen maken, en hebben wij feedback op onze squadpage en samenwerking gekregen.
+
+**Feedback:**
+
+- Te lange issues maakt niet uit, maak goede beschrijvende issue titels
+- Schrijf specifiekere issues
+- Zorg ervoor dat mensen buiten je team het ook zouden begrijpen
+- Alles wat over die taak gaat moet erbij staan
 
 ### Handige links
 
