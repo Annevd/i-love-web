@@ -193,10 +193,16 @@ Tot slot heb ik geleerd hoe je je website live kan zetten met Vercel:
 
 ## 12-9-2024
 
-**Wat heb ik gedaan:?**
+**Wat heb ik gedaan?:**
 
 Vandaag heb ik verder gewerkt aan mijn visitekaartje. Ik ben begonnen met het maken van de ster animatie, ik moet alleen nog 1 issue daarvan oplossen en dan is het klaar. De SVG van de ster heb ik zelf in Figma gemaakt, omdat ik op internet geen perfecte svg naar mijn wensen kon vinden.
 Ook heb ik de custom cursor omgezet tot SVG, die nu klaar is om te gebruiken.
+
+## 13-9-2024
+
+**Wat heb ik gedaan?:**
+
+De animatie van de sterren om het kaartje heen heb ik vanochtend afgemaakt.
 
 ### Handige links
 
