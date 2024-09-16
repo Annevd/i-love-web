@@ -234,3 +234,8 @@ Ik ben in de ochtend begonnen met het schrijven van een ReadME voor mijn visitek
 
 Tot slot heb ik nog labels aangemaakt passend bij de DLC om bij de issues te zetten zodat het nog ff wat georganiseerder wordt.
 
+In de middag hadden we een workshop over epic -> story -> task, planning poker en prioritizing met MoSCoW.
+
+**Wat heb ik geleerd?:**
+
+Ik heb vandaag geleerd hoe je effecient van een epic, naar een story, naar een user story, naar verschillende tasks kan gaan en deze in een project board kan zetten. Ook heb ik hierbij geleerd hoe je deze een tijdsinschatting kan geven van een van de volgende waardes: ? 1 2 3 5 8 13 21 infinite, om zo een goede grip te krijgen op je project, en hoeveel tijd je met elke taak bezig bent. Tot slot heb ik geleerd hoe je deze taken kan prioritiseren op basis van MoSCoW, Must have, Should have, Could have en Want to have.
