@@ -8,6 +8,7 @@
 
 - [Week 1 recap](#week-1-recap)
 - [Week 2 recap](#week-2-recap)
+- [Week 3 recap](#week-3-recap)
 
 ## Frameworks
 
@@ -204,6 +205,10 @@ Ook heb ik de custom cursor omgezet tot SVG, die nu klaar is om te gebruiken.
 
 De animatie van de sterren om het kaartje heen heb ik vanochtend afgemaakt. Ook heb ik een we love web gevolgd van Vasilis van Gemert over leuke en "nutteloze" dingen maken, en hebben wij feedback op onze squadpage en samenwerking gekregen.
 
+**Wat heb ik geleerd?:**
+
+Ik heb geleerd hoe je efficienter issues en pull requests kan schrijven.
+
 **Feedback:**
 
 - Te lange issues maakt niet uit, maak goede beschrijvende issue titels
@@ -218,3 +223,14 @@ De animatie van de sterren om het kaartje heen heb ik vanochtend afgemaakt. Ook 
 - [Svelte transition](https://svelte.dev/docs/svelte-transition)
 - [`onMount`](https://svelte.dev/docs/svelte#onmount)
 - [Interactive tutorial transitions/animations](https://learn.svelte.dev/tutorial/transition)
+
+## Week 3 Recap
+
+### 16-9-2024
+
+**Wat heb ik gedaan?:**
+
+Ik ben in de ochtend begonnen met het schrijven van een ReadME voor mijn visitekaartje. Vervolgens heb ik geprobeerd de issues in ons team projectboard beschrijvender te maken voor meer duidelijkheid. Ook heb ik aan een klasgenoot gevraagd of ze de installatie instructies uit mijn ReadME wilde testen om te kijken of alles werkt, dit was gelukkig wel het geval! Hetzelfde heb ik voor haar gedaan, en een paar issues geschreven. 
+
+Tot slot heb ik nog labels aangemaakt passend bij de DLC om bij de issues te zetten zodat het nog ff wat georganiseerder wordt.
+
