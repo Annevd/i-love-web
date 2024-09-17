@@ -239,3 +239,11 @@ In de middag hadden we een workshop over epic -> story -> task, planning poker e
 **Wat heb ik geleerd?:**
 
 Ik heb vandaag geleerd hoe je effecient van een epic, naar een story, naar een user story, naar verschillende tasks kan gaan en deze in een project board kan zetten. Ook heb ik hierbij geleerd hoe je deze een tijdsinschatting kan geven van een van de volgende waardes: ? 1 2 3 5 8 13 21 infinite, om zo een goede grip te krijgen op je project, en hoeveel tijd je met elke taak bezig bent. Tot slot heb ik geleerd hoe je deze taken kan prioritiseren op basis van MoSCoW, Must have, Should have, Could have en Want to have.
+
+### 17-9-2024
+
+**Wat heb ik gedaan?:**
+
+Ik heb vandaag eindelijk de custom cursor geïmplementeerd en gemerged met de main branch. Ook heb ik een basic container query gemaatk en die ook gemerged met de main branch.
+Daarnaast ben ik veel bezig geweest met het oplossen van issues van mijn profile card, en het documenteren hiervan. 
+
