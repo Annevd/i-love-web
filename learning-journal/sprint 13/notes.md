@@ -253,3 +253,31 @@ Daarnaast ben ik veel bezig geweest met het oplossen van issues van mijn profile
 
 Ik heb mijn projectboard gelabeled met fases van de DLC en met MoSCoW. Ook heb ik een dark mode kleurenpalet samengesteld voor mijn visitekaartje, ik weet alleen nog niet of ik daar aan toe kom.
 
+**Wat heb ik geleerd?:**
+
+Hoe lever je een project op bij de opdrachtgever:
+
+- **Code:**
+  - gestructueerde code (conventies)
+  - semantiek
+  - geen comments
+  - geen `console.log()`
+  - goede tabs
+
+- **Readme.md:**
+  - kenmerken (1)
+  - livelink (2)
+  - visuals (3)
+  - instructies (4)
+  - installatiehandleiding (5)
+  - CMS uitleg (6)
+  - huisstijl (7)
+  - bijdragen (hints voor volgende dev-teams) (8)
+  - bronnen (9)
+  - badges/labels met gebruikte technologie (10)
+
+- **Live zetten:**
+  - Github pages
+  - Vercel
+  - Netlify
+  - onrender
