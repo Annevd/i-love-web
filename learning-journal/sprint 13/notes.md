@@ -251,7 +251,8 @@ Daarnaast ben ik veel bezig geweest met het oplossen van issues van mijn profile
 
 **Wat heb ik gedaan?:**
 
-Ik heb mijn projectboard gelabeled met fases van de DLC en met MoSCoW. Ook heb ik een dark mode kleurenpalet samengesteld voor mijn visitekaartje, ik weet alleen nog niet of ik daar aan toe kom.
+Ik heb mijn projectboard gelabeled met fases van de DLC en met MoSCoW. Ook heb ik een dark mode kleurenpalet samengesteld voor mijn visitekaartje, ik weet alleen nog niet of ik daar aan toe kom. 
+Na het college heb ik nog gewerkt aan data fallback met `if/else` voor de person data, lettergroottes veranderd en een lettertype toegevoegd.
 
 **Wat heb ik geleerd?:**
 
