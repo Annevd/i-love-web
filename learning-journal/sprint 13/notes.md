@@ -247,3 +247,9 @@ Ik heb vandaag geleerd hoe je effecient van een epic, naar een story, naar een u
 Ik heb vandaag eindelijk de custom cursor geïmplementeerd en gemerged met de main branch. Ook heb ik een basic container query gemaatk en die ook gemerged met de main branch.
 Daarnaast ben ik veel bezig geweest met het oplossen van issues van mijn profile card, en het documenteren hiervan. 
 
+### 18-9-2024
+
+**Wat heb ik gedaan?:**
+
+Ik heb mijn projectboard gelabeled met fases van de DLC en met MoSCoW. Ook heb ik een dark mode kleurenpalet samengesteld voor mijn visitekaartje, ik weet alleen nog niet of ik daar aan toe kom.
+
