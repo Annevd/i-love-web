@@ -8,10 +8,10 @@
 
 ## Leervragen:
 
-- Hoe combineer je een CMS met een framework?
-- Hoe zet je een project met een framework op?
-- Hoe werk je effectief samen d.m.v. issues en pull requests?
-- Hoe kan ik mijn tijd effectief verdelen?
-- Hoe kan ik mijn werk effectief documenteren in mijn learning journal?
+- Hoe combineer je een CMS met een framework? **(inmiddels beantwoord C:)** 
+- Hoe zet je een project met een framework op? **(inmiddels beantwoord C:)**
+- Hoe werk je effectief samen d.m.v. issues en pull requests? **(inmiddels beantwoord C:)**
+- Hoe kan ik mijn tijd effectief verdelen? **(inmiddels beantwoord C:)**
+- Hoe kan ik mijn werk effectief documenteren in mijn learning journal? **(inmiddels beantwoord C:)**
 - Hoe kon ik mijn bewijslast op de juiste manier opleveren?
 - Hoe kan ik mijn sterke en zwakke punten gebruiken om anderen te helpen?
