@@ -282,3 +282,9 @@ Hoe lever je een project op bij de opdrachtgever:
   - Vercel
   - Netlify
   - onrender
+ 
+### 19-9-2024
+
+**Wat heb ik gedaan?:**
+
+Ik heb vandaag alle puntjes op de i gezet voor mijn profile card, alle issues opgelost, last checks en tests gedaan, en de readme volledig gemaakt. Daarnaast ben ik bezig geweest met het documenteren hiervan en het voorbereiden voor de retrospect.
