@@ -88,20 +88,20 @@ Voor een uitgebreide tutorial om ook met Directus te werken klik [hier](https://
 
 **Screenshot van de interactive tutorial over hoe je pagina's maakt:**
 
-![image](https://github.com/user-attachments/assets/1feaf73f-cc9c-4e0a-b9fc-42dbd8e0c7d5)
+<img width=700 src="https://github.com/user-attachments/assets/1feaf73f-cc9c-4e0a-b9fc-42dbd8e0c7d5">
 
 **Screenshot van de interactive tutorial over hoe je een layout maakt:**
 
-![image](https://github.com/user-attachments/assets/86c5e4c8-25c6-4b56-8376-e3a90c8e6642)
+<img width=700 src="https://github.com/user-attachments/assets/86c5e4c8-25c6-4b56-8376-e3a90c8e6642">
 
 **Screenshot van de interactive tutorial over hoe je pagina's met een slug maakt:**
 
-![image](https://github.com/user-attachments/assets/1c71776b-9595-4420-9244-35f61aa1e2d0)
+<img width=700 src="https://github.com/user-attachments/assets/1c71776b-9595-4420-9244-35f61aa1e2d0">
 
 **Screenshot van de interactive tutorial over hoe je data ophaalt en rendert:**
 
-![image](https://github.com/user-attachments/assets/488089da-abc0-4984-93b8-c99c6c8160df)
-![image](https://github.com/user-attachments/assets/1b7860ba-cc14-47d1-a8f1-41d8c63cec74)
+<img width=700 src="https://github.com/user-attachments/assets/488089da-abc0-4984-93b8-c99c6c8160df">
+<img width=700 src="https://github.com/user-attachments/assets/1b7860ba-cc14-47d1-a8f1-41d8c63cec74">
 
 ## Week 1 Recap
 
@@ -287,4 +287,46 @@ Hoe lever je een project op bij de opdrachtgever:
 
 **Wat heb ik gedaan?:**
 
-Ik heb vandaag alle puntjes op de i gezet voor mijn profile card, alle issues opgelost, last checks en tests gedaan, en de readme volledig gemaakt. Daarnaast ben ik bezig geweest met het documenteren hiervan en het voorbereiden voor de retrospect.
+Ik heb vandaag alle puntjes op de i gezet voor mijn profile card, alle issues opgelost, last checks en tests gedaan, en de readme volledig gemaakt. Daarnaast ben ik bezig geweest met het documenteren hiervan en het voorbereiden voor de retrospect. Tot slot heb ik nog een les van Javascript fundamentals gevolgd.
+
+**Wat heb ik geleerd?:**
+
+Ik heb mij vandaag ingelezen over [werken met components](https://vercel.com/docs/beginner-sveltekit/working-with-components).
+
+Voorheen hebben we vanuit een component gewerkt, namelijk `+page.svelte`. Normaal gesproken in een Svelte project wordt er gebruik gemaakt van veel verschillende componenten. Bijvoorbeeld, een basic website heeft een header, footer, dropdown menu, etc. Deze componenten zouden we dan combineren in een tree-like structure om onze applicatie samen te stellen.
+
+**Bijvoorbeeld:**
+
+<img width=400 src="https://github.com/user-attachments/assets/fe67aa30-0212-438f-b173-17d906779e0d">
+
+Alle pagina's zijn componenten, maar niet alle componenten zijn pagina's.
+
+Bijvoorbeeld, de `+page.svelte` pagina kan componenten zoals `GridTile.svelte` importeren, maar `GridTile.svelte` kan niet de `+page.svelte` pagina importeren.
+> Pagina's kunnen nooit geïmporteerd worden door een andere pagina of component.
+
+**Hoe maak je svelte componenten?:**
+
+Elke file dat eindigt met `.svelte` is een Svelte component. Als deze file in de `/src/routes` directory zit, zal het een pagina zijn, wat betekent dat het een corresponderende route heeft waar we naar kunnen navigeren in de browser. Als deze file in de `/src/lib` directory zit, is het een basic Svelte component die geïmporteerd en gebruikt kan worden door andere componenten.
+
+Een `.svelte` file is een superset van HTML, dus net als een HTML file, heeft het een `<script>` tag, waar je alle logica neerzet, het kan HTML bevatten, en een `<style>` tag voor CSS.
+
+**waarom gebruik maken van componenten?:**
+
+Now if you are not too familiar with component-driven development, components are reusable blocks of code that encapsulate HTML, CSS, and JavaScript in a single file. For example, a dropdown menu is an example of a component. This allows us to easily reuse the same chunk of code as many times as we want without re-writing it. It also keeps our JavaScript and CSS scoped to that specific component. In our example, we see our GridTile component displayed in our browser, and everything needed to build this component is bundled in a single re-useable file. To use a component we import it in the parent’s script tag, and use it in our HTMl like this.
+
+Componenten zijn herburikbare blokken code die HTML, CSS en Javascript hebben binnen één file. Een dropdown menu is bijvoorbeeld zo'n component. Dit geeft de mogelijkheid om ditzelfde stukje code meerdere keren te gebruiken zonder het her te schrijven. Het houdt ook onze Javascript en CSS toegepast op dat specifieke component. 
+
+Om een component te gebruiken importeer je het component in de parent's `<script>` tag, en gebruik je het zo in de HTML:
+
+```JS
+<script>
+  import GridTile from '$lib/GridTile.svelte';
+</script>
+```
+```HTML
+<GridTile />
+```
+### 20-9-2024
+
+**Wat heb ik gedaan?:**
+Ik ben vandaag begonnen met het opzoeken van inspiratie voor mijn I-love-web en heb ik in een [Figma](https://www.figma.com/design/u9WXbGRCtzsPlkzEQrwx5R/Portfolio?node-id=1-2&node-type=canvas&t=GfjlDkPqOybY5KL6-0) bestand gezet. Daarna hebben wij een EXPO gehad van de squadpages. Vervolgens hebben we met het team de sprint afgesloten door middel van een kampvuursessie, en het doorlopen van alle indicatoren. Tot slot heb ik Portflow ingevuld.
