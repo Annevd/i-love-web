@@ -326,3 +326,7 @@ Om een component te gebruiken importeer je het component in de parent's `<script
 ```HTML
 <GridTile />
 ```
+### 20-9-2024
+
+**Wat heb ik gedaan?:**
+Ik ben vandaag begonnen met het opzoeken van inspiratie voor mijn I-love-web en heb ik in een [Figma](https://www.figma.com/design/u9WXbGRCtzsPlkzEQrwx5R/Portfolio?node-id=1-2&node-type=canvas&t=GfjlDkPqOybY5KL6-0) bestand gezet. Daarna hebben wij een EXPO gehad van de squadpages. Vervolgens hebben we met het team de sprint afgesloten door middel van een kampvuursessie, en het doorlopen van alle indicatoren. Tot slot heb ik Portflow ingevuld.
