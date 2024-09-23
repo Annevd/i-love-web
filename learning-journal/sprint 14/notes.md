@@ -27,3 +27,10 @@ In Sveltekit heb je een [tool](https://kit.svelte.dev/docs/images) die automatis
 - Ik ben mentor van 1G bij Koop.
 - Met jouw team zorg je dat er na elke ma/woe/vrij precies één mentor aanwezig is.
 - Zorg dat de squadleader jaar 1 weet welke mentoren er op elke dag aanwezig zijn
+
+Je taken bestaan uit:
+
+- Je helpt in een workshop als de studenten een opdracht hebben gekregen
+- Je doet code/design reviews op leertaken
+- Je beantwoordt vragen over HTML, CSS en JS
+- Je geeft in Portflow feedback op reflecties van eerstejaars en bespreekt hun bewijslast
