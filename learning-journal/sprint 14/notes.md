@@ -6,6 +6,8 @@
 - [Week 2 recap](#week-2-recap)
 - [Week 3 recap](#week-3-recap)
 
+## Week 1 recap
+
 ### 23-9-2024
 
 **Wat heb ik gedaan?:**
