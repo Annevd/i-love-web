@@ -47,3 +47,11 @@ Ik ben begonnen met onderzoeken hoe ik content uit `markdown` files kan renderen
 - https://www.delphic.top/blog/making_a_blog_website_with_sveltekit
 
 Vervolgens hebben ik en mijn projectteam een briefing gehouden met Joost over het project van Bieb in bloei. Hier hebben we de opdracht besproken en andere belangrijke punten. Vervolgens hebben wij als team de debriefing geschreven en opgestuurd naar de opdrachtgever. Aan de hand van de briefing hebben we de opdracht werkzaamheden uitgevoerd waarin we vanuit een epic naar stories gingen, vanuit stories naar user stories en vanuit user stories taken. Deze taken hebben we toen gelijk in het project board verwerkt met daarin labels van de DLC, MoSCoW, en planning poker.
+
+### 25-9-2024
+
+**Wat heb ik gedaan?:**
+
+Ik heb verder uitgezocht hoe ik markdown files kan renderen in mijn I love web blog. Hiervoor heb ik de Sveltekit omgeving opgezet en `marked` en `gray-matter` geïnstalleerd. Ik ben zover gekomen dat de markdown file wel correct gefetched wordt, maar in Svelte nog terugkomt als een empty array.
+
+**Wat heb ik geleerd?:**
