@@ -194,18 +194,18 @@ Tot slot heb ik geleerd hoe je je website live kan zetten met Vercel:
 
 ## 12-9-2024
 
-**Wat heb ik gedaan?:**
+- **Wat heb ik gedaan?:**
 
 Vandaag heb ik verder gewerkt aan mijn visitekaartje. Ik ben begonnen met het maken van de ster animatie, ik moet alleen nog 1 issue daarvan oplossen en dan is het klaar. De SVG van de ster heb ik zelf in Figma gemaakt, omdat ik op internet geen perfecte svg naar mijn wensen kon vinden.
 Ook heb ik de custom cursor omgezet tot SVG, die nu klaar is om te gebruiken.
 
 ## 13-9-2024
 
-**Wat heb ik gedaan?:**
+- **Wat heb ik gedaan?:**
 
 De animatie van de sterren om het kaartje heen heb ik vanochtend afgemaakt. Ook heb ik een we love web gevolgd van Vasilis van Gemert over leuke en "nutteloze" dingen maken, en hebben wij feedback op onze squadpage en samenwerking gekregen.
 
-**Wat heb ik geleerd?:**
+- **Wat heb ik geleerd?:**
 
 Ik heb geleerd hoe je efficienter issues en pull requests kan schrijven.
 
@@ -228,7 +228,7 @@ Ik heb geleerd hoe je efficienter issues en pull requests kan schrijven.
 
 ### 16-9-2024
 
-**Wat heb ik gedaan?:**
+- **Wat heb ik gedaan?:**
 
 Ik ben in de ochtend begonnen met het schrijven van een ReadME voor mijn visitekaartje. Vervolgens heb ik geprobeerd de issues in ons team projectboard beschrijvender te maken voor meer duidelijkheid. Ook heb ik aan een klasgenoot gevraagd of ze de installatie instructies uit mijn ReadME wilde testen om te kijken of alles werkt, dit was gelukkig wel het geval! Hetzelfde heb ik voor haar gedaan, en een paar issues geschreven. 
 
@@ -236,25 +236,25 @@ Tot slot heb ik nog labels aangemaakt passend bij de DLC om bij de issues te zet
 
 In de middag hadden we een workshop over epic -> story -> task, planning poker en prioritizing met MoSCoW.
 
-**Wat heb ik geleerd?:**
+- **Wat heb ik geleerd?:**
 
 Ik heb vandaag geleerd hoe je effecient van een epic, naar een story, naar een user story, naar verschillende tasks kan gaan en deze in een project board kan zetten. Ook heb ik hierbij geleerd hoe je deze een tijdsinschatting kan geven van een van de volgende waardes: ? 1 2 3 5 8 13 21 infinite, om zo een goede grip te krijgen op je project, en hoeveel tijd je met elke taak bezig bent. Tot slot heb ik geleerd hoe je deze taken kan prioritiseren op basis van MoSCoW, Must have, Should have, Could have en Want to have.
 
 ### 17-9-2024
 
-**Wat heb ik gedaan?:**
+- **Wat heb ik gedaan?:**
 
 Ik heb vandaag eindelijk de custom cursor geïmplementeerd en gemerged met de main branch. Ook heb ik een basic container query gemaatk en die ook gemerged met de main branch.
 Daarnaast ben ik veel bezig geweest met het oplossen van issues van mijn profile card, en het documenteren hiervan. 
 
 ### 18-9-2024
 
-**Wat heb ik gedaan?:**
+- **Wat heb ik gedaan?:**
 
 Ik heb mijn projectboard gelabeled met fases van de DLC en met MoSCoW. Ook heb ik een dark mode kleurenpalet samengesteld voor mijn visitekaartje, ik weet alleen nog niet of ik daar aan toe kom. 
 Na het college heb ik nog gewerkt aan data fallback met `if/else` voor de person data, lettergroottes veranderd en een lettertype toegevoegd.
 
-**Wat heb ik geleerd?:**
+- **Wat heb ik geleerd?:**
 
 Hoe lever je een project op bij de opdrachtgever:
 
@@ -285,11 +285,11 @@ Hoe lever je een project op bij de opdrachtgever:
  
 ### 19-9-2024
 
-**Wat heb ik gedaan?:**
+- **Wat heb ik gedaan?:**
 
 Ik heb vandaag alle puntjes op de i gezet voor mijn profile card, alle issues opgelost, last checks en tests gedaan, en de readme volledig gemaakt. Daarnaast ben ik bezig geweest met het documenteren hiervan en het voorbereiden voor de retrospect. Tot slot heb ik nog een les van Javascript fundamentals gevolgd.
 
-**Wat heb ik geleerd?:**
+- **Wat heb ik geleerd?:**
 
 Ik heb mij vandaag ingelezen over [werken met components](https://vercel.com/docs/beginner-sveltekit/working-with-components).
 
@@ -328,5 +328,63 @@ Om een component te gebruiken importeer je het component in de parent's `<script
 ```
 ### 20-9-2024
 
-**Wat heb ik gedaan?:**
+- **Wat heb ik gedaan?:**
+  
 Ik ben vandaag begonnen met het opzoeken van inspiratie voor mijn I-love-web en heb ik in een [Figma](https://www.figma.com/design/u9WXbGRCtzsPlkzEQrwx5R/Portfolio?node-id=1-2&node-type=canvas&t=GfjlDkPqOybY5KL6-0) bestand gezet. Daarna hebben wij een EXPO gehad van de squadpages. Vervolgens hebben we met het team de sprint afgesloten door middel van een kampvuursessie, en het doorlopen van alle indicatoren. Tot slot heb ik Portflow ingevuld.
+
+- **Wat heb ik geleerd?:**
+
+  Ik ben vandaag bezig geweest met het analyseren van alle indicatoren van dit semester.
+
+**Methodisch handelen:**
+
+> **3.1.1 Richt in overleg projecten in volgens de development-lifecycle:** Je bespreekt met elkaar taken en doelen, deelt deze in een project board met labels van de DLC.
+
+> **3.1.2 Combineert onderbouwd principes, standaarden en best-practices op het gebied van frontend design en development om een oplossing voor een opdrachtgever te realiseren:**
+Dat je o.a HTML JS en CSS kan onderbouwen, gebruiken en combineren om een website voor een opdrachtgever te maken. Principes kunnen zijn PE, toegankelijkheid, responsiveness, GIT etc.
+Bijv. waarom combineer je een bepaald framework met iets? Zorg dat je alles kan onderbouwen.
+
+> **3.1.3 Houdt rekening met belangen van eindgebruikers, valideert door middel van testen en verwerkt testresultaten:** Maakt een site die zowel responsive als accessible is, voert ook verschillende testen uit en verwerkt dit in testresultaten.
+
+**Samenwerken:**
+
+> **3.2.1 Organiseert samenwerking en signaleert verbeterpunten op gebied van efficiëntie en effectiviteit:** Je komt samen om een team canvas in te vullen en elkaars taken te verdelen op basis van ieders sterke en zwakke punten aan de hand van het project board.
+
+> **3.2.2 Draagt verantwoording voor eigen resultaten, benoemt teamresultaten en informeert belanghebbenden over de voortgang:** Door het houden van standups en elkaar op te hoogte te houden van ieders taken. Hoe ga je met issues om? de een kan meer hebben dan de ander, zorg dat je team aan het einde van het project het gevoel heeft dat alles goed is gegaan.
+
+> **3.2.3 Kan omgaan met diversiteit binnen teams en handelt respectvol naar anderen:** Kunnen dealen met het niet klikken met iemands karakter, maar dat geen invloed laten hebben op de inhoud van jullie samenwerking. 
+
+**Communiceren:**
+
+> **3.3.1 Luistert, vat samen, verifieert en vraagt door tot een boodschap helder is:** Tijdens een briefing luisteren naar wat de opdrachtgever te zeggen heeft, dit samenvatten om te laten zien dat je het begrijpt, zo niet, overleggen over onduidleijkheden en vragen stellen over dingen die nog niet duidelijk zijn.
+
+> **3.3.2 Kan ontwerpkeuzes, eigen ideeën en producten overtuigend overbrengen aan belanghebbenden:** tijdens de sprint review bijvoorbeeld moet je kunnen onderbouwen waarom je bepaalde keuzes heb gemaakt en de opdrachtgever hiervan kunnen overtuigen.
+
+> **3.3.3 Documenteert op professionele wijze en bespreekt voortgang binnen het team:** Je documenteert je werk in issues zodat je een chronologisch geordend beeld krijgt van wat iedereen heeft gedaan, je linkt hierbij gemaakte commits, je maakt gebruik van pull request templates, reviewed elkaar en bespreekt waar iedereen mee bezig is.
+
+**Probleemoplossend vermogen:**
+
+> **3.4.1 Analyseert een vraag, signaleert knelpunten en kiest onderbouwd een oplossingsrichting:** Je analyseert een probleem, bijvoorbeeld de vraag van een opdrachtgever, merkt daarbij moeiljke problemen of toekomstige knelpunten op, en komt daarop terug in bijvoorbeeld de debriefing voor de opdrachtgever. Hiermee geef je een onderbouwde debriefing.
+
+> **3.4.2 Schetst om gedachten en processen te verkennen, abstracte begrippen over te brengen en de oplossingsrichting inzichtelijk te maken:** Maakt verschillende schetsen (oriëntatie schetsen, wireflow en breakdown) is het voor de belangstellende duidelijk wat er wordt bedoeld. Dit kan met de schets zelf maar ook met een beschrijving die het verduidelijkt.
+
+> **3.4.3 Bedenkt en implementeert complexe frontend code en gebruikt daarbij tools en frameworks:** Je bedenkt, schrijft en bouwt complexe frontend-code met behulp van tools en frameworks zoals Sveltekit of React om interactieve websites te maken.
+
+**Lerend vermogen:**
+
+> **3.5.1 Volgt aangeboden internationale ontwikkelingen in het vakgebied en maakt onder begeleiding keuzes over eigen ontwikkeling:** Je blijft bij frontend design en development op de hoogte van internationale trends en best practices, zoals nieuwe frameworks of designprincipes, en onder begeleiding bewust kiest welke technieken of tools je verder wilt ontwikkelen om je vaardigheden te verbeteren.
+
+> **3.5.2 Maakt aangeboden en zelf gevonden materie eigen, gebruikt dit bij leertaken, deelt ervaring binnen de tribe en leert van anderen:** dat je actief nieuwe kennis opdoet, zowel uit aangeboden bronnen als door zelf te zoeken, en deze toepast in je werk. Je deelt je inzichten met je team (de "tribe") en leert ook van de ervaringen van anderen om gezamenlijk te groeien.
+
+> **3.5.3 Kent eigen capaciteiten en beperkingen, waardeert het vermogen van anderen en maakt dit bespreekbaar:** dat je je bewust bent van je eigen vaardigheden en beperkingen, je de sterke punten van teamleden erkent, en je openlijk communiceert hierover om samen efficiënter te werken en betere resultaat te bereiken.
+
+
+
+
+
+
+
+
+
+
+
