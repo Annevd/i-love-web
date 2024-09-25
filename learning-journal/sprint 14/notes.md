@@ -5,6 +5,7 @@
 - [Week 1 recap](#week-1-recap)
   - [23/9](#23-9-2024)
   - [24/9](#24-9-2024)
+  - [25/9](#25-9-2024)
 - [Week 2 recap](#week-2-recap)
 - [Week 3 recap](#week-3-recap)
 
