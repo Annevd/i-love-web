@@ -56,4 +56,8 @@ Vervolgens hebben ik en mijn projectteam een briefing gehouden met Joost over he
 
 Ik heb verder uitgezocht hoe ik markdown files kan renderen in mijn I love web blog. Hiervoor heb ik de Sveltekit omgeving opgezet en `marked` en `gray-matter` geïnstalleerd. Ik ben zover gekomen dat de markdown file wel correct gefetched wordt, maar in Svelte nog terugkomt als een empty array.
 
+Tijdens de workshop informatie structuur hebben we met ons team een sitemap gemaakt, op basis daarvan wireframes en daarna een content model.
+
 **Wat heb ik geleerd?:**
+
+Hoe je gestructureerd een content model stap voor stap kan maken.
