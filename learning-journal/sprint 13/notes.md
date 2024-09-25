@@ -368,15 +368,15 @@ Bijv. waarom combineer je een bepaald framework met iets? Zorg dat je alles kan 
 
 > **3.4.2 Schetst om gedachten en processen te verkennen, abstracte begrippen over te brengen en de oplossingsrichting inzichtelijk te maken:** Maakt verschillende schetsen (oriëntatie schetsen, wireflow en breakdown) is het voor de belangstellende duidelijk wat er wordt bedoeld. Dit kan met de schets zelf maar ook met een beschrijving die het verduidelijkt.
 
-> **3.4.3 Bedenkt en implementeert complexe frontend code en gebruikt daarbij tools en frameworks:** 
+> **3.4.3 Bedenkt en implementeert complexe frontend code en gebruikt daarbij tools en frameworks:** Je bedenkt, schrijft en bouwt complexe frontend-code met behulp van tools en frameworks zoals Sveltekit of React om interactieve websites te maken.
 
 **Lerend vermogen:**
 
-> **3.5.1 Volgt aangeboden internationale ontwikkelingen in het vakgebied en maakt onder begeleiding keuzes over eigen ontwikkeling:**
+> **3.5.1 Volgt aangeboden internationale ontwikkelingen in het vakgebied en maakt onder begeleiding keuzes over eigen ontwikkeling:** Je blijft bij frontend design en development op de hoogte van internationale trends en best practices, zoals nieuwe frameworks of designprincipes, en onder begeleiding bewust kiest welke technieken of tools je verder wilt ontwikkelen om je vaardigheden te verbeteren.
 
-> **3.5.2 Maakt aangeboden en zelf gevonden materie eigen, gebruikt dit bij leertaken, deelt ervaring binnen de tribe en leert van anderen:**
+> **3.5.2 Maakt aangeboden en zelf gevonden materie eigen, gebruikt dit bij leertaken, deelt ervaring binnen de tribe en leert van anderen:** dat je actief nieuwe kennis opdoet, zowel uit aangeboden bronnen als door zelf te zoeken, en deze toepast in je werk. Je deelt je inzichten met je team (de "tribe") en leert ook van de ervaringen van anderen om gezamenlijk te groeien.
 
-> **3.5.3 Kent eigen capaciteiten en beperkingen, waardeert het vermogen van anderen en maakt dit bespreekbaar:**
+> **3.5.3 Kent eigen capaciteiten en beperkingen, waardeert het vermogen van anderen en maakt dit bespreekbaar:** dat je je bewust bent van je eigen vaardigheden en beperkingen, je de sterke punten van teamleden erkent, en je openlijk communiceert hierover om samen efficiënter te werken en betere resultaat te bereiken.
 
 
 
