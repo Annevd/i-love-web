@@ -6,6 +6,8 @@
   - [23/9](#23-9-2024)
   - [24/9](#24-9-2024)
   - [25/9](#25-9-2024)
+  - [26/9](#26-9-2024)
+  - [27/9](#27-9-2024)
 - [Week 2 recap](#week-2-recap)
 - [Week 3 recap](#week-3-recap)
 
@@ -61,3 +63,13 @@ Tijdens de workshop informatie structuur hebben we met ons team een sitemap gema
 **Wat heb ik geleerd?:**
 
 Hoe je gestructureerd een content model stap voor stap kan maken.
+
+### 26-9-2024
+
+**Wat heb ik gedaan?:**
+
+Ik heb vandaag uitgebreid gewerkt aan het testen en analyseren van de toegankelijkheidsfuncties op de CMD minor website van Bieb in Bloei. Deze werkte namelijk nog niet optimaal en ben ik dus uitgebreid gaan testen om er achter te komen wat wel en niet werkte. Door daarna te analyseren en dieper op de code in te gaan kon ik gaan nadenken over dingen die beter konden, en waarom sommige dingen wellicht niet werkte. Dit heb ik allemaal gedocumenteerd in de issues: [#125](https://github.com/orgs/fdnd-agency/projects/3/views/1?pane=issue&itemId=80899835) & [#127](https://github.com/orgs/fdnd-agency/projects/3/views/1?pane=issue&itemId=80900181).
+
+### 27-9-2024
+
+**Wat heb ik gedaan?:**
