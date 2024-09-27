@@ -73,3 +73,5 @@ Ik heb vandaag uitgebreid gewerkt aan het testen en analyseren van de toegankeli
 ### 27-9-2024
 
 **Wat heb ik gedaan?:**
+
+Ik heb vandaag het hoofdstuk Arrays I afgemaakt van learnjavascript.online en gedocumenteerd (Deeltaak JS fundamentals).
