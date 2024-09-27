@@ -1,6 +1,6 @@
 ---
-title: 'Hello World'
-slug: 'hello-world'
+title: 'We <3 Web'
+slug: 'we-love-web'
 ---
 
 # Hello to the World

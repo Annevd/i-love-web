@@ -4,7 +4,7 @@
     console.log('Posts received in Svelte:', posts);
 </script>
 
-<h1>Blog Posts</h1>
+<h1>We love web Blog Posts</h1>
 {#if posts.length > 0}
     {#each posts as post}
         <p>

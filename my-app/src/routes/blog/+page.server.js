@@ -20,8 +20,6 @@ export async function load() {
     const posts = getAllPosts('src/lib/posts');
     console.log('Fetched Posts:', posts); // Log the posts to console
     return {
-        props: {
-            posts
-        }
+        posts // Return posts directly, not inside `props`
     };
 }
