@@ -75,3 +75,9 @@ Ik heb vandaag uitgebreid gewerkt aan het testen en analyseren van de toegankeli
 **Wat heb ik gedaan?:**
 
 Ik heb vandaag het hoofdstuk Arrays I afgemaakt van learnjavascript.online en gedocumenteerd (Deeltaak JS fundamentals).
+
+Vervolgens hebben ik en mijn team feedback gehad op ons projectboard.
+
+**Feedback:**
+
+Maak met elkaar afspraken wanneer je taken gaat opsplitsen, is een 13 echt 1 taak? Hoe meer effort een taak kost hoe groter je pull request ook wordt. Probeer de taken allemaal een beetje op de 3 en 5 te houden. Dan houden jullie goed overzicht.
