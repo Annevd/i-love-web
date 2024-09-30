@@ -91,3 +91,20 @@ Maak met elkaar afspraken wanneer je taken gaat opsplitsen, is een 13 echt 1 taa
 Ik ben vandaag verder gegaan met het opzoeken van inspiratie voor mijn I <3 web blog. Ook ben ik begonnen met het ontwerpen van een grof idee op basis van deze inspiratie.
 
 **Wat heb ik geleerd?:**
+
+Framework projecten hebben vaak een saaie vaste structuur.
+
+In de `src` staat alles wat sveltekit nog moet uitvoeren.
+In de `static` staat alles waar sveltekit niks mee doet.
+
+De `lib/server/` dient alleen voor serverside code. Denk aan API keys, of inlogsystemen die niet in de client mogen komen. Deze code mag niét in een `page.js`.
+
+In `routes/` staan je verschillende pagina's. 
+
+Afbeeldingen mogen niet in je library, behalve `svg`'s.
+
+In `.gitignore` staan patronen voor bestanden die niet naar GIT gestuurd worden. Bijvoorbeeld `.env` of `node_modules`.
+
+De `svelte.config.js` is voor de configuratie van Svelte.
+
+De `vite.config.js` is een tool om een project te runnen. Je svelte project is eigenlijk een vite project.
