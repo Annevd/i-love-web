@@ -92,6 +92,8 @@ Ik ben vandaag verder gegaan met het opzoeken van inspiratie voor mijn I <3 web 
 
 **Wat heb ik geleerd?:**
 
+- **Mappenstructuur:**
+
 Framework projecten hebben vaak een saaie vaste structuur.
 
 In de `src` staat alles wat sveltekit nog moet uitvoeren.
@@ -108,3 +110,79 @@ In `.gitignore` staan patronen voor bestanden die niet naar GIT gestuurd worden.
 De `svelte.config.js` is voor de configuratie van Svelte.
 
 De `vite.config.js` is een tool om een project te runnen. Je svelte project is eigenlijk een vite project.
+
+In VScode: settings > workbench > editor management > label format > short of medium
+
+Voordat je het live zet: check of alles er goed uit ziet door eerst `npm run build` te doen en vervolgens `npm run preview`.
+
+
+- **Routing:**
+
+Framework projecten hebben een manier om routing af te handelen.
+
+
+- **Error handling:**
+
+Framework projecten hebben een manier om fouten af te handelen.
+
+Dit zou kunnen met een `+error.svelte` in je routes. Dit werkt alleen als er tenminste nog wel íets van Svelte overeind staat.
+
+Layouts kun je nesten.
+
+De error page pakt nog steeds je layout file.
+
+
+- **Loading data:**
+
+Framework projecten hebben een manier om data in te laden.
+
+```JS
+export async function load() {
+  return {
+    foo: 'bar'
+    }
+  }
+``` 
+In de `.env` staat bijv. de public API url, en de API KEY.
+
+
+- **Binding:**
+
+Framework projecten hebben een manier om data te _binden_.
+
+```JS
+<script>
+  let name = 'world'
+  $: shout = name + 'rocks!' //reactivity
+</script>
+
+<input bind:value={name} />
+
+<h1>Hello {name}! </h1>
+<p>{shout} </p>
+```
+
+- **Library:**
+
+De meeste framework projecten hebben een bibliotheekfolder.
+
+In de `lib/` maak je een bestand zoals bijv. `Header.svelte`.
+
+> Een conventie is dat je componenten altijd met een hoofdletter schrijft.
+
+```JS
+<script>
+import {Header, Footer} from '$lib' // Hier kan je meerdere componenten tegelijk importeren
+</script>
+```
+```SVELTE
+<Header />
+
+<main>
+<slot />
+</main>
+
+<Footer />
+```
+
+In de index.js verzamel je alle componenten met `export`.
