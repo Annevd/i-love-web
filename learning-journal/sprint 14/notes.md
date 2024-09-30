@@ -9,6 +9,8 @@
   - [26/9](#26-9-2024)
   - [27/9](#27-9-2024)
 - [Week 2 recap](#week-2-recap)
+  - [30/9](#30-9-2024)
+  - [1/10](#1-10-2024)
 - [Week 3 recap](#week-3-recap)
 
 ## Week 1 recap
@@ -81,3 +83,11 @@ Vervolgens hebben ik en mijn team feedback gehad op ons projectboard.
 **Feedback:**
 
 Maak met elkaar afspraken wanneer je taken gaat opsplitsen, is een 13 echt 1 taak? Hoe meer effort een taak kost hoe groter je pull request ook wordt. Probeer de taken allemaal een beetje op de 3 en 5 te houden. Dan houden jullie goed overzicht.
+
+### 30-9-2024
+
+**Wat heb ik gedaan?:**
+
+Ik ben vandaag verder gegaan met het opzoeken van inspiratie voor mijn I <3 web blog. Ook ben ik begonnen met het ontwerpen van een grof idee op basis van deze inspiratie.
+
+**Wat heb ik geleerd?:**
