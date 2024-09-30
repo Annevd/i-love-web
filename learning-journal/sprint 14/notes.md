@@ -88,7 +88,7 @@ Maak met elkaar afspraken wanneer je taken gaat opsplitsen, is een 13 echt 1 taa
 
 **Wat heb ik gedaan?:**
 
-Ik ben vandaag verder gegaan met het opzoeken van inspiratie voor mijn I <3 web blog. Ook ben ik begonnen met het ontwerpen van een grof idee op basis van deze inspiratie.
+Ik ben vandaag verder gegaan met het opzoeken van inspiratie voor mijn I <3 web blog. Ook ben ik begonnen met het ontwerpen van een grof idee op basis van deze inspiratie. Verder heb ik mijn I love web aangepast waar het laden van mijn md files nu wel werkt!
 
 **Wat heb ik geleerd?:**
 
@@ -184,5 +184,7 @@ import {Header, Footer} from '$lib' // Hier kan je meerdere componenten tegelijk
 
 <Footer />
 ```
+
+
 
 In de index.js verzamel je alle componenten met `export`.
