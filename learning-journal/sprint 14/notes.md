@@ -190,3 +190,12 @@ import {Header, Footer} from '$lib' // Hier kan je meerdere componenten tegelijk
 In de index.js verzamel je alle componenten met `export`.
 
 Bron: https://github.com/ju5tu5/sveltekit-principles 
+
+
+### 1-10-2024
+
+**Wat heb ik gedaan?:**
+
+Ik heb vandaag in call gezeten met Nazneen om Hygraph volledig uit te pluizen en te zien waar alle content bij hoort. Na dit gedaan te hebben en gedocumenteerd te hebben, hebben wij de nieuwe content die we gekregen hadden van de opdrachtgever ook in Hygraph gezet.
+
+Vervolgens heb ik het renderen van markdown naar HTML af weten te maken in mijn I love web. Dit werkt nu zonder errors.
