@@ -197,5 +197,6 @@ Bron: https://github.com/ju5tu5/sveltekit-principles
 **Wat heb ik gedaan?:**
 
 Ik heb vandaag in call gezeten met Nazneen om Hygraph volledig uit te pluizen en te zien waar alle content bij hoort. Na dit gedaan te hebben en gedocumenteerd te hebben, hebben wij de nieuwe content die we gekregen hadden van de opdrachtgever ook in Hygraph gezet.
+Ook hebben we een aantal nieuwe taken in het project board gezet, en een nieuwe view aangemaakt voor betere overzichtelijkheid.
 
 Vervolgens heb ik het renderen van markdown naar HTML af weten te maken in mijn I love web. Dit werkt nu zonder errors.
