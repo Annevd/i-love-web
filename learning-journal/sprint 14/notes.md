@@ -188,3 +188,5 @@ import {Header, Footer} from '$lib' // Hier kan je meerdere componenten tegelijk
 
 
 In de index.js verzamel je alle componenten met `export`.
+
+Bron: https://github.com/ju5tu5/sveltekit-principles 
