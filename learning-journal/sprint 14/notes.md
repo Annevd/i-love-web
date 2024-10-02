@@ -208,4 +208,37 @@ Vervolgens heb ik het renderen van markdown naar HTML af weten te maken in mijn 
 
 **Wat heb ik gedaan?:**
 
-In de ochtend ben ik mentor geweest bij de eerste jaars. Hier heb ik meegedaan met de opdrachten over Typografie & leesbaarheid en heb ik geholpen met het beantwoorden van vragen. Ook ben ik begonnen met het ontwerp verbeteren van de accessibility tools.
+In de ochtend ben ik mentor geweest bij de eerste jaars. Hier heb ik meegedaan met de opdrachten over Typografie & leesbaarheid en heb ik geholpen met het 
+beantwoorden van vragen. Ook ben ik begonnen met het ontwerp verbeteren van de accessibility tools.
+
+
+**Wat heb ik geleerd?:**
+
+_Design critique_
+
+Dieter rams: 10 principles of good design:
+
+1. good design is innovative
+2. good design makes a product useful
+3. good design is aesthetic
+4. good design makes a product understandable
+5. good design is honest
+6. good design is unobtrusive
+7. good design is long lasting
+8. good design is thorough down to the last detail
+9. good design is environmentally friendly
+10. good design is as little design as possible
+
+
+Bij de opdracht letten we op deze punten: 
+
+4. It clarifies the products structure. Better still, it can make the product talk. At best, it is self-explanatory
+5. Nothing mist be arbitrary or left to chance. Care and accuracy in the design process show respect towards the user
+6. Less, but better - because it concentrates on the essential aspects, and the products are not burdened with non essentials. Back to simplicity, purity.
+
+Deze issues heb ik ingeschoten:
+
+- https://github.com/Seijno/wogo/issues/19
+- https://github.com/Einanas/S14-visual-thinking/issues/1
+- https://github.com/lisavanmansom/drop-and-heal/issues/9
+- https://github.com/fdnd-agency/fabrique/issues/35
