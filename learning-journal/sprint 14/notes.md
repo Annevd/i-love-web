@@ -200,3 +200,9 @@ Ik heb vandaag in call gezeten met Nazneen om Hygraph volledig uit te pluizen en
 Ook hebben we een aantal nieuwe taken in het project board gezet, en een nieuwe view aangemaakt voor betere overzichtelijkheid.
 
 Vervolgens heb ik het renderen van markdown naar HTML af weten te maken in mijn I love web. Dit werkt nu zonder errors.
+
+### 2-10-2024
+
+**Wat heb ik gedaan?:**
+
+In de ochtend ben ik mentor geweest bij de eerste jaars. Hier heb ik meegedaan met de opdrachten over Typografie & leesbaarheid en heb ik geholpen met het beantwoorden van vragen. Ook ben ik begonnen met het ontwerp verbeteren van de accessibility tools.
