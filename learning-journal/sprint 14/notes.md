@@ -210,6 +210,8 @@ Vervolgens heb ik het renderen van markdown naar HTML af weten te maken in mijn 
 
 In de ochtend ben ik mentor geweest bij de eerste jaars. Hier heb ik meegedaan met de opdrachten over Typografie & leesbaarheid en heb ik geholpen met het 
 beantwoorden van vragen. Ook ben ik begonnen met het ontwerp verbeteren van de accessibility tools.
+Daarna hadden we de workshop Design Critique over het geven van feedback op ontwerpen op basis van de 10 principles of good design.
+Tot slot ben ik met team Bieb in Bloei naar de OBA geweest waar Bieb in Bloei georganiseerd wordt waar wij onze opdrachtgever Mariska hebben ontmoet.
 
 
 **Wat heb ik geleerd?:**
