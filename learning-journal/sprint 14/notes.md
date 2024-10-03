@@ -244,3 +244,9 @@ Deze issues heb ik ingeschoten:
 - https://github.com/Einanas/S14-visual-thinking/issues/1
 - https://github.com/lisavanmansom/drop-and-heal/issues/9
 - https://github.com/fdnd-agency/fabrique/issues/35
+
+### 3-10-2024
+
+**Wat heb ik gedaan?:**
+
+Ik heb vandaag feedback van Portflow verwerkt in mijn leervragen voor volgende sprint. Vervolgens heb ik op basis van de feedback die ik had gekregen van mijn toegankelijkheidsmenu een verbeterd design gemaakt en mijn ontwerpkeuzes toegelicht. Hierna ben ik de hele dag bezig geweest met het opzetten van de basic code voor dit menu. De styling ziet er nu goed uit, alleen de functionaliteiten werken nog niet. Ook moet de code nog vaker gerefactored en verbeterd worden. Maar de opzet staat er! :)
