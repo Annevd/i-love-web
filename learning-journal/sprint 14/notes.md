@@ -267,6 +267,15 @@ Peer review:
 
 Schiet issues in fdnd agency voor alles wat je opvalt!
 
+Ingeschoten issues:
+- https://github.com/lisagjh/voorhoede/issues/18
+- https://github.com/lisagjh/voorhoede/issues/19
+- https://github.com/lisagjh/voorhoede/issues/20
+- https://github.com/lisagjh/voorhoede/issues/21
+- https://github.com/lisagjh/voorhoede/issues/22
+- https://github.com/lisagjh/voorhoede/issues/24
+- https://github.com/lisagjh/voorhoede/issues/25
+
 Teacher review:
 
 1. Waar wil je feedback op?
