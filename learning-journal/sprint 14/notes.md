@@ -280,3 +280,5 @@ Teacher review:
 
 1. Waar wil je feedback op?
 2. Schiet zelf issues in bij fdnd-agency 
+
+Bron: https://www.w3.org/WAI/WCAG22/Techniques/general/G178.html
