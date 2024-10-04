@@ -250,3 +250,24 @@ Deze issues heb ik ingeschoten:
 **Wat heb ik gedaan?:**
 
 Ik heb vandaag feedback van Portflow verwerkt in mijn leervragen voor volgende sprint. Vervolgens heb ik op basis van de feedback die ik had gekregen van mijn toegankelijkheidsmenu een verbeterd design gemaakt en mijn ontwerpkeuzes toegelicht. Hierna ben ik de hele dag bezig geweest met het opzetten van de basic code voor dit menu. De styling ziet er nu goed uit, alleen de functionaliteiten werken nog niet. Ook moet de code nog vaker gerefactored en verbeterd worden. Maar de opzet staat er! :)
+
+### 3-10-2024
+
+**Wat heb ik gedaan?:**
+
+Ik heb gewerkt aan het accessibility tools menu. Daarna hadden we een we <3 web van Nicolas Garnier.
+
+Tot slot hebben we een peer review gehouden en een teacher review.
+
+Peer review:
+
+1. Bekijk en beoordeel de _Readme.md_ uit positie van opdrachtgever en frontender
+2. Download en installeer het project van het team dat je gaat reviewen (_git clone, npm install_)
+3. Voer alle tests uit die je uit kunt voeren (_usability, a11y, performance, browser, device_)
+
+Schiet issues in fdnd agency voor alles wat je opvalt!
+
+Teacher review:
+
+1. Waar wil je feedback op?
+2. Schiet zelf issues in bij fdnd-agency 
