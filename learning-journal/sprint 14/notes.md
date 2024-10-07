@@ -15,6 +15,11 @@
   - [3/10](#3-10-2024)
   - [4/10](#4-10-2024)
 - [Week 3 recap](#week-3-recap)
+  - [7/10](#7-10-2024)
+  - [8/10](#8-10-2024)
+  - [9/10](#9-10-2024)
+  - [10/10](#10-10-2024)
+  - [11/10](#11-10-2024)
 
 ## Week 1 recap
 
@@ -86,6 +91,10 @@ Vervolgens hebben ik en mijn team feedback gehad op ons projectboard.
 **Feedback:**
 
 Maak met elkaar afspraken wanneer je taken gaat opsplitsen, is een 13 echt 1 taak? Hoe meer effort een taak kost hoe groter je pull request ook wordt. Probeer de taken allemaal een beetje op de 3 en 5 te houden. Dan houden jullie goed overzicht.
+
+---
+
+## Week 2 recap
 
 ### 30-9-2024
 
@@ -282,3 +291,13 @@ Teacher review:
 2. Schiet zelf issues in bij fdnd-agency 
 
 Bron: https://www.w3.org/WAI/WCAG22/Techniques/general/G178.html
+
+---
+
+## Week 3 recap
+
+### 7-10-2024
+
+**Wat heb ik gedaan?:**
+
+**Wat heb ik geleerd?:**

@@ -7,6 +7,5 @@
     </ul>
 </nav>
 
-<main>
-	<slot />
-</main>
+
+<slot />
