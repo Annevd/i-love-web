@@ -260,7 +260,7 @@ Deze issues heb ik ingeschoten:
 
 Ik heb vandaag feedback van Portflow verwerkt in mijn leervragen voor volgende sprint. Vervolgens heb ik op basis van de feedback die ik had gekregen van mijn toegankelijkheidsmenu een verbeterd design gemaakt en mijn ontwerpkeuzes toegelicht. Hierna ben ik de hele dag bezig geweest met het opzetten van de basic code voor dit menu. De styling ziet er nu goed uit, alleen de functionaliteiten werken nog niet. Ook moet de code nog vaker gerefactored en verbeterd worden. Maar de opzet staat er! :)
 
-### 3-10-2024
+### 4-10-2024
 
 **Wat heb ik gedaan?:**
 
@@ -300,4 +300,41 @@ Bron: https://www.w3.org/WAI/WCAG22/Techniques/general/G178.html
 
 **Wat heb ik gedaan?:**
 
+Ik heb in de ochtend verder gewerkt aan mijn accessibility menu: de hover, active & focus state mooi gemaakt, de button rechtsonder gepositioneerd en toegankelijkheid met ARIA toegevoegd.
+
 **Wat heb ik geleerd?:**
+
+Workshop Project Methodiek:
+Over Agile, Scrummen en Project management.
+
+_Waterval VS Agile:_
+
+Specification-related paradigm: Waterval
+Comprehensive Systems: FDND Projectmodel
+
+Scrum is een effectieve en flexibele manier van werken aan complexe projecten waarvoor je op voorhand geen detailpagina kunt maken.
+
+<img width=500 src="https://github.com/user-attachments/assets/f2315b0c-8406-40db-ae34-6b35fec2f882">
+
+_Scrum werkwijze:_
+
+- Product owner
+- Scrum master
+- Scrum team
+- Stakeholders
+
+
+  - Sprint
+  - Sprint planning
+  - Sprint review
+  - Retrospective
+
+- Epic
+- User stories
+- Task
+- Dod
+
+  - Estimation meeting
+  - Daily scrum (standup, checkout)
+  - Product backlog
+
