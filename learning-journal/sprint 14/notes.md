@@ -300,7 +300,7 @@ Bron: https://www.w3.org/WAI/WCAG22/Techniques/general/G178.html
 
 **Wat heb ik gedaan?:**
 
-Ik heb in de ochtend verder gewerkt aan mijn accessibility menu: de hover, active & focus state mooi gemaakt, de button rechtsonder gepositioneerd en toegankelijkheid met ARIA toegevoegd.
+Ik heb in de ochtend verder gewerkt aan mijn accessibility menu: de hover, active & focus state mooi gemaakt, de button rechtsonder gepositioneerd en toegankelijkheid met ARIA toegevoegd. Na de workshop heb ik zitten sparren met Wing, Koop en Krijg over de nodigheid van het menu en hoe dit het beste aangepakt kan worden.
 
 **Wat heb ik geleerd?:**
 
