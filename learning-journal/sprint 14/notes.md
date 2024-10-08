@@ -338,3 +338,8 @@ _Scrum werkwijze:_
   - Daily scrum (standup, checkout)
   - Product backlog
 
+### 8-10-2024
+
+**Wat heb ik gedaan?:**
+
+Ik heb vandaag de hele dag gewerkt aan het heranalyseren en herbouwen van mijn accessibility menu. Ik heb nagedacht over bepaalde keuzes en heb het menu volledig gebouwd met CSS, zonder `:has()`, zodat het op alle browsers gebruikt kan worden. Ook heb ik de tekst veranderd naar het engels zodat het voor meer mensen bereikbaar is. Ik ga tijdens de sprint review aan de opdrachtgever vragen wat haar ideeën zijn over de vertaalfunctie, en of zij denkt dat de doelgroep daar baat bij heeft.
