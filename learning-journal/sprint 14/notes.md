@@ -343,3 +343,39 @@ _Scrum werkwijze:_
 **Wat heb ik gedaan?:**
 
 Ik heb vandaag de hele dag gewerkt aan het heranalyseren en herbouwen van mijn accessibility menu. Ik heb nagedacht over bepaalde keuzes en heb het menu volledig gebouwd met CSS, zonder `:has()`, zodat het op alle browsers gebruikt kan worden. Ook heb ik de tekst veranderd naar het engels zodat het voor meer mensen bereikbaar is. Ik ga tijdens de sprint review aan de opdrachtgever vragen wat haar ideeën zijn over de vertaalfunctie, en of zij denkt dat de doelgroep daar baat bij heeft.
+
+
+### 9-10-2024
+
+**Wat heb ik gedaan?:**
+
+**Wrap up:**
+- **refactored code:**  gestructureerde code (conventies), smeantiek, geen commented code, geen console.log(), goede tabs, een versie van release, goede pull request strategie, gebruik van components, linter installeren, etc..
+ 
+- **readme.md:** kenmerken, live link, screenshots, instructies (uitleg over het gebruik), installatiehandleiding,  CMS uitleg, huisstijl, bijdragen (hints voor volgende dev teams), gebruikte bronnen (link naar projectboard), badges met gebruikte technologie, introductie, licentie, changedlog.
+
+- **Oplevering:** Example .env bestand
+
+  
+- **Sprintreview:** kijken wat je gedaan hebt en hoever je bent met de opdrachtgever
+ 
+   - Specifieke vragen bedenknen voor feedback
+   - Specifieke vragen stellen om feedback te krijgen
+   - Demo  langs userstories gaan, website laten zien,naast het design, aan de hand van design laten zien wat er nog niet is gelukt
+   - Voorstel om een functionaliteit beter te maken ( feedback geven aan opdrachtgever)
+  - Uitkomst van testen bespreken
+  - Plan voor de komende sprint
+  - Werk opleveren + de vraag hoe willen jullie het opgeleverd hebben?
+  - Heel duidelijk stilstaan bij waar je feedback op wilt.
+ 
+- **Rollen**
+  - Presentator
+  - Feedback verwerker  in github issuees
+  - Cheerleader
+  - Timekeeper: iemand die de tijd in de gaten houdt, niet te lang op een ding ingaan, agenda punten bijhouden
+ 
+- **Testen:** performance, screenrecorder, key-board test, device test, browser test, klreurcontrast, WCAG, html validator, usertest,
+ 
+Aan de klant vragen hoe zij de oplvering willen
+ 
+- **Live zetten**: github pages, Vercel, Netlify, onrender
