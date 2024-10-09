@@ -349,6 +349,10 @@ Ik heb vandaag de hele dag gewerkt aan het heranalyseren en herbouwen van mijn a
 
 **Wat heb ik gedaan?:**
 
+Ik heb vandaag mijn code van gister gedocumenteerd en mij verder laten inspireren voor mijn i love web website. Daarna hadden we de wrap-up.
+
+**Wat heb ik geleerd?:**
+
 **Wrap up:**
 - **refactored code:**  gestructureerde code (conventies), smeantiek, geen commented code, geen console.log(), goede tabs, een versie van release, goede pull request strategie, gebruik van components, linter installeren, etc..
  
