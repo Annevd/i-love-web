@@ -354,29 +354,41 @@ Ik heb vandaag mijn code van gister gedocumenteerd en mij verder laten inspirere
 **Wat heb ik geleerd?:**
 
 **Wrap up:**
-- **refactored code:**  gestructureerde code (conventies), smeantiek, geen commented code, geen console.log(), goede tabs, een versie van release, goede pull request strategie, gebruik van components, linter installeren, etc..
- 
-- **readme.md:** kenmerken, live link, screenshots, instructies (uitleg over het gebruik), installatiehandleiding,  CMS uitleg, huisstijl, bijdragen (hints voor volgende dev teams), gebruikte bronnen (link naar projectboard), badges met gebruikte technologie, introductie, licentie, changedlog.
 
-- **Oplevering:** Example .env bestand
+- **Refactored Code**: gestructureerde code (conventies), semantiek, geen commented code, geen console.log(), goede tabs, een versie release, goede pull request strategie, components, linter installeren  
+
+- **Readme.md**: Kenmerken, live link, screenshot(s?), Instructies (uitleg over het gebruik), Installatiehandleiding, CMS Uitleg, Huisstijl (of waar die te vinden is), bijdragen? (hints voor volgende dev-teams), gebruikte bronnen, badges met gebruikte technologie, link naar projectboard, introductie, licentie, changelog (o.b.v. versies)
+
+- **Testen**: performance, keyboard, screenreader, lighthouse, kleurcontrast, WCAG, html validator, user test, browsertest, devicetest, css validator
+
+- **Klant**: vragen wat zij willen
+
+- **Live zetten**: Github pages, Vercel, Netlify, onrender
 
   
-- **Sprintreview:** kijken wat je gedaan hebt en hoever je bent met de opdrachtgever
- 
-   - Specifieke vragen bedenknen voor feedback
-   - Specifieke vragen stellen om feedback te krijgen
-   - Demo  langs userstories gaan, website laten zien,naast het design, aan de hand van design laten zien wat er nog niet is gelukt
-   - Voorstel om een functionaliteit beter te maken ( feedback geven aan opdrachtgever)
-  - Uitkomst van testen bespreken
-  - Plan voor de komende sprint
-  - Werk opleveren + de vraag hoe willen jullie het opgeleverd hebben?
-  - Heel duidelijk stilstaan bij waar je feedback op wilt.
- 
-- **Rollen**
-  - Presentator
-  - Feedback verwerker  in github issuees
-  - Cheerleader
-  - Timekeeper: iemand die de tijd in de gaten houdt, niet te lang op een ding ingaan, agenda punten bijhouden
+**Sprint review:**
+Kijken we je gedaan hebt en hoever je bent met de opdrachtgever
+
+**Doel:**
+- Specifieke vragen bedenken voor feedback
+- Specifieke vragen stellen om feedback te krijgen
+- Agenda maken
+- Demo:
+   - Langs user stories gaan van deze sprint
+   - Website laten zien, naast het design
+   - Laten zien wat er nog niet is gelukt a.d.h.v het design
+   - Tijdens de demo benadrukken wat de punten zijn waar je feedback op wilt
+   - Doe het met enthousiasme 😎
+- Voorstel om een functionaliteit beter te maken (feedback geven aan de opdrachtgever)
+- Uitkomst van testen bespreken, bijv over huisstijl en kleurcontrast
+- Plan voor de komende sprint- Werk opleveren + de vraag hoe willen jullie het hebben
+
+**Rollen:**
+- Presentator
+- Feedback verwerker, notulist (verwerkt ook in issues)
+- Cheerleader
+- Timekeeper
+
  
 - **Testen:** performance, screenrecorder, key-board test, device test, browser test, klreurcontrast, WCAG, html validator, usertest,
  
