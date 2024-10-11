@@ -389,7 +389,11 @@ Kijken we je gedaan hebt en hoever je bent met de opdrachtgever
 - Cheerleader
 - Timekeeper
 
- 
+### 11-10-2024
+
+**Wat heb ik gedaan?:**
+
+In de ochtend ben ik mentor geweest bij de eerste jaars.
 - **Testen:** performance, screenrecorder, key-board test, device test, browser test, klreurcontrast, WCAG, html validator, usertest,
  
 Aan de klant vragen hoe zij de oplvering willen
