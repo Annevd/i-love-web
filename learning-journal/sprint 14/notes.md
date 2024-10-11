@@ -408,3 +408,31 @@ Daarna ben ik bezig geweest mijn portflow aan te vullen.
 **Wat heb ik gedaan?:**
 
 In de ochtend ben ik mentor geweest bij de eerste jaars en heb ik feedback gegeven in portflow. Ook heb ik aan mijn eigen portflow gewerkt.
+
+**Kampvuursessie:**
+- Team canvas bijwerken
+- Feedback ophalen
+- Portflow vullen
+
+**Retrospect:**
+- Portflow vullen met jouw beste voorbeeld, dus: 12 bewijsstukken
+
+**Wat heb ik geleerd?:**
+
+**Samenwerken:**
+- _Effectief_ kan zijn dat je alle must haves en should haves af heb. 
+- Met _efficiëntie_ wordt bijvoorbeeld bedoeld dat je taken verdeeld en dus geen dubbele taken doet, alles soepel loopt.
+- _Verantwoording_ nemen betekent niet alleen een taak opnemen van het projectboard, maar ook verantwoorden wat je hebt gedaan en waarom.
+- _Team resultaten_: wat heeft het team voor elkaar gekregen? wat heb ik voor elkaar gekregen? Hier zijn standups en project board voor.
+- _Belanghebbenden informeren over de voortgang_: betrek ook je opdrachtgever
+
+**Indicatoren:**
+- **3.4.3:** Componenten, sveltekit en hygraph, chatgpt, browserstack, vite, vercel
+- **3.4.2:** Figma, data models, sitemaps, wireframes, wireflows,
+- **3.4.1:** Briefing -> debriefing -> dingen die je gemaakt hebt -> debrief (ook opdracht werkzaamheden (oplossingsrichting))
+- **3.3.1:** Briefing/debriefing, Sprint review
+- **3.3.3:** Project board, pull request, issues, standups
+- **3.5.1:** Codrops, smashing, css weekly, youtube, medium, linkedIn, Instagram, X, Tiktok, Reddit
+- **3.5.2:** Aankomende sprint
+- **3.5.3:** Elk assesment vragen ze waar jij je bevindt. Ga dit na en onderbouw het. Hoe verhoudt je je tot je klasgenoten?
+- **3.1.3:** Alle testen doen en resultaten verwerken in issues.
