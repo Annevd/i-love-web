@@ -395,6 +395,14 @@ Aan de klant vragen hoe zij de oplvering willen
  
 - **Live zetten**: github pages, Vercel, Netlify, onrender
 
+### 10-10-2024
+
+**Wat heb ik gedaan?:**
+
+Ik heb vandaag de sprint review gehad met de opdrachtgever. De feedback staat [hier](https://github.com/fdnd-agency/buurtcampus-oost/issues/189#issuecomment-2404927473) beschreven. De opdrachtgever vond het menu mooi, en vind het belangrijk dat ook alle functies beschikbaar zijn. Het zou leuk zijn als het menu nog meer in de stijl van bieb in bloei kan.
+
+Daarna ben ik bezig geweest mijn portflow aan te vullen.
+
 ### 11-10-2024
 
 **Wat heb ik gedaan?:**
