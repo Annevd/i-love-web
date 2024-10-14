@@ -69,7 +69,7 @@ Zonder portfolio geen stage!
 
 Ik heb het framework Astro gekozen. Hierin zou ik als ik tijd heb nog een extra framework kunnen gebruiken zoals React, Preact, Svelte, Vue, Solid, Lit, HTMX.
 
-### Wat heb ik geleerd?:**
+### Wat heb ik geleerd?:
 
 **[Astro basics](https://docs.astro.build/en/getting-started/):**
 
