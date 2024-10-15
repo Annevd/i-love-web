@@ -103,7 +103,7 @@ Here are five core design principles to help explain why we built Astro, the pro
 
 ### Wat heb ik gedaan?:
 
-Ik heb tot ongeveer 13:30 tijd besteed aan het volgen van de volledige [Astro tutorial](https://docs.astro.build/en/tutorial/0-introduction/) om grip te krijgen op het framework. 
+Ik heb tot ongeveer 13:30 tijd besteed aan het volgen van de volledige [Astro tutorial](https://docs.astro.build/en/tutorial/0-introduction/) om grip te krijgen op het framework. De rest van de dag heb ik geprobeerd om de stekjes pagina en de stekjes/slug pagina te herbouwen in Astro. Dit verloopt nog niet helemaal vlekkenloos, ik krijg namelijk enorm veel typescript errors, maar er staat in ieder geval wat.
 
 ### Wat heb ik geleerd?:
 
