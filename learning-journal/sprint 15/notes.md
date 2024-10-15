@@ -1,17 +1,17 @@
 # Inhoudsopgave
 
 - [Week 1 recap](#week-1-recap)
-  - [14/10](#23-9-2024)
-  - [15/10](#24-9-2024)
-  - [16/10](#25-9-2024)
-  - [17/10](#26-9-2024)
-  - [18/10](#27-9-2024)
+  - [14/10](#14-10-2024)
+  - [15/10](#15-10-2024)
+  - [16/10](#16-10-2024)
+  - [17/10](#17-10-2024)
+  - [18/10](#18-10-2024)
 - [Week 2 recap](#week-2-recap)
-  - [21/10](#30-9-2024)
-  - [22/10](#1-10-2024)
-  - [23/10](#2-10-2024)
-  - [24/10](#3-10-2024)
-  - [25/10](#4-10-2024)
+  - [21/10](#21-10-2024)
+  - [22/10](#22-10-2024)
+  - [23/10](#23-10-2024)
+  - [24/10](#24-10-2024)
+  - [25/10](#25-10-2024)
 
 
 # Week 1 recap
@@ -97,3 +97,71 @@ Here are five core design principles to help explain why we built Astro, the pro
     - **Fast by default**: It should be impossible to build a slow website in Astro.
     - **Easy to use**: You don’t need to be an expert to build something with Astro.
     - **Developer-focused**: You should have the resources you need to be successful.
+
+
+## 15-10-2024
+
+### Wat heb ik gedaan?:
+
+Ik heb tot ongeveer 13:30 tijd besteed aan het volgen van de volledige [Astro tutorial](https://docs.astro.build/en/tutorial/0-introduction/) om grip te krijgen op het framework. 
+
+### Wat heb ik geleerd?:
+
+**How to start a new Astro project:**
+- Run the following command in your terminal to start our handy install wizard: `npm create astro@latest`
+- Confirm `y` to install `create-astro`
+- When the prompt asks, “Where would you like to create your new project?” type in the name of a folder to create a new directory for your project, e.g. `./tutorial`
+- You will see a short list of starter templates to choose from. Use the arrow keys (up and down) to navigate to the “Empty” template, and then press return (enter) to submit your choice.
+- When the prompt asks you if you plan on writing TypeScript, type `n`.
+- When the prompt asks, “Would you like to install dependencies?” type `y`.
+- When the prompt asks, “Would you like to initialize a new git repository?” type `y`.
+- `cd` into your new project directory to begin using Astro
+- If you skipped the “Install dependencies?” step during the CLI wizard, then be sure to install your dependencies before continuing.
+- You can now start the Astro dev server and see a live preview of your project while you build!: `npm run dev`
+
+**How to deploy yout Astro Project with Netlify:**
+1. Click Add a new site in your Netlify dashboard
+2. Choose Import an existing project
+3. When you import your Astro repository from your Git provider, Netlify should automatically detect and pre-fill the correct configuration settings for you.
+4. Make sure that the following settings are entered, then press the Deploy button:
+  - Build Command: `astro build` or `npm run build`
+  - Publish directory: `dist`
+
+After deploying, you will be redirected to the site overview page. There, you can edit the details of your site.
+
+[Introductory tutorial](https://docs.astro.build/en/tutorial/0-introduction/)
+
+**Astro project structure:**
+Every Astro project root should include the following directories and files:
+
+- `src/*` - Your project source code (components, pages, styles, etc.)
+- `public/*` - Your non-code, unprocessed assets (fonts, icons, etc.)
+- `package.json` - A project manifest.
+- `astro.config.mjs` - An Astro configuration file. (recommended)
+- `tsconfig.json` - A TypeScript configuration file. (recommended)
+
+**Example Project Tree:**
+A common Astro project directory might look like this:
+
+![image](https://github.com/user-attachments/assets/3dbe722b-3ebe-4daa-bcd8-49f36f8ea4a5)
+
+- `src`: The src/ folder is where most of your project source code lives. This includes:
+  - Pages
+  - Layouts
+  - Astro components
+  - UI framework components (React, etc.)
+  - Styles (CSS, Sass)
+  - Markdown
+
+- `src/pages`: Pages routes are created for your site by adding supported file types to this directory.
+- `src/components`: Components are reusable units of code for your HTML pages. These could be Astro components, or UI framework components like React or Vue. It is common to group and organize all of your project components together in this folder.
+- `src/content`: The `src/content/` directory is reserved to store content collections and a configuration file. No other files are allowed inside this folder.
+- `src/layouts`: Layouts are Astro components that define the UI structure shared by one or more pages.
+- `src/styles`: It is a common convention to store your CSS or Sass files in a `src/styles` directory, but this is not required. As long as your styles live somewhere in the `src/` directory and are imported correctly, Astro will handle and optimize them.
+- `public/`: The `public/` directory is for files and assets in your project that do not need to be processed during Astro’s build process. The files in this folder will be copied into the build folder untouched, and then your site will be built.
+This behavior makes `public/` ideal for common assets like images and fonts, or special files such as `robots.txt` and `manifest.webmanifest`.
+- `package.json`: This is a file used by JavaScript package managers to manage your dependencies. It also defines the scripts that are commonly used to run Astro (ex: `npm start, npm run build`).
+There are two kinds of dependencies you can specify in a `package.json`: dependencies and devDependencies. In most cases, these work the same: Astro needs all dependencies at build time, and your package manager will install both. We recommend putting all of your dependencies in dependencies to start, and only use devDependencies if you find a specific need to do so.
+- `astro.config.mjs`: This file is generated in every starter template and includes configuration options for your Astro project. Here you can specify integrations to use, build options, server options, and more.
+Astro supports several file formats for its JavaScript configuration file: `astro.config.js, astro.config.mjs, astro.config.cjs and astro.config.ts`. We recommend using `.mjs` in most cases or `.ts` if you want to write TypeScript in your config file.
+- `tsconfig.json`: This file is generated in every starter template and includes TypeScript configuration options for your Astro project. Some features (like npm package imports) aren’t fully supported in the editor without a `tsconfig.json` file.
