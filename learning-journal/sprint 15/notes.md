@@ -165,3 +165,8 @@ There are two kinds of dependencies you can specify in a `package.json`: depende
 - `astro.config.mjs`: This file is generated in every starter template and includes configuration options for your Astro project. Here you can specify integrations to use, build options, server options, and more.
 Astro supports several file formats for its JavaScript configuration file: `astro.config.js, astro.config.mjs, astro.config.cjs and astro.config.ts`. We recommend using `.mjs` in most cases or `.ts` if you want to write TypeScript in your config file.
 - `tsconfig.json`: This file is generated in every starter template and includes TypeScript configuration options for your Astro project. Some features (like npm package imports) aren’t fully supported in the editor without a `tsconfig.json` file.
+
+## 16-10-2024
+
+### Wat heb ik gedaan?:
+In de ochtend ben ik mentor geweest bij de eerstejaars, en heb ik feedback gegeven op hun portflow communiceren.
