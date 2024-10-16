@@ -175,9 +175,10 @@ Astro supports several file formats for its JavaScript configuration file: `astr
 In de ochtend ben ik mentor geweest bij de eerstejaars, en heb ik feedback gegeven op hun portflow communiceren.
 
 ### Wat heb ik geleerd?:
-Kevin van Directus kwam een presentatie geven:
+Kevin van Directus en Shyanta van Triple kwamen een presentatie geven:
 
-**Directus:** 
+### Directus
+
 - Back-end with customizable UI.
 - It's designed to help you go quicker.
 
@@ -231,8 +232,15 @@ Kevin van Directus kwam een presentatie geven:
 
 - **The tech you use probably doesn't matter**
 - **You're going to make shitty decisions**
+- **Root decisions in user needs**
 
 **Imposter syndrome:**
 - How do you get over it:
+  - [yougotthis](https://yougotthis.io/): collection of videos about core/soft skills
+  - Usually people who don't have imposter symdrome, aren't good.
+
+- [Directus academy](https://directus.io/tv/directus-academy)
+
+
 
 [Back to top](#inhoudsopgave)
