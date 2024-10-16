@@ -98,6 +98,7 @@ Here are five core design principles to help explain why we built Astro, the pro
     - **Easy to use**: You don’t need to be an expert to build something with Astro.
     - **Developer-focused**: You should have the resources you need to be successful.
 
+[Back to top](#inhoudsopgave)
 
 ## 15-10-2024
 
@@ -165,8 +166,73 @@ There are two kinds of dependencies you can specify in a `package.json`: depende
 - `astro.config.mjs`: This file is generated in every starter template and includes configuration options for your Astro project. Here you can specify integrations to use, build options, server options, and more.
 Astro supports several file formats for its JavaScript configuration file: `astro.config.js, astro.config.mjs, astro.config.cjs and astro.config.ts`. We recommend using `.mjs` in most cases or `.ts` if you want to write TypeScript in your config file.
 - `tsconfig.json`: This file is generated in every starter template and includes TypeScript configuration options for your Astro project. Some features (like npm package imports) aren’t fully supported in the editor without a `tsconfig.json` file.
+- 
+[Back to top](#inhoudsopgave)
 
 ## 16-10-2024
 
 ### Wat heb ik gedaan?:
 In de ochtend ben ik mentor geweest bij de eerstejaars, en heb ik feedback gegeven op hun portflow communiceren.
+
+### Wat heb ik geleerd?:
+Kevin van Directus kwam een presentatie geven:
+
+**Directus:** 
+- Back-end with customizable UI.
+- It's designed to help you go quicker.
+
+**His role:**
+- Developer Experience
+- Looking after community engagement
+- Making sure key extensions are being built, and that the capabilities are meeting the needs of the Directus developers
+- He works in a team of 5 people
+
+**How they make money:**
+- Directus cloud: hosting for you
+- Their liscense is not an OS approved liscense
+- Professional services
+- Directus plus: subscription service
+- Market place: app store for example
+
+**Tradeoffs:**
+- The Iron Triangle: weighing the opposing forces of quality, speed and cost against each other. You can always only choose 2.
+
+**Perfectionism:**
+- Delivering in a timely fashion or wanting to deliver perfection
+
+**Tech stack selection:**
+- Whats the best option
+
+**Design systems:**
+- UI / UX
+- Already made components
+
+**Performance VS maintainability:**
+- How many users are gonna use it
+- Everything is gonna cost
+- Directus focuses on performance
+
+**Velocity vs flexibility:**
+- Velocity: how fast can you build something?
+
+**Innovation vs reliability:**
+
+**Artificial Intelligence**
+- Tradeoff of ethics
+- You could say its theft
+- Costs: money & environmental
+- Accuracy
+
+**Cost-benefit analysis**
+
+**Swot analysis**
+
+**Weighted decision matrix**
+
+- **The tech you use probably doesn't matter**
+- **You're going to make shitty decisions**
+
+**Imposter syndrome:**
+- How do you get over it:
+
+[Back to top](#inhoudsopgave)
