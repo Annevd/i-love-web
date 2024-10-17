@@ -2,13 +2,14 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import BlogPost from '../components/BlogPost.astro';
 const allPosts = await Astro.glob('../pages/posts/*.md');
+allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontmatter.pubDate));
 ---
 <BaseLayout>
   <h1>We &hearts; web blog</h1>
 
     <ul>
         {allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} image={post.frontmatter.image} 
-        description={post.frontmatter.description} tags={post.frontmatter.tags}/>)}
+        description={post.frontmatter.description} tags={post.frontmatter.tags} pubDate={post.frontmatter.pubDate}/>)}
     </ul>
 </BaseLayout>
 
