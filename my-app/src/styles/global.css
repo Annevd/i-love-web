@@ -41,7 +41,11 @@ h1 {
     font-family: var(--statement-font);
     font-weight: normal;
     color: var(--accent-color);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-family: var(--regular-font);
 }
 
 p {

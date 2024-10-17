@@ -4,9 +4,27 @@ import BlogPost from '../components/BlogPost.astro';
 const allPosts = await Astro.glob('../pages/posts/*.md');
 ---
 <BaseLayout>
-  <h1>We love web blog</h2>
+  <h1>We &hearts; web blog</h1>
 
     <ul>
-        {allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} image={post.frontmatter.image}/>)}
+        {allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} image={post.frontmatter.image} 
+        description={post.frontmatter.description} tags={post.frontmatter.tags}/>)}
     </ul>
 </BaseLayout>
+
+<style>
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: clamp(3rem, 10vw + 1rem, 7rem);
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 19rem); 
+  justify-content: center;
+  gap: 1rem;
+}
+
+</style>
