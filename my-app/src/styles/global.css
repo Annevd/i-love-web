@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --text-color: #C8FFD8; 
+    --accent-color: #9C5DE5;
+    --statement-font: "Soligant", sans-serif;
+    --regular-font: "Puritan", sans-serif;
+}
+
+@font-face {
+    font-family: "Soligant";
+    src: url(../fonts/Soligant.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "Puritan";
+    src: url(../fonts/PURI10.TTF) format("truetype");
+}
+
+body {
+    background: black;
+}
+
+main {
+    padding: 1rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: var(--statement-font);
+    font-weight: normal;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+p {
+    font-family: var(--regular-font);
+    color: var(--text-color);
+    font-size: clamp(1rem, 2vw + 0.25rem, 1.25rem);
+}
+
+/* h1, h2, h3, a, p {
+    text-wrap: wrap;
+    overflow-wrap: break-word;
+} */
+
+@media (width > 32rem){
+    main {
+        padding: 2rem;
+    }
+}
