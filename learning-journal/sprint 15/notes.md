@@ -242,5 +242,12 @@ Kevin van Directus en Shyanta van Triple kwamen een presentatie geven:
 - [Directus academy](https://directus.io/tv/directus-academy)
 
 
+[Back to top](#inhoudsopgave)
+
+## 15-10-2024
+
+### Wat heb ik gedaan?:
+
+Ik heb vandaag verder gewerkt aan mijn I love web site.
 
 [Back to top](#inhoudsopgave)
