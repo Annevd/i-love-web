@@ -27,7 +27,7 @@ const { title, url, image, description, tags, pubDate, githubUrl } = Astro.props
 
 h2 {
     color: var(--accent-color);
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 .container {
@@ -64,6 +64,7 @@ p {
 .tag-container{
     display: flex;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 a {
@@ -77,4 +78,9 @@ a {
     white-space: nowrap;
 }
 
+@media (width > 23rem) {
+    h2 {
+        white-space: nowrap;
+    }
+}
 </style>

@@ -24,15 +24,22 @@ h1 {
 }
 
 section {
-  display: grid;
+  /* display: grid; */
   /* justify-items: center; */
   /* align-items: center; */
-  grid-template-columns: 2fr 2fr;
+  /* grid-template-columns: 2fr 2fr; */
 }
 
 ul {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+}
+
+@media (width > 46rem) {
+  section {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
 }
 </style>
