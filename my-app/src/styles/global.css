@@ -36,6 +36,7 @@ li {
 }
 
 a {
+    font-family: var(--regular-font);
     text-decoration: none;
 }
 

@@ -1,0 +1,80 @@
+---
+const { title, url, image, description, tags, pubDate, githubUrl } = Astro.props;
+---
+
+<li>
+    <div class="container">
+        <h2>{title}</h2>
+        <div class="line"></div>
+    </div>
+    <p>{description}</p>
+    <div class="tag-container">
+        { tags.filter((tag) => tag.trim() !== "").length > 0 &&
+            tags.map((tag) => 
+            <p class="tag">{tag}</p>
+        )}
+    </div>
+    <div class="container">
+        <div class="line"></div>
+        <div class="links">
+            <a href={githubUrl}>Github</a>
+            <a href={url}>Livelink</a>
+        </div>
+    </div>
+</li>
+
+<style>
+
+h2 {
+    color: var(--accent-color);
+    white-space: nowrap;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: var(--accent-color);
+}
+
+li {
+    display: flex;
+    gap: 0.75rem;
+    flex-direction: column;
+    /* background: lightgray; */
+}
+
+p {
+    color: white;
+}
+
+.tag {
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid var(--accent-color);
+}
+
+.tag-container{
+    display: flex;
+    gap: 0.5rem;
+}
+
+a {
+    font-size: 1.25rem;
+    color: var(--text-color);
+}
+
+.links {
+    display: flex;
+    gap: 1rem; 
+    white-space: nowrap;
+}
+
+</style>

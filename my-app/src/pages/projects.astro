@@ -1,30 +1,38 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Project from '../components/Project.astro';
+const allProjects = await Astro.glob('../pages/projects/*.md');
 ---
 <BaseLayout>
-  <h1>My frontend projects</h1>
+  <section>
+    <h1>Frontend projects</h1>
 
-  <ul>
-    <li>
-      <a href="https://your-tribe-for-life-profile-card-virid.vercel.app/">Your tribe for life profile card</a>
-    </li>
-    <li>
-      <a href="https://connect-your-tribe-squad-page-j6wz.onrender.com/">Connect your tribe squadpage</a>
-    </li>
-    <li>
-      <a href="https://proof-of-concept-ezyj.onrender.com/">Proof of Concept: DDA</a>
-    </li>
-    <li>
-      <a href="https://pleasurable-ui-p9p8.onrender.com/">Pleasurable UI: Tumi Mundo</a>
-    </li>
-    <li>
-      <a href="https://connect-your-tribe-profile-card-8nf5.onrender.com/">Connect your tribe profile card</a>
-    </li>
-    <li>
-      <a href="https://annevd.github.io/Q42-responsive-interactieve-website/the-sprint-main/public/">Responsive interactieve website: Q42</a>
-    </li>
-    <li>
-      <a href="https://annevd.github.io/fix-the-flow-interactive-website/index.html">Fix-the-flow interactive website: OBA</a>
-    </li>
-  </ul>
+    <ul>
+      {allProjects.map((project) => <Project url={project.frontmatter.url} title={project.frontmatter.title} image={project.frontmatter.image} 
+      description={project.frontmatter.description} tags={project.frontmatter.tags} pubDate={project.frontmatter.pubDate} githubUrl={project.frontmatter.githubUrl}/>)}
+    </ul>
+</section>
 </BaseLayout>
+
+<style>
+
+h1 {
+  position: sticky;
+  top: 0;
+  font-size: clamp(2rem, 5vw + 1rem, 5rem);
+  text-transform: uppercase;
+}
+
+section {
+  display: grid;
+  /* justify-items: center; */
+  /* align-items: center; */
+  grid-template-columns: 2fr 2fr;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+</style>
