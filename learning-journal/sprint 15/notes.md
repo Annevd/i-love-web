@@ -260,3 +260,27 @@ Ik heb vandaag mijn tech-stack code gedocumenteerd, een we-love-web bezocht en e
 ## 21-10-2024
 
 ### Wat heb ik gedaan?:
+
+Ik heb in de ochtend weer gewerkt aan me portfolio. Daarna hadden we een workshop Visual Thinking en een workshop Teamlead.
+
+### Wat heb ik geleerd?:
+
+**Mentoring Do's:**
+- Weet waar de les over gaat, zodat je actief mee kan doen
+- Pro actieve houding, vragen stellen, erbij gaan zitten
+- Vragen met een tegenvraag beantwoorden, mensen op weg helpen naar het antwoord zonder het voor te kauwen
+- Bewust informatie doseren, neem niveau mee in feedback in geedback geven. Constructieve feedback. Houd het klein.
+- Feedback in issues schrijven maar ook mondeling uitleggen. Geef ook een bron mee
+- Communiceren over planning met docenten
+- Kijk naar mentor planning, letten op diversiteit. Let op samenstelling van de mentoren
+- Sandwichmethode van feedbackgeven: Tip, top, tip
+- Als mentor hoef je niet alles te weten, je kunt samen op zoek gaan naar het antwoord
+- Feedback vragen aan studenten over het mentoren
+
+**Mentoring Don'ts:**
+- Te streng zijn
+- Afdwalen en op teveel feedback geven
+- Lang wegblijven en niet de halve les wegblijven
+- Niet aanwezig / te laat komen
+- Mensen afkraken
+- Niet geïrriteerd reageren
