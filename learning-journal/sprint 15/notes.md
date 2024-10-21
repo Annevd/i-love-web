@@ -256,3 +256,7 @@ Ik heb vandaag verder gewerkt aan mijn I love web site.
 
 ### Wat heb ik gedaan?:
 Ik heb vandaag mijn tech-stack code gedocumenteerd, een we-love-web bezocht en een code/design review gehouden. Daarna heb ik met Eva onze ervaring gedeeld van Astro en ben ik nog even verder gegaan aan de tech-stack code.
+
+## 21-10-2024
+
+### Wat heb ik gedaan?:
