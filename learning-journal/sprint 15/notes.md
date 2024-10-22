@@ -286,3 +286,11 @@ Ik heb in de ochtend weer gewerkt aan me portfolio. Daarna hadden we een worksho
 - Niet aanwezig / te laat komen
 - Mensen afkraken
 - Niet geïrriteerd reageren
+
+[Back to top](#inhoudsopgave)
+
+## 22-10-2024
+
+### Wat heb ik gedaan?
+
+Ik heb mijn praatplaat voor de opdracht schets-je-ontwikkeling afgemaakt en gedocumenteerd in de README. Vervolgens heb ik de hele dag gewerkt aan het testen en onderzoeken van mijn tech-stack, en hier argumenten voor te formuleren.
