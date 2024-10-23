@@ -7,12 +7,18 @@ import Logo from '../components/icons/Logo.astro'
         <a href="/">
         <Logo/>
         </a>
-        <ul>
+        <ul id="menu-links">
             <li><a href="/projects">Projects</a></li>
             <li><a href="/blog">We love web</a></li>
             <li><a href="/gallery">Gallery</a></li>
             <li><a href=/about>About me</a></li>
         </ul>
+
+        <div class="wrapper-menu" id="menu">
+            <div class="line-menu half start"></div>
+            <div class="line-menu"></div>
+            <div class="line-menu half end"></div>
+        </div>
     </nav>
 </header>
 
@@ -35,14 +41,75 @@ nav {
 }
 
 nav ul {
-    display: none;
-    align-items: center;
-    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 1rem;
+    background: black;
+    gap: 3rem;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    transition: top 330ms ease-in-out;
+}
+
+nav ul.open {
+    top: 0;
 }
 
 a {
     font-family: var(--regular-font);
     color: var(--text-color);
+}
+
+.wrapper-menu {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 330ms ease-out;
+}
+
+.wrapper-menu.open {
+  transform: rotate(-45deg);  
+}
+
+.line-menu {
+  background-color: #fff;
+  border-radius: 2px;
+  width: 100%;
+  height: 1.5px;
+}
+
+.line-menu.half {
+  width: 50%;
+}
+
+.line-menu.start {
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transform-origin: right;
+}
+
+.open .line-menu.start {
+  transform: rotate(-90deg) translateX(3px);
+}
+
+.line-menu.end {
+  align-self: flex-end;
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transform-origin: left;
+}
+
+.open .line-menu.end {
+  transform: rotate(-90deg) translateX(-3px);
 }
 
 @media (width > 32rem){
@@ -51,8 +118,30 @@ a {
     }
 
     nav ul {
-        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: unset;
+        height: auto;
+        padding: 0;
+        background: none;
+        top: unset;
+        transition: none;
+    }
+
+    .wrapper-menu {
+        display: none;
     }
 }
 
 </style>
+
+<script>
+    const wrapperMenu = document.getElementById('menu');
+    const menuLinks = document.getElementById('menu-links');
+
+    wrapperMenu.addEventListener('click', function () {
+        wrapperMenu.classList.toggle('open');
+        menuLinks.classList.toggle('open');
+    });
+
+</script>

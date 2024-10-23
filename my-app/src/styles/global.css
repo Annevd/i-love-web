@@ -5,8 +5,9 @@
 }
 
 :root {
-    --text-color: #C8FFD8; 
+    --text-color: #fff; 
     --accent-color: #9C5DE5;
+    --accent-color-2: #ffcef1;
     --statement-font: "Soligant", sans-serif;
     --regular-font: "Puritan", sans-serif;
 }

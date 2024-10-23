@@ -18,6 +18,7 @@ const { title, url, image, description, tags, pubDate, githubUrl } = Astro.props
         <div class="line"></div>
         <div class="links">
             <a href={githubUrl}>Github</a>
+            <span>|</span>
             <a href={url}>Livelink</a>
         </div>
     </div>
@@ -69,13 +70,17 @@ p {
 
 a {
     font-size: 1.25rem;
-    color: var(--text-color);
+    color: var(--accent-color-2);
 }
 
 .links {
     display: flex;
     gap: 1rem; 
     white-space: nowrap;
+}
+
+span {
+    color: var(--accent-color-2);
 }
 
 @media (width > 23rem) {

@@ -17,7 +17,7 @@ const allProjects = await Astro.glob('../pages/projects/*.md');
 <style>
 
 h1 {
-  font-size: clamp(2rem, 5vw + 1rem, 5rem);
+  font-size:  clamp(3rem, 10vw + 1rem, 5rem);
   text-transform: uppercase;
 }
 
@@ -35,14 +35,11 @@ ul {
 }
 
 @media (width > 46rem) {
-  h1 {
-    position: sticky;
-    top: 0;
-  }
 
   section {
     display: grid;
     grid-template-columns: 2fr 2fr;
+    gap: 2rem;
   }
 }
 </style>
