@@ -299,9 +299,9 @@ Ik heb mijn praatplaat voor de opdracht schets-je-ontwikkeling afgemaakt en gedo
 
 ### Wat heb ik gedaan?
 
-Ik heb in de ochtend mijn argumentatie opdracht afgemaakt (argumentatieschema + uitwerking).
+Ik heb in de ochtend mijn argumentatie opdracht afgemaakt (argumentatieschema + uitwerking). Daarna hadden we een stagemarkt waar ik gesproken heb met mensen van AskPhil, 27Degrees, The Valley en Triple.
 
-Waar je op moet letten voor je Github:
+Waar je op moet letten voor je Github wanneer je solliciteert:
 
 - Belangrijkste repo's pinnen bovenaan je profiel
 - Snel door de code heen
