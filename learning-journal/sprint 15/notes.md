@@ -300,3 +300,12 @@ Ik heb mijn praatplaat voor de opdracht schets-je-ontwikkeling afgemaakt en gedo
 ### Wat heb ik gedaan?
 
 Ik heb in de ochtend mijn argumentatie opdracht afgemaakt (argumentatieschema + uitwerking).
+
+Waar je op moet letten voor je Github:
+
+- Belangrijkste repo's pinnen bovenaan je profiel
+- Snel door de code heen
+- ReadMe moeten netjes zijn
+- Altijd een Live demo!
+- Waarom heb je een website gebouwd? (waarom dit waarom dat waarom zus waarom zo)
+
