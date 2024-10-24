@@ -352,7 +352,7 @@ Waar je op moet letten voor je Github wanneer je solliciteert:
 - Altijd een Live demo!
 - Waarom heb je een website gebouwd? (waarom dit waarom dat waarom zus waarom zo)
 
-## 23-10-2024
+## 24-10-2024
 
 ### Wat heb ik gedaan?
 
@@ -360,3 +360,7 @@ Ik ben vandaag druk bezig geweest met het schrijven van motivatiebrieven voor mi
 Tot slot heb ik een korte powerpoint gemaakt over het presenteren van mijn tech-stack.
 
 [Back to top](#inhoudsopgave)
+
+## 25-10-2024
+
+### Wat heb ik gedaan?
