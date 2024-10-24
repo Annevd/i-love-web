@@ -247,42 +247,42 @@ Shyanta Vleugel - Triple
 Hypersolid / Triple
 
 **Core:**
-⁃ Development;
-⁃ Design;
-⁃ Technical operations;
-⁃ Data & insights;
+- Development;
+- Design;
+- Technical operations;
+- Data & insights;
 
 **Cultuur:** mooie dingen maken met leuke mensen. We delen onze ervaringen, projecten en innovaties met elkaar. We zoeken conferenties op om geïnspireerd en up-to-date te blijven. We zijn gek op feestjes, en missen geen moment om er een te vieren.
 
 **Way of working**
-⁃ Scrum;
-⁃ Daily standup;
-⁃ Retrospect;
-⁃ Sprint review / planning;
-⁃ Refinements;
-⁃ Techlead & product owner.
+- Scrum;
+- Daily standup;
+- Retrospect;
+- Sprint review / planning;
+- Refinements;
+- Techlead & product owner.
 
 **Techstack Triple**
-⁃ Svelte;
-⁃ React;
-⁃ Typescript / Javascript.
+- Svelte;
+- React;
+- Typescript / Javascript.
 
 **Uniform principes:**
-⁃ Elke competentie werkt met dezelfde taal
-⁃ Kennissessies zijn belangrijk
-⁃ Coding guidelines zijn deelbaar
+- Elke competentie werkt met dezelfde taal
+- Kennissessies zijn belangrijk
+- Coding guidelines zijn deelbaar
 
 De verschillen -> Ander product, andere bijzonderheden, andere afhankelijkheden (API etc)
 
 **Wat kan invloed hebben op je techstack? (wat heeft jouw eindproduct nodig?):**
-⁃ SEO Performance;
-⁃ Machines met weinig performance;
-⁃ Eenmalige website;
-⁃ Wens voor animaties.
+- SEO Performance;
+- Machines met weinig performance;
+- Eenmalige website;
+- Wens voor animaties.
 
 **Tech Tips**
-⁃ Don’t repeat yourself -> hergebruik van oude kennis (components -> generieke basis voor hergebruik);
-⁃ De basis is belangrijk om mee te gaan met internationale ontwikkelingen;
+- Don’t repeat yourself -> hergebruik van oude kennis (components -> generieke basis voor hergebruik);
+- De basis is belangrijk om mee te gaan met internationale ontwikkelingen;
 
 
 [Back to top](#inhoudsopgave)
