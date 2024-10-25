@@ -364,3 +364,5 @@ Tot slot heb ik een korte powerpoint gemaakt over het presenteren van mijn tech-
 ## 25-10-2024
 
 ### Wat heb ik gedaan?
+
+Ik heb een presentatie gehouden over mijn tech-stack, mijn portflow aangevuld en ingeleverd.
