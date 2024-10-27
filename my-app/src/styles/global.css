@@ -33,6 +33,7 @@ main {
 }
 
 li {
+    font-family: var(--regular-font);
     list-style: none;
 }
 
@@ -48,8 +49,9 @@ h1 {
     margin-bottom: 2rem;
 }
 
-h2 {
+h2, h3, h4 {
     font-family: var(--regular-font);
+    color: var(--accent-color);
 }
 
 p {

@@ -1,37 +1,64 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import '../styles/markdown.css'
 const { frontmatter } = Astro.props;
 ---
 <BaseLayout>
 
-  <p><em>{frontmatter.description}</em></p>
-  <p>{frontmatter.pubDate.toString().slice(0,10)}</p>
+  <div class="container">
+    <h1>{frontmatter.description}</h1>
 
-  <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
+    <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
 
-  <div class="tags">
-    {frontmatter.tags.map((tag) => (
-      <p class="tag">{tag}</p>
-    ))}
+    <p>{frontmatter.pubDate.toString().slice(0,10)}</p>
+
+    <div class="tags">
+      {frontmatter.tags.map((tag) => (
+        <p class="tag">{tag}</p>
+      ))}
   </div>
 
   <slot />
+  </div>
   
 </BaseLayout>
 
 <style>
 
+  h1 {
+    font-size:  clamp(3rem, 10vw + 1rem, 5rem);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 100%;
+    max-height: 30rem;
+    object-fit: cover;
+  }
+
   .tags {
     display: flex;
     flex-wrap: wrap;
+    gap: 0.5rem;
   }
 
   .tag {
-    margin: 0.25em;
-    border: dotted 1px #a1a1a1;
+    border: 1px solid var(--accent-color);
     border-radius: .5em;
     padding: .5em 1em;
     font-size: 1.15em;
-    background-color: #F8FCFD;
   }
+
+  /* @media (width > 32rem){
+    .container {
+      max-width: 88rem;
+    }
+  } */
+
 </style>
