@@ -5,20 +5,20 @@ const { frontmatter } = Astro.props;
 ---
 <BaseLayout>
 
-  <div class="container">
     <h1>{frontmatter.description}</h1>
 
-    <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
+    <div class="container">
+      <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
 
-    <p>{frontmatter.pubDate.toString().slice(0,10)}</p>
+      <p>{frontmatter.pubDate.toString().slice(0,10)}</p>
 
-    <div class="tags">
-      {frontmatter.tags.map((tag) => (
-        <p class="tag">{tag}</p>
-      ))}
-  </div>
+      <div class="tags">
+        {frontmatter.tags.map((tag) => (
+          <p class="tag">{tag}</p>
+        ))}
+    </div>
 
-  <slot />
+    <slot />
   </div>
   
 </BaseLayout>
@@ -26,19 +26,20 @@ const { frontmatter } = Astro.props;
 <style>
 
   h1 {
-    font-size:  clamp(3rem, 10vw + 1rem, 5rem);
+    font-size:  clamp(3rem, 6vw + 1rem, 5rem);
   }
 
   .container {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    /* max-width: 32rem; */
     margin: 0 auto;
   }
 
   img {
     width: 100%;
-    max-height: 30rem;
+    max-height: 27rem;
     object-fit: cover;
   }
 
