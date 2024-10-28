@@ -1,10 +1,12 @@
 ---
 import BaseLayout from './BaseLayout.astro';
-import '../styles/markdown.css'
 const { frontmatter } = Astro.props;
 ---
 <BaseLayout>
-
+  <head>
+    <link rel="stylesheet" href="/styles/markdown.css">
+  </head>
+  
   <div class="container">
     <h1>{frontmatter.description}</h1>
 
