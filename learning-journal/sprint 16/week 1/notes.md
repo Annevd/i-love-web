@@ -52,3 +52,10 @@ Met componentenbibliotheken kunnen ontwerpers en ontwikkelaars snel nieuwe funct
 Elke `$lib` is in principe een component library.
 
 Het kan ook nog een stapje ingewikkelder. Je kan een externe library aanmaken door middel val npm packages. Dit moét niet, maar het mag.
+
+
+## 12-11-2024
+
+### Wat heb ik gedaan?:
+
+Ik heb vandaag gewerkt aan de Component Building Block opdracht. Daarvoor heb ik verschillende ontwerpen gemaakt in figma, deze uitgewerkt tot een breakdownschets en een begin gemaakt aan de code. Ook heb ik een eigen SVG gemaakt die ik hoop te gebruiken voor een animatie wanneer een input valid is.
