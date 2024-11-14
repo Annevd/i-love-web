@@ -99,3 +99,9 @@ https://24ways.org/2019/interactivity-and-animation-with-variable-fonts
 
 **Modular Scale:**
  A modular scale is a sequence of numbers that relate to one another in a meaningful way. Using the golden ratio, for example, we can produce values for a modular scale by multiplying by 1.618 to arrive at the next highest number, or dividing by 1.618 to arrive at the next number down. Typescale.com
+
+## 14-11-2024
+
+### Wat heb ik gedaan?
+
+Ik heb vandaag de animatie bij valid inputs afgemaakt voor de opdracht Component Building block. Daarnaast heb ik een submission loading/succes state gemaakt met JS. Ook heb ik alvast sommige tests uitgevoerd en voorbereid. Alles staat gedocumenteerd in issues.
