@@ -105,3 +105,14 @@ https://24ways.org/2019/interactivity-and-animation-with-variable-fonts
 ### Wat heb ik gedaan?
 
 Ik heb vandaag de animatie bij valid inputs afgemaakt voor de opdracht Component Building block. Daarnaast heb ik een submission loading/succes state gemaakt met JS. Ook heb ik alvast sommige tests uitgevoerd en voorbereid. Alles staat gedocumenteerd in issues.
+
+## 15-11-2024
+
+### Wat heb ik gedaan?
+
+Vandaag hebben we een code/design review gehouden over onze component building blocks. Hierop heb ik feedback gegeven en ook zelf feedback ontvangen.
+
+Deze issues heb ik geschreven:
+- https://github.com/yujing-student/component-building-block/issues/22
+- https://github.com/yujing-student/component-building-block/issues/23 
+- https://github.com/yujing-student/component-building-block/issues/24
