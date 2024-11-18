@@ -12,3 +12,11 @@
 ## 18-11-2024
 
 ### Wat heb ik gedaan?:
+
+In de ochtend ben ik mentor geweest bij eerstejaars. Ook heb ik een aantal issues van Yu-Jing bekeken en verwerkt.
+
+**Verwerkte issues:**
+- https://github.com/Annevd/component-building-block/issues/18 
+- https://github.com/Annevd/component-building-block/issues/19 
+- https://github.com/Annevd/component-building-block/issues/20 
+- https://github.com/Annevd/component-building-block/issues/16 
