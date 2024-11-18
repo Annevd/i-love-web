@@ -19,7 +19,9 @@ In de ochtend ben ik mentor geweest bij eerstejaars. Ook heb ik een aantal issue
 - https://github.com/Annevd/component-building-block/issues/18 
 - https://github.com/Annevd/component-building-block/issues/19 
 - https://github.com/Annevd/component-building-block/issues/20 
-- https://github.com/Annevd/component-building-block/issues/16 
+- https://github.com/Annevd/component-building-block/issues/16
+
+Tot slot heb ik samen met Wing de taken verdeeld van de Agenda en Contact pagina van Bieb in Bloei, waar wij aankomende week aan gaan werken.
 
 ### Wat heb ik geleerd?:
 
