@@ -89,3 +89,8 @@ Over de frustratie van werken met frameworks:
 
 Svelte 5 introduced **some significant changes** to Svelte's API, including runes, snippets and event attributes. As a result, **some Svelte 3/4 features are deprecated** (though supported for now, unless otherwise specified) and will eventually be removed. We recommend that you incrementally migrate your existing code.
 
+## 19-11-2024
+
+### Wat heb ik gedaan?:
+
+Ik heb gewerkt aan 2 issues van Bieb in Bloei over het analyseren van hoe een form gesubmit word, en een responsive bug opgelost op de contact pagina.
