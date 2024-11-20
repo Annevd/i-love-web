@@ -94,3 +94,69 @@ Svelte 5 introduced **some significant changes** to Svelte's API, including rune
 ### Wat heb ik gedaan?:
 
 Ik heb gewerkt aan 2 issues van Bieb in Bloei over het analyseren van hoe een form gesubmit word, en een responsive bug opgelost op de contact pagina.
+
+## 20-11-2024
+
+### Wat heb ik gedaan?:
+
+### Wat heb ik geleerd?:
+
+**Workshop The New Responsive**
+
+Scrollsnap, Aspect ratio, Flexbox, CSS Grid, Container Queris, etc. zijn allemaal dingen die responsiveness bevorderen.
+
+<img width=400 src="https://github.com/user-attachments/assets/7af08add-40a9-465f-8381-e0234611a3ba">
+
+**User-preference queries:**
+- prefers-color-scheme
+- prefers-reduced-motion
+- prefers-contrast
+
+**Responsive to the user:**
+- Instellingen van een gebruiker, bijvoorbeeld systeemkleur, contrast en animatie
+
+**De anatomie van een media query:**
+```CSS
+@media screen and (width >= 35rem) {
+  body {
+    padding: 1rem;
+  }
+}
+```
+Screen is een media type.
+**Media features**
+
+**Level 5:**
+- prefers-reduced-motion: gebruik altijd default geen animatie. Wanneer "no-preference" in de media query, dan animatie.
+- prefers-reduced-transparency
+- prefers-contrast
+- forced-colors
+- prefers-color-scheme
+- prefers-reduced-data
+- inverted-colors (color media features)
+
+**Container queries** worden goed ondersteund.
+
+**Container style queries** zijn er ook.
+
+**Responsive to the form factor:**
+Je hebt single screens, two screens, fold screens, etc. Hier word ook al over nagedacht.
+
+#### Lerend vermogen
+
+Container queries heb ik al een keer eerder gebruikt, container style queries daarentegen nog niet. [Deze bron](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries#container_style_queries_2) van MDN heb ik hierover gevonden.
+
+Voor gedetailleerde uitleg over container queries en container style queries met voorbeelden heb ik [deze bron](https://www.smashingmagazine.com/2024/06/what-are-css-container-style-queries-good-for/) gevonden van Smashing Magazine.
+
+Een simpel voorbeeld van container style queries:
+```CSS
+.cards-container {
+  --theme: dark;
+}
+
+@container style(--theme: dark) {
+  .cards {
+    background-color: black;
+  }
+}
+```
