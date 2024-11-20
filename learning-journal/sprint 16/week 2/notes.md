@@ -99,6 +99,8 @@ Ik heb gewerkt aan 2 issues van Bieb in Bloei over het analyseren van hoe een fo
 
 ### Wat heb ik gedaan?:
 
+Ik heb gewerkt aan mijn taken uit het projectplan voor bieb in bloei. Vervolgens heb ik een prefers-reduced-motion & een prefers-color-scheme media query toegepast op mijn form component.
+
 ### Wat heb ik geleerd?:
 
 **Workshop The New Responsive**
@@ -143,6 +145,7 @@ Screen is een media type.
 Je hebt single screens, two screens, fold screens, etc. Hier word ook al over nagedacht.
 
 #### Lerend vermogen
+Aan de hand van dit artikel https://web.dev/articles/new-responsive heb ik een aantal leerpunten genoteerd.
 
 Container queries heb ik al een keer eerder gebruikt, container style queries daarentegen nog niet. [Deze bron](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries#container_style_queries_2) van MDN heb ik hierover gevonden.
 
