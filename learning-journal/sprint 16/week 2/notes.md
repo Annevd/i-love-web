@@ -168,3 +168,9 @@ Een simpel voorbeeld van container style queries:
 ### Wat heb ik gedaan?:
 
 Ik heb vanochtend gewerkt aan een workshop card component, en heb daarop een container query toegepast. Daarna hebben we een code/design over onze component(library) review gehad.
+
+## 22-11-2024
+
+### Wat heb ik gedaan?:
+
+Ik heb vandaag feedback/issues verwerkt van de component-building-block opdracht en JS fundamentals gedaan.
