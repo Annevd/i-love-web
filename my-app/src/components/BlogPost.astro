@@ -11,7 +11,7 @@ const { title, url, image, description, tags, pubDate } = Astro.props;
             <p class="date">{pubDate}</p>
             <div class="tag-container">
                 { tags.filter((tag) => tag.trim() !== "").length > 0 &&
-                    tags.slice(0, 3).map((tag) => 
+                    tags.slice(0, 2).map((tag) => 
                     <p class="tag">{tag}</p>
                 )}
             </div>
