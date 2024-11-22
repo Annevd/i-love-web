@@ -23,3 +23,13 @@ blockquote {
     border-radius: 0.25rem;
     background: #9c5de58c;
 }
+
+ul:has(ul) ul {
+    margin-left: 1.5rem;
+}
+
+ul:has(ul) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
