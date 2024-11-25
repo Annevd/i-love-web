@@ -10,7 +10,7 @@ const { frontmatter } = Astro.props;
     <div class="container">
       <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
 
-      <p>{frontmatter.pubDate.toString().slice(0,10)}</p>
+      <p>{frontmatter.date.toString().slice(0,10)}</p>
 
       <div class="tags">
         {frontmatter.tags.map((tag) => (

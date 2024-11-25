@@ -13,7 +13,9 @@ allArtworks.sort((a, b) => {
   <h1>Anne's art gallery</h1>
 
   <section>
-    <ul>{allArtworks.map((artwork) => <Artwork image={artwork.frontmatter.image} />)}</ul>
+    {allArtworks.length === 0 ? <p>No artworks available.</p> : (
+      <ul>{allArtworks.map((artwork) => <Artwork image={artwork.frontmatter.image} />)}</ul>
+    )}
   </section>
 </BaseLayout>
 

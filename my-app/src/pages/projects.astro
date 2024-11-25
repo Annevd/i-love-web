@@ -9,7 +9,7 @@ const allProjects = await Astro.glob('../pages/projects/*.md');
 
     <ul>
       {allProjects.map((project) => <Project url={project.frontmatter.url} title={project.frontmatter.title} image={project.frontmatter.image} 
-      description={project.frontmatter.description} tags={project.frontmatter.tags} pubDate={project.frontmatter.pubDate} githubUrl={project.frontmatter.githubUrl}/>)}
+      description={project.frontmatter.description} tags={project.frontmatter.tags} date={project.frontmatter.date} githubUrl={project.frontmatter.githubUrl}/>)}
     </ul>
 </section>
 </BaseLayout>
