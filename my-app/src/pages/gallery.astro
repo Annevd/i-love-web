@@ -1,6 +1,26 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Artwork from '../components/Artwork.astro';
+const allArtworks = await Astro.glob('../pages/artworks/*.md');
+
+allArtworks.sort((a, b) => {
+  const dateA = new Date(a.frontmatter.date).getTime();
+  const dateB = new Date(b.frontmatter.date).getTime();
+  return dateB - dateA; // Descending order
+});
 ---
 <BaseLayout>
   <h1>Anne's art gallery</h2>
+
+  <section>
+    <ul>{allArtworks.map((artwork) => <Artwork image={artwork.frontmatter.image} />)}</ul>
+  </section>
 </BaseLayout>
+
+<style>
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+  gap: 3rem;
+}
