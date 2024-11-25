@@ -1,5 +1,5 @@
 ---
-const { title, url, image, description, tags, pubDate } = Astro.props;
+const { title, url, image, description, tags, date } = Astro.props;
 ---
 
 <li>
@@ -8,7 +8,7 @@ const { title, url, image, description, tags, pubDate } = Astro.props;
         <h2>{title}</h2>
         <p>{description}</p>
         <div class="container">
-            <p class="date">{pubDate}</p>
+            <p class="date">{date}</p>
             <div class="tag-container">
                 { tags.filter((tag) => tag.trim() !== "").length > 0 &&
                     tags.slice(0, 2).map((tag) => 
