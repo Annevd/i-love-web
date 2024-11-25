@@ -2,6 +2,12 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Project from '../components/Project.astro';
 const allProjects = await Astro.glob('../pages/projects/*.md');
+
+allProjects.sort((a, b) => {
+  const dateA = new Date(a.frontmatter.date).getTime();
+  const dateB = new Date(b.frontmatter.date).getTime();
+  return dateB - dateA; // Descending order
+});
 ---
 <BaseLayout>
   <section>
