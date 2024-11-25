@@ -29,3 +29,5 @@ Er zijn verschillende states:
 - Non-shared semi-persistent state .snapshot
 - Non-shared persistent state
 - Svelte persistent stores using localStorage
+
+https://github.com/ju5tu5/state
