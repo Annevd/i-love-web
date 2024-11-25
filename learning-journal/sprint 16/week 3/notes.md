@@ -13,7 +13,7 @@
 
 ### Wat heb ik gedaan?:
 
-In de ochtend ben ik mentor geweest bij de eerstejaars.
+In de ochtend ben ik mentor geweest bij de eerstejaars. Daarna hebben we de workshop over states gehad, en ben ik verder gegaan aan de leertaak en I love web.
 
 ### Wat heb ik geleerd?:
 
