@@ -15,6 +15,7 @@
 - Cool sticky animation: https://www.awwwards.com/inspiration/footer-animation-a-chen-web-designer-of-wei-lai-jie
 - Super cool page transition: https://www.awwwards.com/inspiration/page-transition-4
 - Gallery wall inspiration: https://www.awwwards.com/inspiration/the-message-to-ukraine-postcard-gallery-wall
+- Interactive infinite gallery: https://www.awwwards.com/inspiration/francobolli-monti-lessini-infinite-gallery-francobolli-monti-lessini
 
 ### CSS Weekly
 
