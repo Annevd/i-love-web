@@ -31,3 +31,9 @@ Er zijn verschillende states:
 - Svelte persistent stores using localStorage
 
 https://github.com/ju5tu5/state
+
+## 26-11-2024
+
+### Wat heb ik gedaan?:
+
+Ik heb gebruik gemaakt van localStorage op mijn contact formulier component, zodat de ingevulde gegevens lokaal bewaard blijven bij de gebruiker in het geval van een refresh. Ook heb ik wat verder gewerkt aan mijn I love web.
