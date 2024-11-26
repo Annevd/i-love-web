@@ -14,6 +14,51 @@ const { image, h, w } = Astro.props;
 
 <style>
 
+li {
+	height: fit-content;
+	position: relative;
+	transition: 0.6s cubic-bezier(.43,1.39,.78,1.13);
+	transform-origin: center top;
+}
+
+li::before {
+	content: "";
+	position: absolute;
+	height: 10rem;
+    width: 10rem;
+    top: -2rem;
+	background-image: url('/hook.svg');
+	background-size: contain;
+    background-repeat: no-repeat;
+	z-index: -1;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+li:hover {
+	transform: rotate(10deg);
+	transition: 0.4s ease-in-out;
+}
+
+/* @supports (animation-timeline: auto) {
+  @scroll-timeline scroll-dangle {
+    source: auto; 
+    orientation: block; 
+    range: auto; 
+  }
+
+  li {
+    animation: dangle 1s ease-in-out both;
+    animation-timeline: scroll-dangle;
+    transition: none;
+  }
+} */
+
+@keyframes dangle {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+
 .outerBevel { /* of frame */
 	box-shadow:	4px 6px 12px 0 black;
 	border-width: 5px;
