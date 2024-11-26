@@ -15,11 +15,13 @@
 @font-face {
     font-family: "Soligant";
     src: url(/fonts/Soligant.otf) format("opentype");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Puritan";
     src: url(/fonts/PURI10.TTF) format("truetype");
+    font-display: swap;
 }
 
 body {

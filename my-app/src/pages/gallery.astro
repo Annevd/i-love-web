@@ -10,7 +10,7 @@ allArtworks.sort((a, b) => {
 });
 ---
 <BaseLayout>
-  <h1>Anne's art gallery</h1>
+  <h1>Art gallery</h1>
 
   <section>
     {allArtworks.length === 0 ? <p>No artworks available.</p> : (
@@ -20,6 +20,12 @@ allArtworks.sort((a, b) => {
 </BaseLayout>
 
 <style>
+
+h1 {
+  font-size: clamp(3rem, 10vw + 1rem, 7rem);
+  text-align: center;
+  text-transform: uppercase;
+}
 
 ul {
   display: grid;

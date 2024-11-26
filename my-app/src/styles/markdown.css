@@ -18,7 +18,7 @@ h4 {
 }
 
 blockquote {
-    width: max-content;
+    width: fit-content;
     padding: 1rem;
     border-radius: 0.25rem;
     background: #9c5de58c;
