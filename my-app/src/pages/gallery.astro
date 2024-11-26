@@ -14,7 +14,7 @@ allArtworks.sort((a, b) => {
 
   <section>
     {allArtworks.length === 0 ? <p>No artworks available.</p> : (
-      <ul>{allArtworks.map((artwork) => <Artwork image={artwork.frontmatter.image} />)}</ul>
+      <ul>{allArtworks.map((artwork) => <Artwork image={artwork.frontmatter.image} h={artwork.frontmatter.h} w={artwork.frontmatter.w} />)}</ul>
     )}
   </section>
 </BaseLayout>
