@@ -8,9 +8,17 @@
 - Instagram accounts:
 - <img width=200 src="https://github.com/user-attachments/assets/d605c595-7d99-438a-85e6-74648b5a567a">
 
-## Notes
+# Notes
 
-### Awwwards
+**Inhoudsopgave:**
+
+- [Awwwards](#awwwards)
+- [CSS Weekly](#css-weekly)
+- [30 Seconds of Knowledge](#30-seconds-of-knowledge)
+
+---
+
+## Awwwards
 
 - Cool sticky animation: https://www.awwwards.com/inspiration/footer-animation-a-chen-web-designer-of-wei-lai-jie
 - Super cool page transition: https://www.awwwards.com/inspiration/page-transition-4
@@ -19,7 +27,7 @@
 
 ---
 
-### CSS Weekly
+## CSS Weekly
 
 - [Overflow: clip](https://ishadeed.com/article/overflow-clip/?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-599-november-20-2024&_bhlid=71db572afb9149abeee0ca0ae97ae111815fc307)
 
@@ -31,10 +39,23 @@
 <img height=300 src="https://github.com/user-attachments/assets/18b5c256-ee8c-444a-8171-ef24ac4c6078">
 
 ---
+- [Popover with Anchor positioning](https://www.youtube.com/watch?v=DNXEORSk4GU)
 
-### 30 Seconds of Knowledge
+Met anchor positioning kan je heel makkelijk een popover plaatsen "anchored" aan een element. In deze video legt Kevin Powell uit hoe dat werkt, en hoe je er voor zorgt dat het op alle browsers werkt.
 
-#### What is the difference between the array methods `map()` and `forEach()`?
+<img width=900 src="https://github.com/user-attachments/assets/3041ec3e-e432-4179-9f27-8eafc283bc18">
+
+---
+
+- [Super toffe sunlit animatie met CSS](https://github.com/jackyzha0/sunlit?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-600-november-27-2024&_bhlid=a1b859cec72f42b942751604bdcb216e31c8db74)
+
+<img width=900 src="https://github.com/user-attachments/assets/2584a43d-d801-41e5-91b8-fc78d706b2bc">
+
+---
+
+## 30 Seconds of Knowledge
+
+### What is the difference between the array methods `map()` and `forEach()`?
 
 **Answer:**
 
@@ -50,7 +71,9 @@ Both methods iterate through the elements of an array. `map()` maps each element
 - [MDN docs for map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 - [JavaScript — Map vs. ForEach](https://codeburst.io/javascript-map-vs-foreach-f38111822c0f)
 
-#### Create a descending list of numbered items in HTML
+---
+
+### Create a descending list of numbered items in HTML
 
 Did you know there's an easy way to create a descending list of numbered items with pure HTML? The only thing you'll need is the `reversed` attribute. This boolean attribute is specific to `ol` elements and specifies that the list's elements are in reverse order (i.e. numbered from high to low).
 ```HTML
