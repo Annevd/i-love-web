@@ -26,7 +26,15 @@
 - Interactive infinite gallery: https://www.awwwards.com/inspiration/francobolli-monti-lessini-infinite-gallery-francobolli-monti-lessini
 
 ---
+## Medium Frontend Weekly
 
+- [CSS: light-dark()](https://medium.com/front-end-weekly/forget-javascript-achieve-dark-mode-effortlessly-with-brand-new-css-function-light-dark-2024-94981c61756b)
+
+  Je kan nu heel makkelijk light/dark modes bepalen door middel van `light-dark()` in CSS, op basis van de user prefered thema. Hiervoor hoef je geen `perfers-color-scheme` blocks meer te schrijven, maar kan je het simpelweg in de custom properties of elementen zelf zetten.
+
+  [Mdn bron](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark)
+
+---
 ## CSS Weekly
 
 - [Overflow: clip](https://ishadeed.com/article/overflow-clip/?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-599-november-20-2024&_bhlid=71db572afb9149abeee0ca0ae97ae111815fc307)
