@@ -13,6 +13,7 @@
 **Inhoudsopgave:**
 
 - [Awwwards](#awwwards)
+- [Medium Frontend Weekly](#medium-frontend-weekly)
 - [CSS Weekly](#css-weekly)
 - [30 Seconds of Knowledge](#30-seconds-of-knowledge)
 
