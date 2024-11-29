@@ -73,3 +73,13 @@ s'Ochtends ben ik verder gegaan aan het projectplan. Daarna hebben we een wrap-u
 ### Wat heb ik gedaan?:
 
 Ik heb vandaag de sprint review gehad met iedereen van bieb in bloei en de opdrachtgever. Ook heb ik een aantal portflow dingen ingevuld.
+
+
+## 29-11-2024
+
+### Wat heb ik gedaan?:
+
+- Opdracht Connecting Assignees
+
+### Wat heb ik geleerd?:
+
