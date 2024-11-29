@@ -38,7 +38,7 @@ https://github.com/ju5tu5/state
 
 Ik heb gebruik gemaakt van localStorage op mijn contact formulier component, zodat de ingevulde gegevens lokaal bewaard blijven bij de gebruiker in het geval van een refresh. Ook heb ik wat verder gewerkt aan mijn I love web.
 
-## 26-11-2024
+## 27-11-2024
 
 ### Wat heb ik gedaan?:
 
@@ -68,3 +68,8 @@ s'Ochtends ben ik verder gegaan aan het projectplan. Daarna hebben we een wrap-u
   - **Sprint 17:** In deze sprint ligt de focus op het ontwerpen en maken van pleasurable interfaces. Attention to detail voor de basis werking en het design van de website. En daarna; creative coding.
   - **Sprint 18:** De laatste sprint van het semester zetten we de puntjes op de i.
  
+## 28-11-2024
+
+### Wat heb ik gedaan?:
+
+Ik heb vandaag de sprint review gehad met iedereen van bieb in bloei en de opdrachtgever. Ook heb ik een aantal portflow dingen ingevuld.
