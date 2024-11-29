@@ -81,5 +81,4 @@ Ik heb vandaag de sprint review gehad met iedereen van bieb in bloei en de opdra
 
 - Opdracht Connecting Assignees
 
-### Wat heb ik geleerd?:
 
