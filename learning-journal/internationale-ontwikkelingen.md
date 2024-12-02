@@ -1,5 +1,6 @@
 # Gevolgde bronnen
 - [CSS Weekly newsletter](https://css-weekly.com/)
+- [Frontend Focus newsletter](https://frontendfoc.us/issues)
 - [Awwwards](https://www.awwwards.com/)
 - [Medium Frontend Weekly](https://medium.com/front-end-weekly)
 - [Scroll driven animations](https://scroll-driven-animations.style/)
