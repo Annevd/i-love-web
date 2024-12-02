@@ -13,7 +13,7 @@
 
 ### Wat heb ik gedaan?:
 
-Ik heb in de ochtend gewerkt aan mijn Portflow invullen.
+Ik heb in de ochtend gewerkt aan mijn Portflow invullen. Daarna ben ik begonnen met het ontwerpen van mijn eerste creative coding spike.
 
 ### Wat heb ik geleerd?:
 
