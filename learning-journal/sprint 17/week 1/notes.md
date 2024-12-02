@@ -14,3 +14,18 @@
 ### Wat heb ik gedaan?:
 
 Ik heb in de ochtend gewerkt aan mijn Portflow invullen.
+
+### Wat heb ik geleerd?:
+
+**Sprint 17: User needs** Over programming spikes en creative coding
+
+Deze sprint doen we 3 mini sprints van elk één week over Creative Coding.
+
+> Kan de gebruiker verrast worden met een bijzondere interactie?
+
+FDND Concept Roulete
+
+#### Scroll driven animations
+
+Voor voorbeeld naar [Ju5tu5](https://github.com/ju5tu5/ju5tu5/blob/master/assets/style/style.css).
+https://scroll-driven-animations.style/ 
