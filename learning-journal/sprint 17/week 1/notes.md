@@ -29,3 +29,9 @@ FDND Concept Roulete
 
 Voor voorbeeld naar [Ju5tu5](https://github.com/ju5tu5/ju5tu5/blob/master/assets/style/style.css).
 https://scroll-driven-animations.style/ 
+
+## 3-12-2024
+
+### Wat heb ik gedaan?:
+
+Ik heb gewerkt aan de deeltaak Creative Coding, waar ik een desaturate animatie heb gebouwd en scheuren die in de elementen verschijnen. Met de vallende elementen en klimop plant ben ik nog bezig.
