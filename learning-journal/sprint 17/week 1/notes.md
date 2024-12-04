@@ -35,3 +35,9 @@ https://scroll-driven-animations.style/
 ### Wat heb ik gedaan?:
 
 Ik heb gewerkt aan de deeltaak Creative Coding, waar ik een desaturate animatie heb gebouwd en scheuren die in de elementen verschijnen. Met de vallende elementen en klimop plant ben ik nog bezig.
+
+## 4-12-2024
+
+### Wat heb ik gedaan?:
+
+### Wat heb ik geleerd?
