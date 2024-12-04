@@ -27,6 +27,14 @@
 - Gallery wall inspiration: https://www.awwwards.com/inspiration/the-message-to-ukraine-postcard-gallery-wall
 - Interactive infinite gallery: https://www.awwwards.com/inspiration/francobolli-monti-lessini-infinite-gallery-francobolli-monti-lessini
 
+#### Spotlight
+
+- [Mew](https://mew.xyz/)
+  - Insanely creative transitions, animations, style, everything!!!! 
+
+![image](https://github.com/user-attachments/assets/16a70628-1574-498e-a3ec-b21de00b81e7)
+
+
 ---
 ## Medium Frontend Weekly
 
