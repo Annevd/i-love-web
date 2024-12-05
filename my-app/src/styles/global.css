@@ -1,3 +1,30 @@
+@font-face {
+    font-family: "Soligant";
+    src: url(/fonts/Soligant.otf) format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Puritan";
+    src: url(/fonts/PURI10.TTF) format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+	font-family: 'Limkin';
+	src: url('/fonts/TMT-LimkinVF.woff2');
+}
+
+@font-face {
+	font-family: 'Powerpack';
+	src: url('/fonts/TMT-PowerPackVF.woff2');
+}
+
+@font-face {
+	font-family: 'Decovar';
+	src: url('/fonts/DecovarAlpha-VF.ttf');
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,18 +37,6 @@
     --accent-color-2: #ffcef1;
     --statement-font: "Soligant", sans-serif;
     --regular-font: "Puritan", sans-serif;
-}
-
-@font-face {
-    font-family: "Soligant";
-    src: url(/fonts/Soligant.otf) format("opentype");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Puritan";
-    src: url(/fonts/PURI10.TTF) format("truetype");
-    font-display: swap;
 }
 
 body {

@@ -2,201 +2,58 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 <BaseLayout>
+    <h1>Playground</h1>
 
-  <ul class="titles transparent">
-    <li>Play</li>
-    <li>Ground</li>
-    <li>Where</li>
-    <li>I</li>
-    <li>Try</li>
-    <li>Things</li>
-  </ul>
+    <p>Where I play around with new or other cool front end techniques!</p>
 
-  <ul class="titles fill">
-    <li>Play</li>
-    <li>Ground</li>
-    <li>Where</li>
-    <li>I</li>
-    <li>Try</li>
-    <li>Things</li>
-  </ul>
-
-  <div class="panels">
-    <div class="panel">
-        <img src="/images/purple-panel-1.jpg" alt="" width="4928" height="3264">
-    </div>
-    <div class="panel">
-        <img src="/images/purple-panel-2.jpg" alt="" width="5184" height="3456">
-    </div>
-    <div class="panel">
-        <img src="https://images.pexels.com/photos/1555900/pexels-photo-1555900.jpeg" alt="" width="3300" height="2200">
-    </div>
-    <div class="panel">
-        <img src="https://images.pexels.com/photos/3684947/pexels-photo-3684947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width="5472" height="3648">
-    </div>
-    <div class="panel">
-        <img src="https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width="5586" height="3724">
-    </div>
-    <div class="panel">
-        <img src="https://images.pexels.com/photos/421129/pexels-photo-421129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width="4928" height="3264">
-    </div>
-  </div>
-
-  <a href="https://codepen.io/bramus/pen/OJrxBaL">Link to Bramus' codepen example</a>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <section>
+        <p>Variable font test</p>
+        <p>Variable font test</p>
+        <p>Variable font test</p>
+    </section>
 </BaseLayout>
 
 <style>
 
-@property --scroll-position {
-	syntax: "<number>";
-	inherits: true;
-	initial-value: 0;
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: clamp(3rem, 10vw + 1rem, 7rem);
 }
 
-@property --scroll-position-delayed {
-	syntax: "<number>";
-	inherits: true;
-	initial-value: 0;
+p {
+    text-align: center;
+    margin-bottom: 3rem;
 }
 
-@keyframes adjust-pos {
-	to {
-		--scroll-position: 1;
-		--scroll-position-delayed: 1;
-	}
+section p {
+    font-size: clamp(2rem, 5vw + 1rem, 3rem);;
 }
 
-:global(:root) {
-    @supports(animation-timeline: scroll()){
-        animation: adjust-pos 0.01s linear both; /* Adjusted for cross-browser compatibility */
-        animation-timeline: scroll(root);
-    }
+section p:first-of-type {
+    font-family: 'Limkin', sans-serif;
 }
 
-:global(html) {
-  scroll-snap-type: y mandatory;
+section p:first-of-type:hover {
+    font-variation-settings: 'wght' 850;
 }
 
-:global(body) {
-    transition: --scroll-position-delayed 0.15s linear;
-  --scroll-velocity: calc(
-    var(--scroll-position) - var(--scroll-position-delayed)
-  );
+section p:nth-of-type(2) {
+    font-family: 'Powerpack', sans-serif;
 }
 
-ul {
-	list-style: none;
-	line-height: 1;
-	display: block;
+section p:nth-of-type(2):hover {
+    font-variation-settings: "CHRG" 47, "POWR" 100;
 }
 
-ul li {
-	display: block;
-	line-height: 1;
+section p:nth-of-type(3) {
+    font-family: 'Decovar', sans-serif;
 }
 
-.panel {
-	scroll-snap-align: center;
-	height: 100dvh;
-	background: rgb(0 0 0 / 0.15);
-	z-index: -1;
-}
-    
-.panel img {
-	display: block;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	filter: brightness(30%);
-}
-
-@keyframes slide-up {
-	to {
-		translate: 0 var(--end-pos);
-	}
-}
-
-.titles {
-	position: fixed;
-	z-index: 2;
-	top: 50dvh;
-	font-size: 25dvh;
-	left: 0;
-	right: 0;
-	text-align: center;
-
-    @supports(animation-timeline: scroll()) {
-        animation: slide-up 0.01s linear; /* Duration added to cater for Firefox */
-	    animation-timeline: scroll(root block);
-    }
-
-	font-family: impact;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-
-	/* Calculate the part each child can occupy.
-	    For 8 children, that’s 12.5%
-	*/
-	--num-children: 8;
-	--num-children-1: calc(var(--num-children) - 1);
-	--size-per-child: calc(100% / var(--num-children));
-
-	/* Because the text needs to be in the dead center,
-	   we need to shift up the whole thing by half the size per child.
-	   If not, it would start with the top edge of the whole box
-	   aligned to the center. We want the text to be centered.
-	   So in the case of 8 items that is from -6.25% to to -(100% - 6.25%).
-	   This range still spans 100% in total, but it is slightly shifted up.
-	*/
-	--half-size-per-child: calc(var(--size-per-child) / 2);
-	--start-pos: calc(var(--half-size-per-child) * -1);
-	--end-pos: calc(-100% + var(--half-size-per-child));
-	translate: 0 var(--start-pos);
-}
-
-.titles.transparent {
-	color: transparent;
-	-webkit-text-stroke: 1px rgb(255 255 255 / 0.7);
-	text-stroke: 1px rgb(255 255 255 / 0.7);
-}
-
-.titles.fill {
-	color: hotpink;
-
-	/* Determine which element is currently in view. We do this based
-	   on the current scroll-distance (exposed via --y-pos) and how
-	   much space each child takes up.
-	*/
-	--y-per-child: calc(1 / var(--num-children));
-	--cur-child: calc((var(--scroll-position) / var(--y-per-child)) + 1);
-	--cur-child-1: calc(var(--cur-child) - 1);
-
-	/* To adjust the clip path we need to adjust the total range
-	   that is spanned. 
-	*/
-	--clip-min: 0;
-	--clip-max: calc(100% - var(--size-per-child));
-	--clip-per-child: calc(var(--clip-max) / var(--num-children));
-	--fix: calc(
-		var(--clip-per-child) / 8
-	); /* Not sure why I need a fix like this ¯\_(ツ)_/¯ */
-	--extra: 1%;
-	clip-path: inset(
-		calc((var(--cur-child-1) * var(--clip-per-child)) - var(--extra)) 0%
-			calc(
-				(100% - (var(--cur-child) * var(--clip-per-child)) - var(--fix)) -
-					var(--extra)
-			)
-			0%
-	);
-}
-
-/* And now, for the late scrolling part …*/
-.titles li {
-	will-change: transform;
-	transform-origin: 50% 50%;
-	transform: skewY(calc(var(--scroll-velocity) * -75deg));
+section p:nth-of-type(3):hover {
+    font-variation-settings: "BLDA" 0, "TRMD" 532, "TRMC" 725, "SKLD" 0, "TRML" 0, "SKLA" 136,
+                        "TRMF" 0, "TRMK" 0, "BLDB" 0, "WMX2" 0, "TRMB" 572, "TRMA" 0,
+                        "SKLB" 656, "TRMG" 0, "TRME" 463;
 }
 
 </style>
