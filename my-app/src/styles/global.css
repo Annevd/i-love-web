@@ -67,7 +67,7 @@ p {
     overflow-wrap: break-word;
 } */
 
-@media (width > 32rem){
+@media (width > 45rem){
     main {
         padding: 2rem;
     }
