@@ -40,4 +40,16 @@ Ik heb gewerkt aan de deeltaak Creative Coding, waar ik een desaturate animatie 
 
 ### Wat heb ik gedaan?:
 
+Ik heb verder gewerkt aan de deeltaak creative coding en ben mentor geweest bij de eerstejaars. Nadia heb ik geholpen om een filter te schrijven op een select element. 
+
+- [De commit van de filter code](https://github.com/nadiachaja/fix-the-flow-interactive-website/commit/f54ebc1895b70b27574729e1d353895a41a5dac1#diff-28cf3e07e18438001c3feb3e2202baa15b2d9868f22c7b8f395cf9c3765cd385)
+
 ### Wat heb ik geleerd?
+
+https://www.wix.com/studio/blog/scrollytelling
+
+## 5-12-2024
+
+### Wat heb ik gedaan?:
+
+Ik heb vandaag verder gewerkt aan het invullen van portflow, de deeltaak creative coding, mijn i love web en JS fundamentals.
