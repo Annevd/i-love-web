@@ -15,6 +15,7 @@
 
 - [Awwwards](#awwwards)
 - [Medium Frontend Weekly](#medium-frontend-weekly)
+- [Frontend Focus](#frontend-focus)
 - [CSS Weekly](#css-weekly)
 - [30 Seconds of Knowledge](#30-seconds-of-knowledge)
 
@@ -34,6 +35,10 @@
 
 ![image](https://github.com/user-attachments/assets/16a70628-1574-498e-a3ec-b21de00b81e7)
 
+- [MadeByAnalogue](https://madebyanalogue.co.uk/)
+  - Super cool style
+![image](https://github.com/user-attachments/assets/44060685-1a62-448f-b4b6-550373e51ddd)
+![image](https://github.com/user-attachments/assets/7a132d1e-55e2-45c3-8f83-0e3bc2812115)
 
 ---
 ## Medium Frontend Weekly
@@ -43,6 +48,11 @@
   Je kan nu heel makkelijk light/dark modes bepalen door middel van `light-dark()` in CSS, op basis van de user prefered thema. Hiervoor hoef je geen `perfers-color-scheme` blocks meer te schrijven, maar kan je het simpelweg in de custom properties of elementen zelf zetten.
 
   [Mdn bron](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark)
+
+---
+## Frontend Focus
+
+- [UI fonts: Test and preview fonts in real-time for all your design needs](https://www.uifonts.app/)
 
 ---
 ## CSS Weekly
