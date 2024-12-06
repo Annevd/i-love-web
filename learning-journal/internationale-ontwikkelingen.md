@@ -127,3 +127,6 @@ Additionally, you can combine reversed with the start attribute which is an inte
 - https://tympanus.net/Development/KineticTypePageTransition/
 ![image](https://github.com/user-attachments/assets/d9c6986b-c903-4a4f-9000-75ed78cfa1ae)
 ![image](https://github.com/user-attachments/assets/139b8720-b51c-4337-93ca-15e732229c55)
+
+- [Grainy Gradients](https://css-tricks.com/grainy-gradients/)
+- [snapsvg](http://snapsvg.io/start/)
