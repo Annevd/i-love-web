@@ -53,3 +53,8 @@ https://www.wix.com/studio/blog/scrollytelling
 ### Wat heb ik gedaan?:
 
 Ik heb vandaag verder gewerkt aan het invullen van portflow, de deeltaak creative coding, mijn i love web en JS fundamentals.
+
+## 6-12-2024
+
+### Wat heb ik gedaan?:
+Ik heb portflow ingevuld en een code/design review gehad op de eerste creative coding spike.
