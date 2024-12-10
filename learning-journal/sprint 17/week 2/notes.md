@@ -57,4 +57,9 @@ Als je daarna in de CSS `animation-name` gebruikt, krijgt het automatisch ook ee
 }
 ```
 
+## 10-12-2024
 
+### Wat heb ik gedaan?:
+
+Ik heb vandaag de eerste versie van mijn crazy retro line art gebouwd en live gezet. Er zijn nog een paar issues die ik hiervoor moet oplossen zoals en delay, en z-index.
+Verder heb ik `localStorage` toegepast op de bieb in bloei website.
