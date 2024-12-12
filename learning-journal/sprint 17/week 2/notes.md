@@ -84,3 +84,10 @@ Mentor in de ochtend, in de middag de workshop Kleur in Web design.
 - [The state of changing gradients with CSS transitions and animations](https://css-tricks.com/the-state-of-changing-gradients-with-css-transitions-and-animations/)
 - [Split effects with no content duplication](https://frontendmasters.com/blog/split-effects-with-no-content-duplication/)
 - [Coloring with code](https://tympanus.net/codrops/2021/12/07/coloring-with-code-a-programmatic-approach-to-design/)
+
+
+## 12-12-2024
+
+### Wat heb ik gedaan?:
+
+Ik heb de 2de creative coding spike opdracht afgerond, portflow deels ingevuld, en aan Javascript fundamentals gewerkt.
