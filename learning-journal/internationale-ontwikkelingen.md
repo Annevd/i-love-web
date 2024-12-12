@@ -54,6 +54,7 @@
 ## Frontend Focus
 
 - [UI fonts: Test and preview fonts in real-time for all your design needs](https://www.uifonts.app/)
+- [Pure CSS halftone effect in 3 declarations](https://frontendmasters.com/blog/pure-css-halftone-effect-in-3-declarations/)
 
 ---
 ## CSS Weekly
@@ -67,6 +68,33 @@
 <img height=300 src="https://github.com/user-attachments/assets/261651d9-1d67-4d75-af98-e7a016e5e775">
 <img height=300 src="https://github.com/user-attachments/assets/18b5c256-ee8c-444a-8171-ef24ac4c6078">
 
+
+- [How To Fix Largest Contentful Paint For Background Images](https://www.debugbear.com/blog/largest-contentful-paint-background-images?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-601-december-11-2024&_bhlid=4e6d48ba793761390a661fb573b0da14aae82218)
+
+Het vooraf laden van de LCP-afbeelding met `fetchpriority="high"` zou de prestaties voor achtergrondafbeeldingen moeten verbeteren. Deze preload-hint zorgt ervoor dat de browser de afbeelding sneller kan ophalen, zonder eerst te wachten tot een CSS-bestand is gedownload of tot de pagina begint met renderen.
+
+- [Gradienty](https://gradienty.codes/)
+
+Deze tool is echt super handig voor van alles! Je kunt gradients opzoeken en direct kopiëren, CSS animations bekijken en kopiëren, kleuren paletten bekijken en deze zelfs visualiseren in een echte webpagina!
+
+- **CSS Wrapped:**
+  - **Components:** 
+    - `field-sizing`: textarea, select en input kunnen hiermee groeien of krimpen zo groot als de placeholder. Dit is nog niet supported op Safari.
+    - **Mutually exclusive `<details>` elements:** Om een ​​exclusive accordeon te maken, voeg je een name-attribuut toe aan de `<details>` elementen. Wanneer dit attribuut wordt gebruikt, vormen de `<details>` met dezelfde name value een semantische groep. Wanneer je een van de `<details>` elementen uit de groep opent, wordt het eerder geopende element automatisch gesloten.
+    - `::details-content`: hiermee kun je het deel dat opent en sluit van een details element specifieker stylen.
+    - **Anchor**
+  - **Interactions:**
+    - **Custom Scrollbars** met `scrollbar-color` & `scrollbar-width`
+    - **View transitions**
+    - **Scroll driven animations**
+    - **Scroll snap events:** Het `scrollsnapchange` event wordt op hetzelfde moment geactiveerd als `scrollend`, wanneer de scroll is gestopt en de gebruiker niet meer met de scroller communiceert. Het `scrollsnapchanging` event staat te popelen om te vuren en roept de callback aan zodra de scroller een nieuw snap target heeft. Dit is handig voor directe UX-feedback en biedt een mechanisme voor directe visuele updates op basis van de interactie van de gebruiker.
+  - **Developer Experience:**
+    - **Backdrop Inheritence:** Vanaf Chrome 122 is `::backdrop` omgezet in een tree abiding element, wat betekent dat het alle overerfbare eigenschappen van het oorspronkelijke element erft.
+    - `light-dark()`
+    - `@property` heeft nu cross browser support
+    - **Popover API:** Met de Popover API kun je gelaagde interfaces bouwen, zoals tooltips, menu's, teaching UI's en meer.
+    - `@starting-style`: De `@starting-style` wordt gebruikt om stijlen voor een element te definiëren voordat het de eerste stijlupdate heeft ontvangen. Wanneer je die eigenschappen instelt om te transitionen met CSS-transities, kun je deze starting-styles gebruiken om entry-effecten te creëren.
+    - `paint-order`: Bij gebruik kan `text-stroke` de `paint-order` property de volgorde bepalen waarin de tekstvulling en de gewenste lijn worden gestapeld of samen worden gerenderd. Dit kan handig zijn als je wil verzekeren dat de lijn bovenop de vulling wordt gerenderd.
 ---
 - [Popover with Anchor positioning](https://www.youtube.com/watch?v=DNXEORSk4GU)
 
