@@ -91,3 +91,9 @@ Mentor in de ochtend, in de middag de workshop Kleur in Web design.
 ### Wat heb ik gedaan?:
 
 Ik heb de 2de creative coding spike opdracht afgerond, portflow deels ingevuld, en aan Javascript fundamentals gewerkt.
+
+## 13-12-2024
+
+### Wat heb ik gedaan?:
+
+- Code/design review
