@@ -12,3 +12,5 @@
 ## 16-12-2024
 
 ### Wat heb ik gedaan?:
+
+Creative coding spike 3
