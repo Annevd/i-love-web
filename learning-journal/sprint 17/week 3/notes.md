@@ -16,3 +16,9 @@
 Creative coding spike 3
 
 https://krijnhoetmer.nl/_tmp/fdnd/kerst/
+
+## 17-12-2024
+
+### Wat heb ik gedaan?:
+
+Portflow ingevuld, testplan gemaakt voor bieb in bloei en verder gewerkt aan de creative coding spike.
