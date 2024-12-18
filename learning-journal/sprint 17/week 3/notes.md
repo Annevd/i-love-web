@@ -22,3 +22,9 @@ https://krijnhoetmer.nl/_tmp/fdnd/kerst/
 ### Wat heb ik gedaan?:
 
 Portflow ingevuld, testplan gemaakt voor bieb in bloei en verder gewerkt aan de creative coding spike.
+
+## 18-12-2024
+
+### Wat heb ik gedaan?:
+
+Testplan uitgevoerd bij buurtbewoners in de OBA Linnaeusstraat 44. Daarna wrap-up gehad en verder aan opdrachten gewerkt.
