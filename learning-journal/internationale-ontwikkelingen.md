@@ -42,6 +42,12 @@
 ![image](https://github.com/user-attachments/assets/44060685-1a62-448f-b4b6-550373e51ddd)
 ![image](https://github.com/user-attachments/assets/7a132d1e-55e2-45c3-8f83-0e3bc2812115)
 
+- [Spencer Gabor](https://spencergabor.work/)
+  - I like the minimalist yet colorful and bold design
+ 
+![image](https://github.com/user-attachments/assets/b1015e83-dcb7-4d57-b424-20ee7db9d1b7)
+
+
 ---
 ## Medium Frontend Weekly
 
