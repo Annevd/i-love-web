@@ -28,3 +28,9 @@ Portflow ingevuld, testplan gemaakt voor bieb in bloei en verder gewerkt aan de 
 ### Wat heb ik gedaan?:
 
 Testplan uitgevoerd bij buurtbewoners in de OBA Linnaeusstraat 44. Daarna wrap-up gehad en verder aan opdrachten gewerkt.
+
+## 19-12-2024
+
+### Wat heb ik gedaan?:
+
+Sprint review met de opdrachtgever en een kampvuursessie.
