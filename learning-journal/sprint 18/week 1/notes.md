@@ -20,3 +20,9 @@ De software release life cycle (SRLC): Het proces van ontwikkelen, testen en dis
 <img width=300 src="https://github.com/user-attachments/assets/186463c3-7f99-4708-9636-b25bba891a4c">
 
 Wij gaan ons nu richten op de _release candidate_ fase. Een release candidate, ook wel bekend als gamma testing of "going silver", is een bètaversie met de potentie een stabiel product te worden, klaar om vrijgegeven te worden tenzij ernstige bugs opduiken. 
+
+- Maak een nieuw team canvas
+- Nette feature branches
+- Gecontroleerde pull requests en issues
+- Gebruik het projectboard met goed afbakende taken. Gebruik DLC labels en MoSCoW labels en poker alle taken
+- Een pull request reviewen is ook een taak
