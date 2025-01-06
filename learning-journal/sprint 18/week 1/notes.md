@@ -61,3 +61,12 @@ Continuous Integration (CI) is het automatiseren van de integratie van codeaanpa
 Door CI kunnen ontwikkelaars codeaanpassingen frequent samenvoegen in een centraal repository, waar vervolgens automatisch _builds_ en _quality_ tests worden uitgevoerd. Op Github kan je gebruik maken van _Actions_ om CI te implementeren.
 
 Koppel je eigen domeinnaam aan Github Pages: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site 
+
+**Argumenten waarom SSG de beste keuze is voor Bieb in Bloei:**
+- **Supersnelle laadtijden:** Een SSG genereert statische HTML-pagina's vooraf, die direct via een CDN (Content Delivery Network) worden geleverd. Dit verminderd/verwijderd wachttijden door server-side verwerking.
+- **Geoptimaliseerd voor snelheid:** Statische bestanden zoals HTML, CSS en JavaScript zijn lichtgewicht en worden snel geladen, wat de gebruikerservaring verbetert.
+- **Eenvoudig opschalen:** Omdat de site statische bestanden gebruikt, kan deze grote hoeveelheden verkeer aan zonder dat extra servers nodig zijn.
+- **Geen serverproblemen:** Er is geen server-side logica, dus pieken in verkeer veroorzaken geen prestatieproblemen.
+- **Beter vindbaar:** Statische sites genereren schone en gestructureerde HTML, wat zoekmachines helpt om de site beter te indexeren.
+- **Hogere snelheid, betere ranking:** Google geeft de voorkeur aan snelle websites, wat de SEO-score verbetert.
+- **Gratis of goedkope hosting:** Platformen zoals Netlify bieden vaak gratis hosting voor statische sites.
