@@ -26,3 +26,38 @@ Wij gaan ons nu richten op de _release candidate_ fase. Een release candidate, o
 - Gecontroleerde pull requests en issues
 - Gebruik het projectboard met goed afbakende taken. Gebruik DLC labels en MoSCoW labels en poker alle taken
 - Een pull request reviewen is ook een taak
+
+---
+
+- **CSR**: Client Side Rendering
+  - De webbrowser laadt een leeg HTML bestand. Met JS en CSS wordt een connectie gemaakt met een backend en de pagina ge-renderd. 
+- **SSR**: Server Side Rendering
+  - Bij elke aanvraag wordt op de server connectie gemaakt en de pagina ge-renderd. De webbrowser ontvangt de complete HTML voor de pagina. (PHP, Jango, ASTRO)
+- **SSG**: Static Site Generation
+  - Tijdens de build worden alle mogelijke pagina's al ge-renderd. Het resultaat is een statische website die eenvoudig gehost kan worden. (11ty) 
+- **ISR**: Incremental Static Regeneration
+  - De build wordt periodiek uitgevoerd en alleen bij aangepaste content worden de specifiek veranderde pagina's opnieuw ge-renderd. 
+- **CDN**: Content Delivery Network
+- **CI**: Continuous Integration
+
+> Als je weinig updates uit voert, is Static Site Generation het beste voor je gebruikers!
+
+**Static Site Generation (en CDN):**
+
+**Voordelen SSG:**
+- Veiligheid
+- Performance
+- Schaalbaarheid (CDN)
+- Gratis Hosting
+
+**Nadelen SSG:**
+- Build time
+- Minde dynamische content
+
+Natuurlijk heeft Sveltekit een optie voor SSG, je installeert daarvoor _adapter-static_ en maakt aanpassingen in `svelte.config.js`.
+
+Continuous Integration (CI) is het automatiseren van de integratie van codeaanpassingen in een softwareproject. Het is een fundamentele _best practice_ binnen DevOps.
+
+Door CI kunnen ontwikkelaars codeaanpassingen frequent samenvoegen in een centraal repository, waar vervolgens automatisch _builds_ en _quality_ tests worden uitgevoerd. Op Github kan je gebruik maken van _Actions_ om CI te implementeren.
+
+Koppel je eigen domeinnaam aan Github Pages: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site 
