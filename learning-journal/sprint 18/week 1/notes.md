@@ -12,6 +12,7 @@
 ## 6-01-2025
 
 ### Wat heb ik gedaan?:
+Sprintplanning
 
 ### Wat heb ik geleerd?:
 
