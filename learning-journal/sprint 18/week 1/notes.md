@@ -71,3 +71,9 @@ Koppel je eigen domeinnaam aan Github Pages: https://docs.github.com/en/pages/co
 - **Beter vindbaar:** Statische sites genereren schone en gestructureerde HTML, wat zoekmachines helpt om de site beter te indexeren.
 - **Hogere snelheid, betere ranking:** Google geeft de voorkeur aan snelle websites, wat de SEO-score verbetert.
 - **Gratis of goedkope hosting:** Platformen zoals Netlify bieden vaak gratis hosting voor statische sites.
+
+## 7-01-2025
+
+### Wat heb ik gedaan?:
+
+Ik heb een argumentatieproces doorlopen over waarom SSG de beste deployment-methode voor Bieb in Bloei is. Vervolgens heb ik aan 3.3.2 gewerkt in Portflow.
