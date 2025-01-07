@@ -1,1 +1,2 @@
-
+- **Hoe kies je de beste deployement methode voor je website?**
+  - 
