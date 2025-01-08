@@ -77,3 +77,54 @@ Koppel je eigen domeinnaam aan Github Pages: https://docs.github.com/en/pages/co
 ### Wat heb ik gedaan?:
 
 Ik heb een argumentatieproces doorlopen over waarom SSG de beste deployment-methode voor Bieb in Bloei is. Vervolgens heb ik aan 3.3.2 gewerkt in Portflow.
+
+## 8-01-2025
+
+### Wat heb ik gedaan?:
+
+In de ochtend heb ik gementord bij de eerstejaars waar ik heb geholpen met codevragen en issues.
+
+### Wat heb ik geleerd?:
+
+**GSAP:** Met GSAP kan je alles animeren
+
+
+#### Lerend vermogen
+
+Waardeert het vermogen van anderen (Lisa):
+
+Ontwerpen:
+
+> Een goed ontwerp begint bij de analyse
+
+Stap 1: Analyseren.
+je bedenkt je idee, vanuit daar maak je orienterende schetsen, met daarbij uitleg van t idee
+
+daarna een brainstormsessie: maak n beeld voor jezelf wat je er in wilt hebben -> moodboard
+
+vanuit het moodboard ga je terug naar de orienterende schetsen, je weet dan zeker wat er teurg moet komen in de schetsen. Op papier
+
+In de ontwerpfase maaktz e highfi schetsen in figma, hier steek je veel tijd en moeite in. Vervolgens maak je vanuit daar responsive schetsen, mobile first normaal gesproken met soms uitzonderingen
+
+daarna een breakdownschets in figma 
+
+Zo nodig ook nog een datamodel.
+
+Kleurpalet: tijdens d ebrainstormsessie bedenk je je alvast welke kleuren je terug wil laten komen. Probeer die standaard pinterest kleurpaletten te vermijden. Ga uit van kleuren die opvallen in normale foto's.
+
+Het belangrijkste zit hem in het analyseren
+
+veel op pinterest, maak borden
+je moet wel eerst weten wat je wil schetsen, dus eerst een brainstormsessie 
+
+je hebt altijd een highlight en een shadow nodig van je standaard hues (denk aan de les van koop).
+Denk aan 1 hoofdkleur (rood bij lisa) en 1 accentkleur (bij lisa de standaard hues) die voornamelijk in beeld komt. Zwart wit heb je altijd nodig.
+Denk aan verschillende methoden om de kleurencirkel te gebruiken om een kleurenpalette samen te stellen.
+
+Veel heen en weer van analyseren - ontwerpen, kan altijd nog teurg
+
+https://github.com/lisavanmansom/digital-garden-next/issues/2
+
+Het ontwerpproces is overal anders. Dit is voor een opdracht waar je zelf alle controle hebt.
+
+Als je ergens tegenaanloopt moet je terug gaan naar de brainstormsessie en opnieuw inspiratie opdoen.
