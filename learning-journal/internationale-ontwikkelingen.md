@@ -47,6 +47,10 @@
  
 ![image](https://github.com/user-attachments/assets/b1015e83-dcb7-4d57-b424-20ee7db9d1b7)
 
+- [Neovision](https://neovision.dev/)
+  - De border om de website heen, de cut-out designs en oversized cursor zijn echt top
+
+![{06F4B59D-60E7-4E27-8612-28DB0745F5EE}](https://github.com/user-attachments/assets/44a5fabc-16b4-4a19-ae43-4066bb7d4796)
 
 ---
 ## Medium Frontend Weekly
