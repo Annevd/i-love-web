@@ -106,6 +106,9 @@ Deze tool is echt super handig voor van alles! Je kunt gradients opzoeken en dir
     - **Popover API:** Met de Popover API kun je gelaagde interfaces bouwen, zoals tooltips, menu's, teaching UI's en meer.
     - `@starting-style`: De `@starting-style` wordt gebruikt om stijlen voor een element te definiëren voordat het de eerste stijlupdate heeft ontvangen. Wanneer je die eigenschappen instelt om te transitionen met CSS-transities, kun je deze starting-styles gebruiken om entry-effecten te creëren.
     - `paint-order`: Bij gebruik kan `text-stroke` de `paint-order` property de volgorde bepalen waarin de tekstvulling en de gewenste lijn worden gestapeld of samen worden gerenderd. Dit kan handig zijn als je wil verzekeren dat de lijn bovenop de vulling wordt gerenderd.
+   
+- `text-wrap: pretty` voor paragraphs (zorgt ervoor dat er niet maar 1 woord op de laatste regel komt te staan)
+- `text-wrap: balance` voor koppen/headings (berekent het aantal woorden en verdeeld het over het aantal regels)
 ---
 - [Popover with Anchor positioning](https://www.youtube.com/watch?v=DNXEORSk4GU)
 
