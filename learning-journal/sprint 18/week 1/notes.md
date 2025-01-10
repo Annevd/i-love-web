@@ -91,40 +91,68 @@ In de ochtend heb ik gementord bij de eerstejaars waar ik heb geholpen met codev
 
 #### Lerend vermogen
 
-Waardeert het vermogen van anderen (Lisa):
+**3.5.3: Waardeert het vermogen van anderen (Lisa M):**
 
-Ontwerpen:
+Naar aanleiding van mijn ambitie om beter te worden in design/ontwerpen, heb ik aan Lisa gevraagd of zij mij door haar volledige ontwerpproces wilde meenemen. Ik hoopte hierbij beter te begrijpen hoe je het ontwerpproces aanpakt, van begin tot eind.
 
-> Een goed ontwerp begint bij de analyse
+We nemen hierbij het ontwerpproces van haar [learning journal](https://github.com/lisavanmansom/digital-garden-next/issues/2) als uitgangspunt.
 
-Stap 1: Analyseren.
-je bedenkt je idee, vanuit daar maak je orienterende schetsen, met daarbij uitleg van t idee
+**Overige documentatie:**
+- [Brainstormsessie](https://github.com/lisavanmansom/digital-garden-next/issues/6)
+- [Oriënterende schetsen](https://github.com/lisavanmansom/digital-garden-next/issues/7)
+- [Moodboard](https://github.com/lisavanmansom/digital-garden-next/issues/8)
 
-daarna een brainstormsessie: maak n beeld voor jezelf wat je er in wilt hebben -> moodboard
+**De analysefase:**
 
-vanuit het moodboard ga je terug naar de orienterende schetsen, je weet dan zeker wat er teurg moet komen in de schetsen. Op papier
+> "Een goed ontwerp, begint bij de analyse"
 
-In de ontwerpfase maaktz e highfi schetsen in figma, hier steek je veel tijd en moeite in. Vervolgens maak je vanuit daar responsive schetsen, mobile first normaal gesproken met soms uitzonderingen
+Voordat je begint met ontwerpen, is het belangrijk om eerst uitgebreid te analyseren.
+Je bedenkt eerst een idee en daarna begin je pas met het maken van orënterende schetsen.
 
-daarna een breakdownschets in figma 
+> Je kan ook, als je al een grof idee hebt, alvast beginnen met oriënterende schetsen, dan analyseren, en dan weer teruggaan naar de schetsen om ze eventueel aan te vullen.
 
-Zo nodig ook nog een datamodel.
+Hoe begin je nou zo'n analysefase? Voor Lisa begint dat bij een brainstormsessie. Er zijn meerde manieren om dit te doen, maar de meest voor de hand liggende is bijvoorbeeld het opzoeken van inspiratie op pinterest.
+ 
+Wat je moet onthouden wanneer je inspiratie opzoekt op pinterest is dat je niet letterlijk website ontwerpen per se hoeft op te zoeken. Je kan je inspiratie uit van alles halen, zoals de kleuren, typografie of andere grafische elementen van een magazinecover, een schilderij of andere kunst. Beperk je dus niet alleen in het opzoeken van webdesign.
 
-Kleurpalet: tijdens d ebrainstormsessie bedenk je je alvast welke kleuren je terug wil laten komen. Probeer die standaard pinterest kleurpaletten te vermijden. Ga uit van kleuren die opvallen in normale foto's.
+Ook bedenk je alvast welke kleuren je terug wil laten komen in je ontwerp. Vermijd al die aesthetic kleurenpaletten op pinterest. Deze zijn namelijk nooit compleet, en zijn vaak niet geschikt om kant en klaar toe te passen in web design.
 
-Het belangrijkste zit hem in het analyseren
+Vervolgens maak je een moodboard met daarin álle elementen die je er sowieso in wilt hebben.
 
-veel op pinterest, maak borden
-je moet wel eerst weten wat je wil schetsen, dus eerst een brainstormsessie 
+Aan de hand van het moodboard kan je beginnen of verder gaan met de oriënterende schetsen. Dit doe je heel los op papier, met beschrijvende tekst over wat er in moet.
 
-je hebt altijd een highlight en een shadow nodig van je standaard hues (denk aan de les van koop).
-Denk aan 1 hoofdkleur (rood bij lisa) en 1 accentkleur (bij lisa de standaard hues) die voornamelijk in beeld komt. Zwart wit heb je altijd nodig.
-Denk aan verschillende methoden om de kleurencirkel te gebruiken om een kleurenpalette samen te stellen.
+**De ontwerpfase:**
 
-Veel heen en weer van analyseren - ontwerpen, kan altijd nog teurg
+Na te hebben gebrainstormed en geschetst, kan eindelijk de echte ontwerpfase beginnen. 
 
-https://github.com/lisavanmansom/digital-garden-next/issues/2
+Om te beginnen maakt je in Figma een High-Fi schets van je ontwerp, hier mag je best veel tijd en moeite in steken.
 
-Het ontwerpproces is overal anders. Dit is voor een opdracht waar je zelf alle controle hebt.
+Als je blij bent met je ontwerp kan je beginnen met een responsive versie maken in Figma, bijvoorbeeld mobiel of tablet als nodig. Het is overigens wel handig om op mobiel te beginnen, maar in Figma maakt dat nog niet heel veel uit.
 
-Als je ergens tegenaanloopt moet je terug gaan naar de brainstormsessie en opnieuw inspiratie opdoen.
+Daarna maak je natuurlijk een breakdownschets van het ontwerp. Zo nodig, kun je ook alvast een datamodel voor je website maken.
+
+**Kleuren:**
+
+Kleuren zijn veel complexer dan je misschien denkt. Er is eindeloos veel documentatie over kleurentheorie, en alles valt ook weer toe te passen in web design.
+
+Voor webdesign is het belangrijk om een kleurenschema samen te stellen.
+
+Ten eerste heeft een website altijd zwart én wit nodig. Daarnaast kan je 1 hoofdkleur hebben, met daarnaast meerdere accentkleuren. Van je accentkleuren heb je ook van elk een highlight en een schaduw versie nodig. (Denk ook terug aan de les van koop over kleur in webdesign)
+
+De kleurencirkel kun je op veel manieren gebruiken om een kleurenpalet samen te stellen. Denk aan complimentaire kleuren, of kleuren die naast elkaar staan, of een van de vele andere manieren.
+
+**Conclusie:**
+
+Er zijn super veel manieren om een ontwerpproces aan te pakken, dit is er maar een. 
+
+Het is belangrijk om te onthouden dat het ontwerpproces ook altijd anders is. Dit was voor een opdracht waar Lisa zelf de opdrachtgever is, en dus volledig creatieve vrijheid heeft. Maar dezelfde principes kun je over het algemeen overal toepassen.
+
+Het ontwerpproces houdt niet op wanneer je een high-fi schets hebt gemaakt. Het ontwerp proces is iets waar je constant terug op kan komen als je nog niet tevreden bent, of het gevoel hebt dat er nog iets mis. 
+
+Als je vast loopt, ga dan terug naar de brainstormsessie en daarna terug naar je ontwerp. Je kan altijd heen en weer blijven gaan!
+
+## 9-01-2025
+
+### Wat heb ik gedaan?:
+
+Ik heb vandaag een praatplaat gemaakt als bewijslast voor 3.5.3
