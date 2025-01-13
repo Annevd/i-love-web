@@ -36,6 +36,8 @@ Opruimen hoeft niets groots te zijn. Verander één variabelenaam in iets beters
 - **Gebruik goed commentaar:** Less is more. Goede code heeft weinig commentaar nodig omdat het zichzelf uitlegt. Gebruik comments alleen als de code zonder context niet duidelijk is.
 - **Maak je code leesbaar:** Maak het intuïtief en helder.
 
+---
+
 _Refactoring_ is een proces van het verbeteren van de structuur van code zonder het gedrag te veranderen. 
 
 Het doel is code leesbaarder, eenvoudiger te begrijpen, makkelijker onderhoudbaar en makkelijker uitbreidbaar te maken.
@@ -80,4 +82,58 @@ Dode code zijn functies, variabelen, klassen of andere elementen die nergens mee
 Herpositioneren van code binnen een methode om de leesbaarheid en logische volgorde te verbeteren. Het doel is gerelateerde statements dichter bij elkaar te plaatsen en irrelevante of afleidende stukken code te verplaatsen naar een meer geschikte locatie.
 
 Door statements op een logischere manier te ordenen, wordt de structuur van de methode duidelijker, wat leidt tot beter begrip en eenvoudiger onderhoud.
+
+
+---
+
+**Best practices in Sveltekit:**
+
+- `/src/lib` voor componenten en helpers
+- `/src/routes` voor layout en pagina's 
+- `/static` voor statische assets
+
+**Tip**: Voorkom het inladen van componeten, die componenten inladen, die componenten inladen...
+
+**Tip:** Als een bestand te groot wordt zet je `<script>` en `<style>` elementen in een apart bestand en importeer die!
+
+**Performance:**
+
+Sveltekit doet op het gebied van performance al een heleboel werk voor je: 
+- **Code-splitting**: Alleen de code die nodig is voor de actieve pagina wordt ingeladen
+- **Asset preloading**: De juiste assets op het juiste moment ipv een waterval van bestanden inladen
+- **File hashing**: Unieke bestandsnaam voor assets zodat caching werkt voor gebruikers
+- Request coalescing
+- Parallel loading
+- Pre-rendering
+- Link preloading
+
+In de lokale `dev` mode reageert de site anders als in `build` mode op jouw hosting oplossing (Netlify/Vercel).
+
+Test dus in ieder geval de `preview` versie lokaal en daarnaast ook altijd de definitieve versie op de live omgeving op performance.
+
+**Afbeeldingen:**
+
+Een van de meest impactvolle optimalisaties ligt in het reduceren van bestandsgrootte van afbeeldingen.
+
+Jullie weten hoe je met de hand responsive images in je HTML opneemt maar er is een door svelte gemaakte speciale package `@sveltejs/enhanced-img`.
+
+```JS
+npm install --save-dev @sveltejs/enhanced-img
+import {sveltekit } from '@sveltejs/kit/vite';
+import {enhancedImages} from '@sveltejs/enhanced-img';
+import {defineConfi} from 'vite';
+
+export default defineConfig ({
+    plugins: [
+        enhancedImages()
+        sveltekit()
+    ]
+});
+```
+
+Dit werkt alleen op images die lokaal in jouw project staan. Het werkt dus niet op images uit de database.
+
+**Sitemaps:**
+
+Sitemaps kun je ook in Sveltekit laten generen met een `sitemap.xml`. Zie Sveltekit Docs.
 
