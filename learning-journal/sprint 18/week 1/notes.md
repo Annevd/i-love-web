@@ -89,9 +89,9 @@ In de ochtend heb ik gementord bij de eerstejaars waar ik heb geholpen met codev
 **GSAP:** Met GSAP kan je alles animeren
 
 
-#### Lerend vermogen
+### Lerend vermogen
 
-**3.5.3: Waardeert het vermogen van anderen (Lisa M):**
+#### **3.5.3: Waardeert het vermogen van anderen (Lisa M):**
 
 Naar aanleiding van mijn ambitie om beter te worden in design/ontwerpen, heb ik aan Lisa gevraagd of zij mij door haar volledige ontwerpproces wilde meenemen. Ik hoopte hierbij beter te begrijpen hoe je het ontwerpproces aanpakt, van begin tot eind.
 
@@ -156,3 +156,41 @@ Als je vast loopt, ga dan terug naar de brainstormsessie en daarna terug naar je
 ### Wat heb ik gedaan?:
 
 Ik heb vandaag een praatplaat gemaakt als bewijslast voor 3.5.3
+
+## 10-01-2025
+
+### Wat heb ik gedaan?:
+
+Ik heb vandaag een code/design review gehad en heb samen met Nazneen een kennisdelingsessie gehouden.
+
+### Lerend vermogen
+
+#### **3.5.3: Waardeert het vermogen van anderen (Nazneen):**
+
+Nazneen had van een oud-klasgenoot van haar een aantal dingen over GIT geleerd. Omdat dit in het bedrijfsleven ook veel gebruikt wordt wilde ik ook graag weten hoe dit moest.
+
+**GIT commits:**
+
+Git is een versiebeheersysteem om alle aanpassingen die je maakt in de codebase door te geven en te pushen naar bijvoorbeeld Github of naar een ander platform.
+
+**Waarom GIT?:**
+
+Heel veel bedrijven gebruiken GIT, in plaats van hoe wij GitHub Desktop gebruiken. Dit is daarom goed om alvast te kennen voor als je straks naar het bedrijfsleven gaat.
+
+**Het pushen van code naar Github in de terminal:**
+- Voor elke command die je in de commandline invult begin je met `git`
+- Als je je code wilt pushen begin je door  `add .` er achter te zetten, dus `git add .` Dit komt vervolgens in de Staged Changes
+- Om het vervolgens te committen schrijf je `git commit -m ""`. De `-m` staat voor message, waar achter de commit message staat
+- Tot slot push je de commit door `git push` uit te voeren
+- Om te controleren of het is gelukt kun je `git log` uitvoeren
+
+**Het maken van branches in de terminal:**
+
+- In de commandline schrijf je `git branch name-feature-branch`
+- Om deze nieuwe branch te pushen naar GitHub voer je weer `git push` uit
+- Om de branch  vervolgens te publiceren zodat je erin kan...(nog uitzoeken)
+- Om van branch te wisselen in de terminal voer je `git switch name-feature-branch` uit
+- Met `git branch` krijg je een overzicht van alle branches op de repository
+
+https://github.com/Nazneen05x/Web-learning-journal/issues/1
+
