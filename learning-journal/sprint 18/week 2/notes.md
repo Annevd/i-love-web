@@ -33,3 +33,49 @@ Opruimen hoeft niets groots te zijn. Verander één variabelenaam in iets beters
 - **Schrijf kleine functies:** Functies moeten klein zijn en slechts één verantwoordelijkheid hebben. Stel je functie op met zo min mogelijk parameters. Het liefst monadisch maar als het nodig is diadisch, vermeid triadisch. Voorkom side-effects, dingen die buiten de scope van de functie vallen. Een functie heeft één ingang - _parameters_ - en één uitgang - _return_.
 - **Gebruik goed commentaar:** Less is more. Goede code heeft weinig commentaar nodig omdat het zichzelf uitlegt. Gebruik comments alleen als de code zonder context niet duidelijk is.
 - **Maak je code leesbaar:** Maak het intuïtief en helder.
+
+_Refactoring_ is een proces van het verbeteren van de structuur van code zonder het gedrag te veranderen. 
+
+Het doel is code leesbaarder, eenvoudiger te begrijpen, makkelijker onderhoudbaar en makkelijker uitbreidbaar te maken.
+
+Het bestaat uit kleine veranderingen, zoals hernoemen van variabelen, opsplitsen van lange functies of verwijderen van dubbeling.
+
+---
+
+- **Patroon:** Hernoem functie declaratie
+
+De _handtekening_ van een functie omvat de naam, parameters, en soms het returntype.
+
+Dit patroon wordt bijvoorbeeld gebruikt om een functie een duidelijkere naam te geven, parameters toe te voegen of te verwijderen, of de volgorde van parameters te wijzigen.
+
+Het doel is om de functie beter aan te laten sluiten bij de behoeften van de codebase zonder gedrag te veranderen.
+
+```JS
+//before
+function ot(r, x ) {}
+
+//after
+function omtrek(straal){}
+`
+```
+
+- **Patroon:** splits _conditionals_ op
+
+- **Patroon:** Vervang _loops_ door _pipelines_
+
+Traditionele iteraties over collecties (zoals _for_-, _foreach_- of _while_-loops) worden vervangen door een functionele stijl met behulp van een pipeline van operaties.
+
+Dit patroon maakt gebruik van methoden _map_, _filter_, en _reduce_, die declaratief beschrijven wat er met de data moet gebeuren in plaats van hoe.
+
+- **Patroon:** Verwijder dode code
+
+Overbodige of niet-gebruikte code wordt opgespoord en verwijderd uit de codebase.
+
+Dode code zijn functies, variabelen, klassen of andere elementen die nergens meer worden aangeroepen of geen effect meer hebben op het gedrag van het systeem
+
+- **Patroon:** Verschuif statements
+
+Herpositioneren van code binnen een methode om de leesbaarheid en logische volgorde te verbeteren. Het doel is gerelateerde statements dichter bij elkaar te plaatsen en irrelevante of afleidende stukken code te verplaatsen naar een meer geschikte locatie.
+
+Door statements op een logischere manier te ordenen, wordt de structuur van de methode duidelijker, wat leidt tot beter begrip en eenvoudiger onderhoud.
+
