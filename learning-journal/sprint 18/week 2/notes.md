@@ -13,6 +13,8 @@
 
 ### Wat heb ik gedaan?:
 
+Ik heb alle tests uitgevoerd op de Zadenpagina, en de testresultaten verwerkt in issues. Ook heb ik een aantal issues aangemaakt voor het refactoren en clean code van de website.
+
 ### Wat heb ik geleerd?:
 
 **Workshop refactoring/clean code:**
