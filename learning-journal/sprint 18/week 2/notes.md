@@ -137,3 +137,12 @@ Dit werkt alleen op images die lokaal in jouw project staan. Het werkt dus niet 
 
 Sitemaps kun je ook in Sveltekit laten generen met een `sitemap.xml`. Zie Sveltekit Docs.
 
+## 14-01-2025
+
+### Wat heb ik gedaan?:
+
+De Javascript deep dive van Joost bijgewoond en aan issues van Bieb in Bloei gewerkt.
+
+### Wat heb ik geleerd?:
+
+https://github.com/Annevd/i-love-web/issues/18
