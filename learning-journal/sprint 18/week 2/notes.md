@@ -146,3 +146,11 @@ De Javascript deep dive van Joost bijgewoond en aan issues van Bieb in Bloei gew
 ### Wat heb ik geleerd?:
 
 - https://github.com/Annevd/i-love-web/issues/18
+
+## 15-01-2025
+
+### Wat heb ik gedaan?:
+
+
+
+### Wat heb ik geleerd?:
