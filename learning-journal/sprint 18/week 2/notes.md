@@ -151,6 +151,5 @@ De Javascript deep dive van Joost bijgewoond en aan issues van Bieb in Bloei gew
 
 ### Wat heb ik gedaan?:
 
+Voorbereiding van de code/design review van vrijdag en de pull request van Rutger en Larissa gereviewed.
 
-
-### Wat heb ik geleerd?:
