@@ -153,3 +153,16 @@ De Javascript deep dive van Joost bijgewoond en aan issues van Bieb in Bloei gew
 
 Voorbereiding van de code/design review van vrijdag en de pull request van Rutger en Larissa gereviewed.
 
+## 16-01-2025
+
+### Wat heb ik gedaan?:
+
+Gewerkt aan issues en pull requests om de homepage beter responsive te maken.
+
+## 17-01-2025
+
+### Wat heb ik gedaan?:
+
+- Mentor in de ochtend
+
+### Wat heb ik geleerd?:
