@@ -6,7 +6,7 @@
   - [22/01](#22-01-2025)
   - [23/01](#23-01-2025)
   - [24/01](#24-01-2025)
-  - [Sprintplanning vrije ruimte](#sprintplanning-vrije-ruimte:)
+  - [Sprintplanning vrije ruimte](#sprintplanning-vrije-ruimte)
 
 # Week 3 recap
 
@@ -16,7 +16,7 @@
 
 ### Wat heb ik geleerd?:
 
-#### Sprintplanning vrije ruimte:
+#### Sprintplanning vrije ruimte
 
   - **4.2.2:** "Ik schat in dat ik dit aankomende donderdag af heb" bij je teamlead.
   - **4.3.1:** "Kun je het nog een keer uitleggen/in andere woorden, ik begrijp het niet helemaal"
