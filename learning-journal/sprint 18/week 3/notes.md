@@ -6,7 +6,7 @@
   - [22/01](#22-01-2025)
   - [23/01](#23-01-2025)
   - [24/01](#24-01-2025)
-  - [Sprintplanning vrije ruimte](#sprintplanning-vrije-ruimte)
+  - [Sprintplanning vrije ruimte](#sprintplanning-vrije-ruimte:)
 
 # Week 3 recap
 
@@ -16,7 +16,7 @@
 
 ### Wat heb ik geleerd?:
 
-#### Sprintplanning vrije ruimte
+#### Sprintplanning vrije ruimte:
 
   - **4.2.2:** "Ik schat in dat ik dit aankomende donderdag af heb" bij je teamlead.
   - **4.3.1:** "Kun je het nog een keer uitleggen/in andere woorden, ik begrijp het niet helemaal"
@@ -35,3 +35,68 @@ Nodig je bedrijfsbegeleider uit voor feedback op relevante bewijslast, vraag fee
     - Vrijdag 07/03: We love web + Terugkomdag waarop je aan de Tribe presenteert waar je mee bezig bent, van 14:00-17:00
     - Vrijdag 28/03: We love web + Terugkomdag waarop je aan de Tribe presenteert waar je mee bezig bent, van 14:00-17:00 (deadline portflow zondag 30/3 23:59)
     - Assessment
+
+---
+
+#### WebGL/ThreeJS/Shaders
+
+- **ThreeJS:** is een JS library dat het werken met 3D in de browser eenvoudig maakt. Het gebruikt WebGL.
+
+**ThreeJS bestaat uit 3 kernonderdelen:**
+1. Scene - de wereld waarin de 3d objecten zich bevindne
+2. Camera - de camera waarmee je naar de 3d objecten kijkt (het oogpunt)
+3. Renderer - het systeem dat alles tekent
+
+**Basis code:**
+```JS
+// 1. Maak een scene
+
+// 2. Maak een camera
+
+  // Perspective (P) vs Orthographic projection (O)
+  // Bij perspective zullen 2 objecten met verschillende afstanden verschillende groottes hebben (perspectief)
+  // Bij Orthographic zullen die 2 objecten dezelfde grootte krijgen, ongeacht afstand. Alles wordt plat.
+
+// 3. Maak een renderer
+
+// 4. Voeg een object toe (bijv. een kubus)
+
+// 5. Plaats de camera
+
+// 6. Maak een animatielus
+```
+
+- **Mesh(es):**
+  - Geometry
+    - SpehereGeometry
+    - PlaneGeometry
+  - (+) Material
+    - RawShaderMaterial
+    - VertexShader
+    - FragmentShader
+  - = mesh
+ 
+- **Light('s):**
+  - Shadows
+  - Materials
+    - MeshPhongMaterial
+    - MeshLambertMaterial
+  -   LightColors
+    - Hue (?)
+    - Ikea Home Lights (?)
+ 
+- **Vertex Shader:**
+  De vertex shader is een stukje code dat draait op de GPU en is verantwoordelijk voor het transformen van de coördinaten van een object naar de uiteindelijke positie op je scherm.
+
+De fragment shader berekent...
+
+- [Coole iglo met webGL](igloo.inc)
+- [Bestuurbaar portfolio met WebGL](bruno-simon.com)
+- [Gratis threeJS lessen ](threejs-journey.com)
+- [Bestuurbare website met webGL](summer-afternoon.vlucendo.com)
+- [WebGL Image Transitions](tympanus.net/Development)
+- [Codrops tutorials](https://tympanus.net/codrops/category/tutorials/)
+- [Spector.js Chrome extension](https://chromewebstore.google.com/detail/spectorjs/denbgaamihkadbghdceggmchnflmhpmk)
+- [Informatie over shaders](thebookofshaders.com)
+
+3D modellen (obj files) kun je gewoon gratis op het internet vinden.
