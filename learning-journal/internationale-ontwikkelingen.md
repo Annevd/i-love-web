@@ -67,6 +67,37 @@
 - [UI fonts: Test and preview fonts in real-time for all your design needs](https://www.uifonts.app/)
 - [Pure CSS halftone effect in 3 declarations](https://frontendmasters.com/blog/pure-css-halftone-effect-in-3-declarations/)
 
+- [CSS `text-box-trim`](https://developer.chrome.com/blog/css-text-box-trim)
+  
+  **Shorthand syntax:** `text-box: trim-both cap alphabetic`. This property lets you control the space above and below text, for example `<h1>`, `<button>` and `<p>`.
+
+  <img width=500 src="https://github.com/user-attachments/assets/15f217c0-53b2-49a4-b99f-623ff3188e94">
+
+  These are the 2 most common one-liners:
+  ```CSS
+  h1 {
+  /* trim both sides to the capital letters */
+  text-box: trim-both cap alphabetic;
+
+  /* trim both sides to the lowercase letter x */
+  text-box: trim-both ex alphabetic;
+  ```
+
+  **Use cases:**
+  
+  <img width=500 src="https://github.com/user-attachments/assets/02de203e-b08e-4edd-863b-dc721bdba228">
+
+  <img width=500 src="https://github.com/user-attachments/assets/6969c9b2-4c61-4006-8e40-7699fa9e41bc">
+
+  <img width=500 src="https://github.com/user-attachments/assets/5b51621c-3d15-40b1-ad44-7e5906b832b2">
+
+
+  
+**Tools:**
+- [Easing wizard](https://easingwizard.com/)
+- [Image to Gradient](https://photogradient.com/)
+
+
 ---
 ## CSS Weekly
 
@@ -88,7 +119,7 @@ Het vooraf laden van de LCP-afbeelding met `fetchpriority="high"` zou de prestat
 
 Deze tool is echt super handig voor van alles! Je kunt gradients opzoeken en direct kopiëren, CSS animations bekijken en kopiëren, kleuren paletten bekijken en deze zelfs visualiseren in een echte webpagina!
 
-- **CSS Wrapped:**
+- **CSS Wrapped 2024:**
   - **Components:** 
     - `field-sizing`: textarea, select en input kunnen hiermee groeien of krimpen zo groot als de placeholder. Dit is nog niet supported op Safari.
     - **Mutually exclusive `<details>` elements:** Om een ​​exclusive accordeon te maken, voeg je een name-attribuut toe aan de `<details>` elementen. Wanneer dit attribuut wordt gebruikt, vormen de `<details>` met dezelfde name value een semantische groep. Wanneer je een van de `<details>` elementen uit de groep opent, wordt het eerder geopende element automatisch gesloten.
@@ -115,6 +146,10 @@ Deze tool is echt super handig voor van alles! Je kunt gradients opzoeken en dir
 Met anchor positioning kan je heel makkelijk een popover plaatsen "anchored" aan een element. In deze video legt Kevin Powell uit hoe dat werkt, en hoe je er voor zorgt dat het op alle browsers werkt.
 
 <img width=900 src="https://github.com/user-attachments/assets/3041ec3e-e432-4179-9f27-8eafc283bc18">
+
+- [CSS `box-decoration-break`](https://12daysofweb.dev/2024/css-box-decoration-break/?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-603-january-16-2025&_bhlid=a6a1cbfbf65c0e4befd7b52b023984626b46f101)
+
+- [PureAnim](https://pureanim.netlify.app/?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-603-january-16-2025&_bhlid=a6e6f5c68f02875270ccd0ac21b7d753325c0693): Makkelijk SVG's animeren.
 
 ---
 
