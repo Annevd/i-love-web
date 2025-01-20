@@ -88,7 +88,7 @@ Nodig je bedrijfsbegeleider uit voor feedback op relevante bewijslast, vraag fee
 - **Vertex Shader:**
   De vertex shader is een stukje code dat draait op de GPU en is verantwoordelijk voor het transformen van de coördinaten van een object naar de uiteindelijke positie op je scherm.
 
-De fragment shader berekent...
+De fragment shader berekent de x, z, en y positie van elk puntje uit het wireframe.
 
 - [Coole iglo met webGL](igloo.inc)
 - [Bestuurbaar portfolio met WebGL](bruno-simon.com)
