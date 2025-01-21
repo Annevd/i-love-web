@@ -14,6 +14,8 @@
 
 ### Wat heb ik gedaan?:
 
+Gewerkt aan Bieb in Bloei.
+
 ### Wat heb ik geleerd?:
 
 #### Sprintplanning vrije ruimte
@@ -100,3 +102,12 @@ De fragment shader berekent...
 - [Informatie over shaders](thebookofshaders.com)
 
 3D modellen (obj files) kun je gewoon gratis op het internet vinden.
+
+---
+
+
+## 21-01-2025
+
+### Wat heb ik gedaan?:
+
+Ik ben bezig geweest met portflow en het verwerken van issues voor Bieb in Bloei.
