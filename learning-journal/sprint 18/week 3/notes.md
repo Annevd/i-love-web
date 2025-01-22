@@ -111,3 +111,60 @@ De fragment shader berekent...
 ### Wat heb ik gedaan?:
 
 Ik ben bezig geweest met portflow en het verwerken van issues voor Bieb in Bloei.
+
+## 22-01-2025
+
+### Wat heb ik gedaan?:
+
+### Wat heb ik geleerd?:
+
+> Van offerte tot oplevering
+
+Hoe kom je aan projecten?: Netwerken
+
+- **Wat wil de opdrachtgever (nou echt)?**
+- Briefing
+- Verwachtingen
+- Wat kan jij, wat kan ik
+- Nee zeggen, wil ik dat wel?
+
+- **Wat staat er in een offerte?**
+1. Wat ga je doen
+2. Begroting
+3. Planning & afspraken
+4. Algemene voorwaarden
+5. Of je feedbackrondes aan wil bieden (bij design heavy opdrachten)
+
+The GOOD list: heeft een rapport elk jaar van uurtariefen voor verschillende functies (zoals creative developer, dit is voor freelance)
+Als je een freelancer bent, moet je je eigen pension regelen, je eigen arbeidongelukkenverzekering, eigen inkomstenbelasting etc.
+
+De prijs per uur die je vraagt hangt ook af van de branche, in de culturele sector vraag je bijvoorbeeld minder, en in de commerciele branche meer.
+
+- **Na de offerte:**
+
+Soms krijg je een design, soms ontwerp je zelf:
+- Grove schetsen laten zien
+- Daarna high-fi
+- Dan snel bouwen
+- Design changes on the way
+
+Bouwen, bouwen bouwen:
+- Fundering, data model
+- Framework kiezen
+- CMS? zeker doen
+- Testen
+- Acceptatie omgeving opzetten (omgeving die de klant ook kan zien, bijvoorbeeld _release candidate_)(productieomgeving is waar het live staat voor iedereen, bijvoorbeeld _main_)
+
+Feestje & Money time:
+- Ga nooit live op een vrijdag
+- Afspraken over oplevering
+- Garantie, bug fixing
+- Factuur sturen
+
+Service Level Agreement:
+- Maak afspraken voor na de oplevering:
+  - Hostingkosten? Updates?
+  - Maandelijkse vaste uren?
+  - Nacalculatie? 
+
+Opdrachtje: https://github.com/fdnd-task/release-candidate/blob/main/docs/feature-request.md
