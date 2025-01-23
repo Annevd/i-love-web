@@ -1,2 +1,3 @@
 - **Hoe kies je de beste deployement methode voor je website?**
-  - 
+  - Ga na welke methodes er allemaal zijn, schrijf belangrijke informatie, functionaliteiten, voor- en nadelen op voor elke methode, en ga na welke het beste past bij jouw website.
+  - Zie https://github.com/fdnd-agency/buurtcampus-oost/issues/303
