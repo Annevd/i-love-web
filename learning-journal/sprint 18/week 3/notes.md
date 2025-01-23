@@ -112,6 +112,8 @@ De fragment shader berekent...
 
 Ik ben bezig geweest met portflow en het verwerken van issues voor Bieb in Bloei.
 
+---
+
 ## 22-01-2025
 
 ### Wat heb ik gedaan?:
@@ -168,3 +170,11 @@ Service Level Agreement:
   - Nacalculatie? 
 
 Opdrachtje: https://github.com/fdnd-task/release-candidate/blob/main/docs/feature-request.md
+
+---
+
+## 23-01-2025
+
+### Wat heb ik gedaan?:
+
+Ik heb een `contributing.md` gemaakt, oude branches verwijderd, kampvuursessie ingevuld en portflow afgerond.
