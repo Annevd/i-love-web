@@ -95,3 +95,5 @@ For some projects (mostly SIDN projects) we use bitbucket deployments to deploy 
 
 Vandaag was de eerste Stage dag bij US Media! Hier heb ik een onboarding gehad waar ik uitleg kreeg over alle algemene informatie wat betreft het bedrijf, de tools en de teams. Ook heb ik kennis gemaakt met verschillende developers en hebben we elkaars skills besproken.
 
+Verder heb ik de US media wiki doorgespit en aantekeningen gemaakt van belangrijke dingen.
+
