@@ -87,6 +87,8 @@ We use git to add, commit, push etc.  If you don't know how to do this, you can 
 We use bitbucket pipelines to trigger build, scan and deployment processes.
 For some projects (mostly SIDN projects) we use bitbucket deployments to deploy our code. For other projects we use a simpler deployments process. "Develop" get build and deployed to Staging. "Master" gets build and deployed to Production/Live. Sometimes there's also an Accept branch which get build and deployed to Accept. For this way of deployment the code gets build anew for every environment.
 
+- [Handige site om GIT basics te leren](https://learngitbranching.js.org/)
+  
 ---
 
 ## 3 februari 2025
