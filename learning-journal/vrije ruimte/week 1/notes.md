@@ -2,13 +2,14 @@
 
   - [Algemene informatie](#algemene-informatie)
   - [GIT & Bitbucket](#git--bitbucket)
+  - [Formulieren API](#formulieren-api)
   - [3/02](#3-februari-2025)
   - [4/02](#4-februari-2025)
   - [5/02](#5-februari-2025)
   - [6/02](#6-februari-2025)
   - [7/02](#7-februari-2025)
 
-### Algemene Informatie
+## Algemene Informatie
 
 #### Wekelijkse meetings:
   - Elke dag:
@@ -91,6 +92,34 @@ For some projects (mostly SIDN projects) we use bitbucket deployments to deploy 
   
 ---
 
+## Formulieren API
+
+API: Communiceren tussen de frontend en backend servers
+
+Bijvoorbeeld postcode.nl
+
+REST API: Hoe definieer je de endpoints (url waar tegen je praat)
+
+staging.api.terredeshommes.nl/docs voor documentatie over een API van Terredeshommes.
+
+Met SQL kan je data uit een database halen.
+
+Een ORM creëert een "virtuele object-database" die de developer kan gebruiken om gegevens op te halen, te wijzigen of te verwijderen, alsof het objecten in het programma zelf zijn. Hierdoor hoeft de developer zich geen zorgen te maken over het schrijven van SQL-queries of het omgaan met verbindingsproblemen met de database. Het stelt developers in staat om objecten rechtstreeks te koppelen aan hun bijbehorende databasegegevens, en vice versa.
+
+Authenticatie: Wie ben je?
+Authorisatie: Waar mag je bij?
+
+Als gebruiker schiet jij als het ware een "submission" in.
+
+Salesforce API: stel er is een nieuwe submissie met x bedrag en y banknummer, dan wordt het pakketje met deze informatie daarna op de achtergrond naar salesforce gestuurd.
+
+Tasks: met een task runt in de achtergrond, die voor een backup/fallback zorgt. Stel dat salesforce het niet doet, dan kan je zelf instellen het ie het bijvoorbeeld nog x aantal probeert, maar dat het proces in ieder geval doorgaat. (dit werkt in de cloud)
+
+Brevo: de emailpartner
+
+
+
+---
 ## 3 februari 2025
 
 Vandaag was de eerste Stage dag bij US Media! Hier heb ik een onboarding gehad waar ik uitleg kreeg over alle algemene informatie wat betreft het bedrijf, de tools en de teams. Ook heb ik kennis gemaakt met verschillende developers en hebben we elkaars skills besproken.
