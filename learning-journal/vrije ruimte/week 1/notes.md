@@ -3,6 +3,7 @@
   - [Algemene informatie](#algemene-informatie)
   - [GIT & Bitbucket](#git--bitbucket)
   - [Formulieren API](#formulieren-api)
+  - [Lokaal een project clonen met SSH](#lokaal-een-project-clonen-met-ssh)
   - [3/02](#3-februari-2025)
   - [4/02](#4-februari-2025)
   - [5/02](#5-februari-2025)
@@ -11,7 +12,7 @@
 
 ## Algemene Informatie
 
-#### Wekelijkse meetings:
+### Wekelijkse meetings:
   - Elke dag:
     - 9:15: Daily standup (US Media)
     - Project team standup (Team)
@@ -37,7 +38,7 @@
 - Toetsen (haalbaar?)
 - Verdelen
 
-#### Tools:
+### Tools:
 
 **Communicatie & planning:**
   - Slack
@@ -54,7 +55,7 @@
   - Keyring: wachtwoorden manager
   - Slite: de US wiki
 
-#### Tech stacks:
+### Tech stacks:
 
   - Back-end:
     - Angular
@@ -146,6 +147,135 @@ Staging is de testversie van de website. Production staat live voor iedereen.
 - Salesforce
 - Brevo
 
+---
+
+## Lokaal een project clonen met SSH
+
+Om lokaal een project te clonen met een SSH key heb ik het volgende proces doorlopen.
+
+### 1. GIT Installeren en configureren
+
+**1. GIT installeren:**
+
+GIT heb ik geïnstalleerd via de windows installer for git.
+
+**2. GIT configureren:**
+
+- [x] To open a command window, go to `Git Bash.vbs` from the Git folder of the Programs directory.
+- [x] Enter the following command to configure your username
+
+    `$ git config --global user.name "Anne van Dijk"`
+- [x] Enter the following command to configure your email address
+
+    `$ git config --global user.email "anne.van.dijk@usmedia.nl"`
+- [x] Configure Git to handle line endings properly so that Bitbucket doesn't think files have changed when the actual content hasn't changed. We recommend this setting if you're collaborating on repositories with others who have different operating systems.
+
+    For Windows: `$ git config --global core.autocrlf true`
+    For Mac and Linux: `$ git config --global core.autocrlf input`
+
+
+**Bron:** [Install and set up GIT](https://support.atlassian.com/bitbucket-cloud/docs/install-and-set-up-git/)
+
+### 2. Set up personal SSH keys on Windows
+
+**1. Download and install Git for Windows:**
+- [x] Download and run the installer from https://gitforwindows.org/. The options at each step should be suitable. When you reach the step about choosing the SSH executable, ensure the bundled OpenSSH is selected.
+- [x] Once the installation is complete, open `Git Bash` from the Start menu.
+- [x] In the terminal, check that OpenSSH has been successfully installed by running the following command:
+
+    `ssh -V`
+  
+    The output should show the installed version of OpenSSH.
+
+**2. Start the SSH agent:**
+
+- [x] From a git bash terminal, check if the SSH agent is running using the `ps` command. If the ssh-agent is already running, it should appear in the output, such as:
+
+    `$ ps -a | grep ssh-agent`
+    `tkelly      3291  0.0  0.0   6028   464 ?        Ss   07:29   0:00 ssh-agent`
+
+- [x] To start the agent:
+
+    `eval $(ssh-agent)`
+  
+You may need to add this command to your ~/.bashrc to ensure the agent starts when you open a Git Bash terminal. 
+
+**3. Create an SSH key pair:**
+
+- [x] Open a terminal and navigate to your home or user directory using cd, for example:
+
+    `cd ~`
+
+- [x] Generate a SSH key pair using ssh-keygen, such as:
+
+    `ssh-keygen -t ed25519 -b 4096 -C "{username@emaildomain.com}" -f ~/.ssh/{ssh-key-name}`
+
+  Where:
+
+    `{username@emaildomain.com}` is the email address associated with the Bitbucket Cloud account, such as your work email account.
+
+    `{ssh-key-name}` is the output filename for the keys. We recommend using a identifiable name such as `bitbucket_work`.
+- When prompted to Enter passphrase, you can either provide a password or leave the password empty. If you input a password, you will be prompted for this password each time SSH is used, such as using Git command that contact Bitbucket Cloud (such as git push, git pull, and git fetch). Providing a password will prevent other users with access to the device from using your keys.
+- Once complete, ssh-keygen will output two files:
+
+    `{ssh-key-name}` — the private key.
+
+    `{ssh-key-name}.pub` — the public key.
+
+    These files will be stored in your user folder, such as `C:\Users\<username>\<ssh-key-name>`
+
+**4. Add your key to the SSH agent:**
+
+- [x] Run the following command, replacing the `{ssh-key-name}` with the name of the private key:
+
+    `ssh-add ~/.ssh/{ssh-key-name}`
+  
+    To ensure the correct SSH key is used when connecting to Bitbucket, update or create your SSH configuration file (~/.ssh/config) with the following settings:
+
+```
+Host bitbucket.org
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/{ssh-key-name}
+```
+Where `{ssh-key-name}` is the name, bitbucket_work, of the private key file once it has been added to the ssh-agent.
+
+**5. Provide Bitbucket Cloud with your public key:**
+
+- [x] Select the Settings cog on the top navigation bar.
+- [x] From the Settings dropdown menu, select Personal Bitbucket settings.
+- [x] Under Security, select SSH keys.
+- [x] Select Add key.
+- [x] In the Add SSH key dialog, provide a Label to help you identify which key you are adding. For example, Work Laptop <Manufacturer> <Model>. A meaningful label will help you identify old or unwanted keys in the future.
+- [x] Open the public SSH key file (public keys have the .pub file extension) in a text editor. The public key should be in the .ssh/ directory of your user (or home) directory. The contents will be similar to:
+
+    `ssh-ed25529 LLoWYaPswHzVqQ7L7B07LzIJbntgmHqrE40t17nGXL71QX9IoFGKYoF5pJKUMvR+DZotTm user@example.com`
+- [x] Copy the contents of the public key file and paste the key into the Key field of the Add SSH key dialog.
+- [x] Select Add key.
+If the key is added successfully, the dialog will close and the key will be listed on the SSH keys page.
+If you receive the error That SSH key is invalid, check that you copied the entire contents of the public key (.pub file).
+
+**6. Check that your SSH authentication works:**
+
+- [x] To test that the SSH key was added successfully, open a terminal on your device (I used PowerShell) and run the following command:
+
+    `ssh -T git@bitbucket.org`
+
+If SSH can successfully connect with Bitbucket using your SSH keys, the command will produce output similar to:
+
+`authenticated via ssh key.
+You can use git to connect to Bitbucket. Shell access is disabled`
+
+**Bron:** [Set up personal SSH keys on Windows](https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-windows/)
+
+### Cloning a project with SSH from Gitbucket.
+
+Om een bestaand US project lokaal te clonen op mijn (nu nog) Windows laptop, ga ik in Gitbucket naar "projects", dan naar het desbetreffende project, dan naar de juiste repo, bijvoorbeeld "terre-des-hommes-website", en vervolgens naar "source". Hier staat rechtsboven de knop "clone", waar je vervolgens de SSH Key kan kopiëren. Dit kan er zo uit zien:
+
+`git clone git@bitbucket.org:usmedia/project-naam.git`
+
+Nadat deze gekopieërd te hebben heb ik VS code geopend, de terminal geopend, en de SSH Key geplakt in de terminal. Zorg ervoor dat je in de juiste map zit (bijvoorbeeld met `cd`) voordat je het project cloned. En zo heb ik nu een project lokaal op mijn laptop! 
+
+**Bron:** [Configure SSH and 2-step verification](https://support.atlassian.com/bitbucket-cloud/docs/configure-ssh-and-two-step-verification/)
 
 ---
 ## 3 februari 2025
@@ -160,4 +290,4 @@ Dag 2 bij US. Ik ben de dag begonnen met het inventariseren van wat ik kon gaan 
 
 Verder heb ik weer 3 kennismakingsgesprekken gehad en een workshop over US's [Formulieren API](#formulieren-api).
 
-Tussen de meetings door heb ik de hele dag gewerkt aan het lokaal clonen van een project via een SSH KEY en het installeren van alles wat hiervoor nodig is. Het clonen van een project is gelukt, alleen het lokaal live krijgen nog niet. Dat wordt dus het doel voor morgen!
+Tussen de meetings door heb ik de hele dag gewerkt aan het [lokaal clonen van een project via een SSH Key](#lokaal-een-project-clonen-met-ssh) en het installeren van alles wat hiervoor nodig is. Het clonen van een project is gelukt, alleen het lokaal live krijgen nog niet. Dat wordt dus het doel voor morgen!
