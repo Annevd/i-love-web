@@ -117,7 +117,15 @@ Tasks: met een task runt in de achtergrond, die voor een backup/fallback zorgt. 
 
 Brevo: de emailpartner
 
+Docker: draait op je windows. Docker kan andere kleinere operating systems draaien los van elkaar. De database wordt dan opgezet in een docker container. Wordpress kan ook in een docker container. Het is een soort "virtueel operating system".
 
+Linter: een linter checkt je code tegen de standaard. Checkt op structuur, lege regels, indentation , etc.
+
+Het geautomatiseerd runnen van processen en tools noem je een pipeline.
+
+Javascript VS Typescript: Typescript is Javascript maar met allemaal types er over heen die je moet definiëren. Ze doen hetzelfde.
+
+Sonar: onderdeel van de pipeline die je code controleert op fouten. Regels binnen code standaarden zoals waarschuwing tegen vreemde functies, security vulnerabilities.
 
 ---
 ## 3 februari 2025
