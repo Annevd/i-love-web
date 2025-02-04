@@ -94,38 +94,58 @@ For some projects (mostly SIDN projects) we use bitbucket deployments to deploy 
 
 ## Formulieren API
 
-API: Communiceren tussen de frontend en backend servers
+**API:** Communiceren tussen de frontend en backend servers
 
 Bijvoorbeeld postcode.nl
 
-REST API: Hoe definieer je de endpoints (url waar tegen je praat)
+**REST API:** Hoe definieer je de endpoints (url waar tegen je praat)
 
-staging.api.terredeshommes.nl/docs voor documentatie over een API van Terredeshommes.
+[staging.api.terredeshommes.nl/docs](staging.api.terredeshommes.nl/docs) voor documentatie over een API van Terredeshommes.
 
 Met SQL kan je data uit een database halen.
 
-Een ORM creëert een "virtuele object-database" die de developer kan gebruiken om gegevens op te halen, te wijzigen of te verwijderen, alsof het objecten in het programma zelf zijn. Hierdoor hoeft de developer zich geen zorgen te maken over het schrijven van SQL-queries of het omgaan met verbindingsproblemen met de database. Het stelt developers in staat om objecten rechtstreeks te koppelen aan hun bijbehorende databasegegevens, en vice versa.
+Een _ORM_ creëert een "virtuele object-database" die de developer kan gebruiken om gegevens op te halen, te wijzigen of te verwijderen, alsof het objecten in het programma zelf zijn. Hierdoor hoeft de developer zich geen zorgen te maken over het schrijven van SQL-queries of het omgaan met verbindingsproblemen met de database. Het stelt developers in staat om objecten rechtstreeks te koppelen aan hun bijbehorende databasegegevens, en vice versa.
 
-Authenticatie: Wie ben je?
-Authorisatie: Waar mag je bij?
+- **Authenticatie:** Wie ben je?
+- **Authorisatie:** Waar mag je bij?
 
 Als gebruiker schiet jij als het ware een "submission" in.
 
-Salesforce API: stel er is een nieuwe submissie met x bedrag en y banknummer, dan wordt het pakketje met deze informatie daarna op de achtergrond naar salesforce gestuurd.
+**Salesforce API:** stel er is een nieuwe submissie met x bedrag en y banknummer, dan wordt het pakketje met deze informatie daarna op de achtergrond naar salesforce gestuurd.
 
-Tasks: met een task runt in de achtergrond, die voor een backup/fallback zorgt. Stel dat salesforce het niet doet, dan kan je zelf instellen het ie het bijvoorbeeld nog x aantal probeert, maar dat het proces in ieder geval doorgaat. (dit werkt in de cloud)
+**Tasks:** met een task runt in de achtergrond, die voor een backup/fallback zorgt. Stel dat salesforce het niet doet, dan kan je zelf instellen het ie het bijvoorbeeld nog x aantal probeert, maar dat het proces in ieder geval doorgaat. (dit werkt in de cloud)
 
-Brevo: de emailpartner
+**Brevo:** de emailpartner
 
-Docker: draait op je windows. Docker kan andere kleinere operating systems draaien los van elkaar. De database wordt dan opgezet in een docker container. Wordpress kan ook in een docker container. Het is een soort "virtueel operating system".
+**Docker:** draait op je windows. Docker kan andere kleinere operating systems draaien los van elkaar. De database wordt dan opgezet in een docker container. Wordpress kan ook in een docker container. Het is een soort "virtueel operating system".
 
-Linter: een linter checkt je code tegen de standaard. Checkt op structuur, lege regels, indentation , etc.
+**Linter:** een linter checkt je code tegen de standaard. Checkt op structuur, lege regels, indentation , etc.
 
 Het geautomatiseerd runnen van processen en tools noem je een pipeline.
 
-Javascript VS Typescript: Typescript is Javascript maar met allemaal types er over heen die je moet definiëren. Ze doen hetzelfde.
+**Javascript VS Typescript:** Typescript is Javascript maar met allemaal types er over heen die je moet definiëren. Ze doen hetzelfde.
 
-Sonar: onderdeel van de pipeline die je code controleert op fouten. Regels binnen code standaarden zoals waarschuwing tegen vreemde functies, security vulnerabilities.
+**Sonar:** onderdeel van de pipeline die je code controleert op fouten. Regels binnen code standaarden zoals waarschuwing tegen vreemde functies, security vulnerabilities.
+
+Staging is de testversie van de website. Production staat live voor iedereen.
+
+### Lijst met genoemde termen
+
+- AWS / Google / Infra
+- REST / Swagger docs
+- SQL / Database / Migration SQL vs NoSQL
+- Mikro ORM
+- Docker / Pipelines 
+- NPM / Linters
+- Sonar
+- HTTP request
+- Authenticate /  Authorize
+- Forms
+- Submissions
+- Tasks
+- Salesforce
+- Brevo
+
 
 ---
 ## 3 februari 2025
