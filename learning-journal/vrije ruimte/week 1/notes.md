@@ -154,3 +154,10 @@ Vandaag was de eerste Stage dag bij US Media! Hier heb ik een onboarding gehad w
 
 Verder heb ik de US media wiki doorgespit en aantekeningen gemaakt van belangrijke dingen.
 
+## 4 februari 2025
+
+Dag 2 bij US. Ik ben de dag begonnen met het inventariseren van wat ik kon gaan doen, en had vervolgens om 9:15 een dailystandup met iedereen van US. Hierin besproken we wat we maandag hadden gedaan, wat we vandaag van plan waren te gaan doen en wat knelpunten waren.
+
+Verder heb ik weer 3 kennismakingsgesprekken gehad en een workshop over US's [Formulieren API](#formulieren-api).
+
+Tussen de meetings door heb ik de hele dag gewerkt aan het lokaal clonen van een project via een SSH KEY en het installeren van alles wat hiervoor nodig is. Het clonen van een project is gelukt, alleen het lokaal live krijgen nog niet. Dat wordt dus het doel voor morgen!
