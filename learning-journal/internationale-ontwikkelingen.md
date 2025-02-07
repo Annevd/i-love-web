@@ -230,13 +230,20 @@ Did you know there's an easy way to create a descending list of numbered items w
 Additionally, you can combine reversed with the start attribute which is an integer specifying the initial value of the list counter. For example, if you wanted to display the numbers 6 through 4 in a reversed 3-item list, you would simply add `start="6"`.
 
 ## Overige inspiratie
+- https://cydstumpel.nl/ !!!
+  
+  ![image](https://github.com/user-attachments/assets/3ba914cb-2c7f-4807-8397-3bf4375b511a)
+
 - https://www.wix.com/studio/blog/scrollytelling
 - https://www.niccolomiranda.com/work
-![image](https://github.com/user-attachments/assets/25dc20a4-a682-4031-a2b3-33b9bcfa2d53)
-![image](https://github.com/user-attachments/assets/a6e0d4a2-bd24-4e06-8ab6-0ed298b5c755)
+  
+  ![image](https://github.com/user-attachments/assets/25dc20a4-a682-4031-a2b3-33b9bcfa2d53)
+  ![image](https://github.com/user-attachments/assets/a6e0d4a2-bd24-4e06-8ab6-0ed298b5c755)
+  
 - https://tympanus.net/Development/KineticTypePageTransition/
-![image](https://github.com/user-attachments/assets/d9c6986b-c903-4a4f-9000-75ed78cfa1ae)
-![image](https://github.com/user-attachments/assets/139b8720-b51c-4337-93ca-15e732229c55)
+  
+  ![image](https://github.com/user-attachments/assets/d9c6986b-c903-4a4f-9000-75ed78cfa1ae)
+  ![image](https://github.com/user-attachments/assets/139b8720-b51c-4337-93ca-15e732229c55)
 
 - [Grainy Gradients](https://css-tricks.com/grainy-gradients/)
 - [snapsvg](http://snapsvg.io/start/)
