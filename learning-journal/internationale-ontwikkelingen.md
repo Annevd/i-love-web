@@ -91,7 +91,9 @@
 
   <img width=500 src="https://github.com/user-attachments/assets/5b51621c-3d15-40b1-ad44-7e5906b832b2">
 
-
+  - [6 CSS snippets every frontend developer should know in 2025](https://nerdy.dev/6-css-snippets-every-front-end-developer-should-know-in-2025)
+  - [Relatively New Things You Should Know about HTML Heading Into 2025]( https://frontendmasters.com/blog/bone-up-html-2025/?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-603-january-16-2025&_bhlid=175524c28854c483a4283b2c558dbbdb6e34fae5)
+  - 
   
 **Tools:**
 - [Easing wizard](https://easingwizard.com/)
@@ -103,21 +105,23 @@
 
 - [Overflow: clip](https://ishadeed.com/article/overflow-clip/?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-599-november-20-2024&_bhlid=71db572afb9149abeee0ca0ae97ae111815fc307)
 
-`overflow:clip` is super handig om te gebruiken wanneer maar één axis geclipped moet worden.
+  `overflow:clip` is super handig om te gebruiken wanneer maar één axis geclipped moet worden.
 
-**Bijvoorbeeld:**
+  **Bijvoorbeeld:**
 
-<img height=300 src="https://github.com/user-attachments/assets/261651d9-1d67-4d75-af98-e7a016e5e775">
-<img height=300 src="https://github.com/user-attachments/assets/18b5c256-ee8c-444a-8171-ef24ac4c6078">
+  <img height=300 src="https://github.com/user-attachments/assets/261651d9-1d67-4d75-af98-e7a016e5e775">
+  <img height=300 src="https://github.com/user-attachments/assets/18b5c256-ee8c-444a-8171-ef24ac4c6078">
 
 
 - [How To Fix Largest Contentful Paint For Background Images](https://www.debugbear.com/blog/largest-contentful-paint-background-images?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-601-december-11-2024&_bhlid=4e6d48ba793761390a661fb573b0da14aae82218)
 
-Het vooraf laden van de LCP-afbeelding met `fetchpriority="high"` zou de prestaties voor achtergrondafbeeldingen moeten verbeteren. Deze preload-hint zorgt ervoor dat de browser de afbeelding sneller kan ophalen, zonder eerst te wachten tot een CSS-bestand is gedownload of tot de pagina begint met renderen.
+  Het vooraf laden van de LCP-afbeelding met `fetchpriority="high"` zou de prestaties voor achtergrondafbeeldingen moeten verbeteren. Deze preload-hint zorgt ervoor dat de browser de afbeelding sneller kan ophalen, zonder eerst te wachten tot een CSS-bestand is gedownload of tot de pagina begint met renderen.
 
 - [Gradienty](https://gradienty.codes/)
 
-Deze tool is echt super handig voor van alles! Je kunt gradients opzoeken en direct kopiëren, CSS animations bekijken en kopiëren, kleuren paletten bekijken en deze zelfs visualiseren in een echte webpagina!
+  Deze tool is echt super handig voor van alles! Je kunt gradients opzoeken en direct kopiëren, CSS animations bekijken en kopiëren, kleuren paletten bekijken en deze zelfs visualiseren in een echte webpagina!
+
+---
 
 - **CSS Wrapped 2024:**
   - **Components:** 
@@ -143,9 +147,9 @@ Deze tool is echt super handig voor van alles! Je kunt gradients opzoeken en dir
 ---
 - [Popover with Anchor positioning](https://www.youtube.com/watch?v=DNXEORSk4GU)
 
-Met anchor positioning kan je heel makkelijk een popover plaatsen "anchored" aan een element. In deze video legt Kevin Powell uit hoe dat werkt, en hoe je er voor zorgt dat het op alle browsers werkt.
+  Met anchor positioning kan je heel makkelijk een popover plaatsen "anchored" aan een element. In deze video legt Kevin Powell uit hoe dat werkt, en hoe je er voor zorgt dat het op alle browsers werkt.
 
-<img width=900 src="https://github.com/user-attachments/assets/3041ec3e-e432-4179-9f27-8eafc283bc18">
+  <img width=900 src="https://github.com/user-attachments/assets/3041ec3e-e432-4179-9f27-8eafc283bc18">
 
 - [CSS `box-decoration-break`](https://12daysofweb.dev/2024/css-box-decoration-break/?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-603-january-16-2025&_bhlid=a6a1cbfbf65c0e4befd7b52b023984626b46f101)
 
@@ -155,7 +159,36 @@ Met anchor positioning kan je heel makkelijk een popover plaatsen "anchored" aan
 
 - [Super toffe sunlit animatie met CSS](https://github.com/jackyzha0/sunlit?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-600-november-27-2024&_bhlid=a1b859cec72f42b942751604bdcb216e31c8db74)
 
-<img width=900 src="https://github.com/user-attachments/assets/2584a43d-d801-41e5-91b8-fc78d706b2bc">
+  <img width=900 src="https://github.com/user-attachments/assets/2584a43d-d801-41e5-91b8-fc78d706b2bc">
+
+---
+
+- [Change font-weight based on the user's screen DPI](https://muffinman.io/blog/font-weight-based-on-dpi/?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-605-february-6-2025&_bhlid=774c850e8b5c881f0ad611fb902916bf1a93f43f)
+
+  Here is an example of the same text rendered on two screens with different device pixel ratios. At the top is a hi-DPI screen (with a pixel ratio of 2), and below is a low-DPI screen (with a pixel ratio of 1). The font used is Inter, 24px tall, with a font weight of 100:
+
+  <img width=400 src="https://github.com/user-attachments/assets/b1394a70-7ecc-4c3b-963c-1a094ae1d010">
+
+  This problem is a great example of how we can use progressive enhancement to improve the user experience. We'll set a default font weight that is readable on low-DPI screens, then use CSS media queries to target hi-DPI screens and apply thinner fonts.
+
+  **Voorbeeld:**
+
+```CSS
+  /* Default font weight for low-DPI screens */
+h1 {
+  font-weight: 300;
+}
+
+/* Progressive enhancement for hi-DPI screens */
+/* Making font thinner and more elegant */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  h1 {
+    font-weight: 100;
+  }
+}
+```
+  
+
 
 ---
 
