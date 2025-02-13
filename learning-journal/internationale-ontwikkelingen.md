@@ -93,11 +93,31 @@
 
   - [6 CSS snippets every frontend developer should know in 2025](https://nerdy.dev/6-css-snippets-every-front-end-developer-should-know-in-2025)
   - [Relatively New Things You Should Know about HTML Heading Into 2025]( https://frontendmasters.com/blog/bone-up-html-2025/?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-603-january-16-2025&_bhlid=175524c28854c483a4283b2c558dbbdb6e34fae5)
-  - 
+
+- [The European Accessibility Act for websites and apps (into effect June 28, 2025)](https://martijnhols.nl/blog/the-european-accessibility-act-for-websites-and-apps)
+  - Which websites and apps are covered?:
+    - Electronic communications services, except those used only for machine-to-machine communication.
+    - Audiovisual media service platforms, such as video streaming services.
+    - Passenger transport services (air, bus, rail, and waterborne transport), except for urban and suburban public transport.
+    - Banking and financial services, including payment services, consumer credit, investment services, and insurance-related financial products.
+    - E-books and dedicated reading software.
+    - E-commerce services (i.e. webshops).
+   
+  - The main requirements under the EAA for sites and apps are:
+    - Accessible UI and content
+    - Accessibility statement
+   
+- [The Popover API is now Baseline Newly available!](https://web.dev/blog/popover-baseline?hl=en)
+   De Popover API biedt een ingebouwde manier om verschillende soorten popovers te maken die in webapplicaties worden gebruikt. Voorheen moest je hiervoor JavaScript gebruiken en moest je er goed op letten dat je ze op een toegankelijke manier implementeerde. De API brengt dit allemaal naar de browser, en een eenvoudige popover kan declaratief in HTML worden gemaakt.
+
   
 **Tools:**
 - [Easing wizard](https://easingwizard.com/)
 - [Image to Gradient](https://photogradient.com/)
+- [Flexbox Labs: A Visual tool for creating flexbox layouts](https://flexboxlabs.netlify.app/)
+
+**Tutorials:**
+- [How to Create Wavy Boxes Using CSS](https://verpex.com/blog/website-tips/how-to-create-wavy-boxes-using-css)
 
 
 ---
