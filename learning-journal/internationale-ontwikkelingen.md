@@ -64,9 +64,6 @@
 ---
 ## Frontend Focus
 
-- [UI fonts: Test and preview fonts in real-time for all your design needs](https://www.uifonts.app/)
-- [Pure CSS halftone effect in 3 declarations](https://frontendmasters.com/blog/pure-css-halftone-effect-in-3-declarations/)
-
 - [CSS `text-box-trim`](https://developer.chrome.com/blog/css-text-box-trim)
   
   **Shorthand syntax:** `text-box: trim-both cap alphabetic`. This property lets you control the space above and below text, for example `<h1>`, `<button>` and `<p>`.
@@ -91,10 +88,13 @@
 
   <img width=500 src="https://github.com/user-attachments/assets/5b51621c-3d15-40b1-ad44-7e5906b832b2">
 
+---
 
 - [6 CSS snippets every frontend developer should know in 2025](https://nerdy.dev/6-css-snippets-every-front-end-developer-should-know-in-2025)
 
 - [Relatively New Things You Should Know about HTML Heading Into 2025]( https://frontendmasters.com/blog/bone-up-html-2025/?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-603-january-16-2025&_bhlid=175524c28854c483a4283b2c558dbbdb6e34fae5)
+
+---
 
 - [The European Accessibility Act for websites and apps (into effect June 28, 2025)](https://martijnhols.nl/blog/the-european-accessibility-act-for-websites-and-apps)
   - Which websites and apps are covered?:
@@ -108,19 +108,99 @@
   - The main requirements under the EAA for sites and apps are:
     - Accessible UI and content
     - Accessibility statement
-   
+
+---
+
 - [The Popover API is now Baseline Newly available!](https://web.dev/blog/popover-baseline?hl=en):
    De Popover API biedt een ingebouwde manier om verschillende soorten popovers te maken die in webapplicaties worden gebruikt. Voorheen moest je hiervoor JavaScript gebruiken en moest je er goed op letten dat je ze op een toegankelijke manier implementeerde. De API brengt dit allemaal naar de browser, en een eenvoudige popover kan declaratief in HTML worden gemaakt.
 
+---
+
+- [Three Approaches to the “&” (ampersand) Selector in CSS](https://frontendmasters.com/blog/three-approaches-to-the-ampersand-selector-in-css/):
+   In CSS nesting, the & (ampersand symbol) selector adds style rules based on the relation between nested selectors. For example, a pseudo-class (:hover) nested inside a type selector (div) becomes a compound selector (div:hover) when the nested pseudo-class is prefixed with &.
+
+    **Bijvoorbeeld:**
+  ```CSS
+  div {
+  &:hover {
+    background: green;
+  }
+  }
+
+  /*
+  The above code is equivalent to:
+  div:hover {
+    background: green;
+  }
+  */
+  ```
+   By using the & selector to concatenate class names, style rules for elements within a module can be arranged together based on their shared class names.
+
+   **Bijvoorbeeld:**
+  ```HTML
+  <div class="cards trek">
+  <p>Trekking</p>
+  </div>
+  <div class="cards wildlife">
+    <p>Wildlife spotting</p>
+  </div>
+  <div class="cards stargaze">
+    <p>Stargazing camp</p>
+  </div>
+  ```
+  ```CSS
+  .cards {
+  background: center/cover var(--bg);
+
+    &.trek {
+      --bg: url("trek.jpg");
+    }
+    &.wildlife {
+      --bg: url("wildlife.jpg");
+    }
+    &.stargaze {
+      --bg: url("stargaze.jpg");
+    }
+  }
+  ```
+  Heres a useful way to space elements in an article where there's spacing between each paragraph, and the spacing between the paragraphs and another kind of element, such as an image, that's inserted between them:
+  ```CSS
+  article {
+  /* etc. */
+  p {
+    margin: 0;
+    
+    /* <p> that's after/below an element that's not <p> */
+    *:not(&) + & { 
+      margin-top: 30px; 
+    }
+    
+    /* <p> that's before/above an element that's not <p> */
+    &:not(:has(+&)) { 
+      margin-bottom: 30px; 
+    } 
+    
+    /* <p> that's after/below another <p> */
+    & + & {
+      margin-top: 12px; 
+    }
+  }
+  /* etc. */
+  }
+  ```
+
   
+---
+
 **Tools:**
 - [Easing wizard](https://easingwizard.com/)
 - [Image to Gradient](https://photogradient.com/)
 - [Flexbox Labs: A Visual tool for creating flexbox layouts](https://flexboxlabs.netlify.app/)
+- [UI fonts: Test and preview fonts in real-time for all your design needs](https://www.uifonts.app/)
 
 **Tutorials:**
 - [How to Create Wavy Boxes Using CSS](https://verpex.com/blog/website-tips/how-to-create-wavy-boxes-using-css)
-
+- [Pure CSS halftone effect in 3 declarations](https://frontendmasters.com/blog/pure-css-halftone-effect-in-3-declarations/)
 
 ---
 ## CSS Weekly
@@ -134,10 +214,13 @@
   <img height=300 src="https://github.com/user-attachments/assets/261651d9-1d67-4d75-af98-e7a016e5e775">
   <img height=300 src="https://github.com/user-attachments/assets/18b5c256-ee8c-444a-8171-ef24ac4c6078">
 
+---
 
 - [How To Fix Largest Contentful Paint For Background Images](https://www.debugbear.com/blog/largest-contentful-paint-background-images?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-601-december-11-2024&_bhlid=4e6d48ba793761390a661fb573b0da14aae82218)
 
   Het vooraf laden van de LCP-afbeelding met `fetchpriority="high"` zou de prestaties voor achtergrondafbeeldingen moeten verbeteren. Deze preload-hint zorgt ervoor dat de browser de afbeelding sneller kan ophalen, zonder eerst te wachten tot een CSS-bestand is gedownload of tot de pagina begint met renderen.
+
+---
 
 - [Gradienty](https://gradienty.codes/)
 
@@ -166,12 +249,16 @@
    
 - `text-wrap: pretty` voor paragraphs (zorgt ervoor dat er niet maar 1 woord op de laatste regel komt te staan)
 - `text-wrap: balance` voor koppen/headings (berekent het aantal woorden en verdeeld het over het aantal regels)
+
 ---
+
 - [Popover with Anchor positioning](https://www.youtube.com/watch?v=DNXEORSk4GU)
 
   Met anchor positioning kan je heel makkelijk een popover plaatsen "anchored" aan een element. In deze video legt Kevin Powell uit hoe dat werkt, en hoe je er voor zorgt dat het op alle browsers werkt.
 
   <img width=900 src="https://github.com/user-attachments/assets/3041ec3e-e432-4179-9f27-8eafc283bc18">
+
+---
 
 - [CSS `box-decoration-break`](https://12daysofweb.dev/2024/css-box-decoration-break/?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-603-january-16-2025&_bhlid=a6a1cbfbf65c0e4befd7b52b023984626b46f101)
 
@@ -209,8 +296,6 @@ h1 {
   }
 }
 ```
-  
-
 
 ---
 
