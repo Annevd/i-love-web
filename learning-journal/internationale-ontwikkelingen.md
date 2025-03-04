@@ -197,6 +197,7 @@
 - [Image to Gradient](https://photogradient.com/)
 - [Flexbox Labs: A Visual tool for creating flexbox layouts](https://flexboxlabs.netlify.app/)
 - [UI fonts: Test and preview fonts in real-time for all your design needs](https://www.uifonts.app/)
+- [Accessible UI palette generator](https://thisisfranciswu.com/enterprise-ui-palette-generator/#)
 
 **Tutorials:**
 - [How to Create Wavy Boxes Using CSS](https://verpex.com/blog/website-tips/how-to-create-wavy-boxes-using-css)
