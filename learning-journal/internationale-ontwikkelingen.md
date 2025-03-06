@@ -189,6 +189,23 @@
   /* etc. */
   }
   ```
+  
+---
+
+- [Functions in CSS](https://css-tricks.com/functions-in-css/): This article introduces the concept of custom functions in CSS, allowing authors to create parameterized styles similar to custom properties but with added flexibility. These functions can accept arguments, have default values, and return computed results, enhancing the dynamic capabilities of CSS. 
+
+    **Example: Defining a Custom Border Function:**
+
+    ```CSS
+    @function --dashed-border(--color: red) {
+      result: 2px dashed var(--color);
+    }
+    
+    div {
+      border: --dashed-border(blue); /* Results in: 2px dashed blue */
+    }
+    ```
+    In this example, the `--dashed-border` function defines a dashed border style that accepts a `--color` argument with a default value of red. When applied to a `div` element with the argument blue, it results in a `2px dashed blue` border. 
 
   
 ---
