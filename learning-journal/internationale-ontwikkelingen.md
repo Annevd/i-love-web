@@ -315,6 +315,23 @@ h1 {
   }
 }
 ```
+---
+
+- [CSS Meets Voxel Art: Building a Rendering Engine with Stacked Grids](https://tympanus.net/codrops/2025/03/03/css-meets-voxel-art-building-a-rendering-engine-with-stacked-grids/?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-607-march-6-2025&_bhlid=7267e45e786637db0957c56d528e279a7293cb95)
+  Agustin Capeletto has created a range of awesome tools at [LayoutIt!](https://layoutit.com/), including the [CSS Voxel Editor](https://voxels.layoutit.com/), which showcases the power of pure CSS for 3D rendering.
+  In this article, Agustin takes us behind the scenes of his latest project, sharing how stacked grids and transforms come together to create a fully addressable 3D space—using nothing but CSS.
+  
+  <img width=500 src="https://github.com/user-attachments/assets/f9b4519b-df99-499d-b2ec-5d565d5e4b40">
+
+  > Hoe gaaf is dit!!!
+
+  <img width=500 src="https://github.com/user-attachments/assets/aafe606d-3168-465f-a46e-9aab35a7aaa0">
+
+---
+
+**Tools:**
+
+- [MotifyX:](https://link.mail.beehiiv.com/ss/c/u001.R4n8MNPMCLyId5zI93tfGhTpTJDQTPeRl9dRCxjTXykxg9OLtDSe4X222dUUdDzqd4qsLI3qTeuBev90yl1Cf9TbrlMpbEOLYrUZ4yy-BKMmUT4Dp1g24Pozi--pAGJzhTF3w2P6JunguvknXjcPNWpIu2MOlzzNMDAq3A3EQfXPbVGpeCFViVEO1etWe5pXAVbACM5GL3PpX9o6zxRs8PB9dRtfNaGwTU2liVAzdzE/4ek/5f4BFbWuQpuNznl8aHuGkw/h33/h001.1v2iR4oBGNO-pilBCyL1WyqHTXBeH1hN2Jl_51JoJGw) collection of mesmerizing background patterns crafted for modern developers and designers
 
 ---
 
