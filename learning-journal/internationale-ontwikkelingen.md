@@ -207,6 +207,35 @@
     ```
     In this example, the `--dashed-border` function defines a dashed border style that accepts a `--color` argument with a default value of red. When applied to a `div` element with the argument blue, it results in a `2px dashed blue` border. 
 
+---
+
+- [CSS Relative Colors](https://ishadeed.com/article/css-relative-colors/): In CSS, we can now generate a color that is relative to another color. 
+
+    ```CSS
+    /* Relative Color Syntax */
+    color-function(from origin-color channel1 channel2 channel3 / alpha(optional))
+    /* ****** */
+    ```
+    For example, if we want to have a black color with 10% transparency, we do the following:
+    ```CSS
+    .button {
+      /* other styles */
+      border-color: rgb(from #000 r g b / 0.1);
+    }
+    ```
+    In plain words, it’s like saying:
+
+    Get the rgb values from `#000` and change the alpha to `0.1`
+
+---
+
+- [Cool native HTML elements (that I didnt know about...)](https://harrisonbroadbent.com/blog/cool-native-html-elements/):
+    - `<progress>`
+    - `<kbd>` (Key combinations)
+
+---
+
+- [View transitions with border-radius](https://www.bram.us/2025/03/11/view-transitions-border-radius/)
   
 ---
 
@@ -216,6 +245,7 @@
 - [Flexbox Labs: A Visual tool for creating flexbox layouts](https://flexboxlabs.netlify.app/)
 - [UI fonts: Test and preview fonts in real-time for all your design needs](https://www.uifonts.app/)
 - [Accessible UI palette generator](https://thisisfranciswu.com/enterprise-ui-palette-generator/#)
+- [Super color palette](https://supercolorpalette.com/)
 
 **Tutorials:**
 - [How to Create Wavy Boxes Using CSS](https://verpex.com/blog/website-tips/how-to-create-wavy-boxes-using-css)
@@ -326,6 +356,15 @@ h1 {
   > Hoe gaaf is dit!!!
 
   <img width=500 src="https://github.com/user-attachments/assets/aafe606d-3168-465f-a46e-9aab35a7aaa0">
+
+---
+
+- [Customizable select](https://utilitybend.com/blog/the-customizable-select-part-one-history-trickery-and-styling-the-select-with-css?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-608-march-13-2025&_bhlid=e4f78628fd5f59cecefaf17f26411bb88f060f7b): Je kan nu het select element nog meer custom stylen. Binnen in `<options>` kan je nu zelfs images toevoegen. Ook kan je `::checkmark`, `option:checked`, `::picker(select)` en `::picker-icon` gebruiken in CSS om nog meer te customizen.
+
+---
+
+- [Faster Rendering with the content-visibility CSS Property](https://www.debugbear.com/blog/content-visibility-api?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-608-march-13-2025&_bhlid=ad591730496c0d6e709b19f40d295b9fb441e6dd): A CSS feature that tells browsers to skip rendering off-screen content until it's needed.
+
 
 ---
 
