@@ -239,6 +239,18 @@
   
 ---
 
+- [Styling Counters in CSS](https://css-tricks.com/styling-counters-in-css/): "Going from the most basic ways to style lists directly in HTML to advanced customization techniques that are even capable of making things that aren’t lists look like lists."
+
+- [Self-gap](https://ishadeed.com/article/self-gap/): Verschillende opties om custom gap sizes aan te pakken tussen flex of grid elementen + proposal self-gap.
+
+- [Dialog with full viewport height](https://til.simonwillison.net/css/dialog-full-height): How to fix the standard max height browser styling of a dialog.
+
+- [Proposal to draw seperators in CSS](https://blogs.windows.com/msedgedev/2025/03/19/minding-the-gaps-a-new-way-to-draw-separators-in-css/)
+  
+- [Cognitive Accessibility](https://www.a11y-collective.com/blog/cognitive-accessibility/)
+
+---
+
 **Tools:**
 - [Easing wizard](https://easingwizard.com/)
 - [Image to Gradient](https://photogradient.com/)
