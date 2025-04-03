@@ -251,6 +251,41 @@
 
 ---
 
+- [Carousels with CSS](https://developer.chrome.com/blog/carousels-with-css): From Chrome 135, you can use features from the CSS Overflow 5 specification that have been designed to create scroll and carousel experiences.
+
+    This post is an overview of many different scroll and carousel experiences made using these new features, and without JavaScript. 
+    > Dit is nu nog alleen beschikbaar in Chrome canary, maar zodra dit breder supported is wil ik dit zeker gaan gebruiken! Het is namelijk ook volledig toegankelijk!
+
+- [Expanding CSS shadow effects](https://frontendmasters.com/blog/expanding-css-shadow-effects/): Coole manieren om verschillende shadows over elkaar te layeren voor interessante effecten.
+
+- [How to improve webpage speed: Tips & Best practices](https://developers.hubspot.com/blog/how-to-improve-webpage-speed-tips-best-practices):
+    1. Loading of files:
+       - Local loading
+    2. Redirects:
+        -  Update Links: Ensure that URLs point directly to their final destination instead of using outdated or intermediate redirects.
+        -  Streamline Redirect Chains
+        -  Audit Files and Images: Check the resources your site loads to ensure they don’t have redirects, as these can slow down page load times just like URL redirects.
+      
+    3. Fonts:
+       - Preload the fonts:  Link the fonts in the <head> of your website, as high as possible.
+       - Add a font-face snippet: This step ensures the font is recognized by the CSS quickly, allowing your page to be styled as soon as possible.
+       - Set fallback fonts: To reduce layout shifts and improve the user experience, define fallback fonts.
+      
+    4. Images:
+       - Is the image in the viewport when the page loads?
+            - Yes: Set the loading to eager. This has a higher priority and tells the browser to load the image as soon as it encounters it.
+            - No: Set the loading to lazy. This loads the image only when it enters the viewport, with a lower priority compared to other elements. When you scroll near the image, it loads as soon as possible, but it doesn’t impact the initial load.
+        - Don’t load images bigger than necessary.
+        - Fetchpriorty for your most important Image: Typically, it’s the Largest Contentful Paint (LCP) image that has the highest priority. Setting this image’s fetchpriority to high will speed up its load time and improve the user experience.
+        - Preload images: If an image is set to high priority, and you’re absolutely certain it should load first (otherwise, don’t set it “high”!), you can preload it.
+      
+    5. Tools:
+       - [PageSpeed Insights (PSI)](https://pagespeed.web.dev/)
+       - [WebPageTest](https://www.webpagetest.org/)
+
+
+
+---
 **Tools:**
 - [Easing wizard](https://easingwizard.com/)
 - [Image to Gradient](https://photogradient.com/)
