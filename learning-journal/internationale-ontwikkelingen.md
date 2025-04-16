@@ -283,6 +283,51 @@
        - [PageSpeed Insights (PSI)](https://pagespeed.web.dev/)
        - [WebPageTest](https://www.webpagetest.org/)
 
+---
+
+- [Top 5 CSS navigation menu mistakes](https://blog.css-weekly.com/top-5-css-navigation-menu-mistakes)
+    - **Mistake #1**: Small target areas. The target area of anchor links covers only text itself, requiring more precision and focus from users. The way to fix this mistake is to add additional padding around the anchor links, thus expanding the interactive, clickable area.
+      <img width=500 src="https://github.com/user-attachments/assets/0486c557-b5fd-4df3-af3c-de05c739a31a">
+    - **Mistake #2:** Not using gap with Flexbox. You can use the gap property with Flexbox to add spacing only between items.
+    - **Mistake #3:** Unforgiving target areas for dropdowns. The yellow arrow is showing a path over empty space the user might take when targeting the first item in the dropdown—thus unintentionally closing the dropdown.
+      <img width=500 src="https://github.com/user-attachments/assets/7833bdb2-11ca-4503-b3d0-6fe7dff888a2">
+
+      The easiest way to fix this mistake is to add a pseudo-element and position it to cover the empty area users will likely utilize.
+      ```CSS
+          /*
+          Expand the target area of dropdown menus
+         */
+        .submenu::after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 3rem;
+            bottom: 100%;
+            left: 0;
+            /* background: darkred; */
+        }
+      ```
+    - **Mistake #4:** No delay before closing dropdowns. If a user accidentally moves the mouse away from the dropdown menu, you don’t want to close it immediately; you want to give the user a chance to reposition their pointer and continue where they left off without starting from zero by moving the mouse to the top-level item. You can achieve this with a bit of JavaScript.
+    - **Mistake #5:** Not animating anchor links. By default, when you create an anchor link and tie it to a section on the page using an id attribute, the page will immediately jump to the target section once the user clicks it.
+    
+        A much nicer and clearer experience is to scroll the page elegantly to the target section. You don’t even have to use JavaScript to handle this; there is a CSS property, scroll-behavior, that lets you define how the browser handles the scrolling when triggered by the navigation or CSSOM scrolling APIs.
+
+      You can set it to any element with a scrollable overflow; this would be the root element for the viewport (entire page).
+        ```CSS
+        /**
+         * Enable smooth scroll for anchor links.
+         */
+        html {
+            scroll-behavior: smooth;
+        }
+        ```
+
+---
+
+- [Use `()shape` for responsive clipping](https://developer.chrome.com/blog/css-shape?hl=en)
+- [CSS Custom Properties vs. Sass Variables: A Pragmatic Guide](https://www.alwaystwisted.com/articles/css-vs-sass)
+    - Voor aantekeningen zie Annevd/meesterproef#34 
 
 
 ---
