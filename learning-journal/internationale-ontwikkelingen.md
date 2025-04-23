@@ -327,7 +327,11 @@
 
 - [Use `()shape` for responsive clipping](https://developer.chrome.com/blog/css-shape?hl=en)
 - [CSS Custom Properties vs. Sass Variables: A Pragmatic Guide](https://www.alwaystwisted.com/articles/css-vs-sass)
-    - Voor aantekeningen zie Annevd/meesterproef#34 
+    - Voor aantekeningen zie Annevd/meesterproef#34
+ 
+---
+
+- [h1 element styles](https://developer.mozilla.org/en-US/blog/h1-element-styles/): Browsers are starting to roll out changes in default UA styles for nested section headings. Alongside the changes in browser styles, page auditing tools like Lighthouse now flag cases of <h1>s without defined font-size as bad practice. 
 
 
 ---
