@@ -333,6 +333,10 @@
 
 - [h1 element styles](https://developer.mozilla.org/en-US/blog/h1-element-styles/): Browsers are starting to roll out changes in default UA styles for nested section headings. Alongside the changes in browser styles, page auditing tools like Lighthouse now flag cases of `<h1>`s without defined font-size as bad practice. 
 
+---
+
+- [Mastering carousels with GSAP from basics to advanced animation](https://tympanus.net/codrops/2025/04/21/mastering-carousels-with-gsap-from-basics-to-advanced-animation/)
+- [Astro Font: An Astro Plugin to Automatically Optimize Your Fonts](https://github.com/rishi-raj-jain/astro-font)
 
 ---
 **Tools:**
