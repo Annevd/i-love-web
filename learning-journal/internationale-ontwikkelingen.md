@@ -345,6 +345,15 @@
     Door `p { margin-block: 1lh; } ` te gebruiken in plaats van `1em`, zien blokken tekst er inderdaad nét even wat cleaner uit dan met `1em`. Interessante find! Misschien wel een idee om toe te passen op mijn we <3 web blog!
 
 ---
+
+- [🥳 GSAP is now 100% FREE! 🥳](https://gsap.com/blog/3-13/): "Thanks to Webflow GSAP is now 100% FREE including ALL of the bonus plugins like SplitText, MorphSVG, and all the others that were exclusively available to Club GSAP members. That's right - the entire GSAP toolset is FREE, even for commercial use! 🤯" Dit is natuurlijk een super vette ontwikkeling, vooral omdat ik graag meer met creative coding bezig wil gaan. Dit is ideaal, unlimited practice material!!!
+
+- [Are 'CSS Carousels' accessible?](https://www.sarasoueidan.com/blog/css-carousels-accessibility/): "There’s a lot the browser doesn’t currently do and that _you_ need to take care of yourself if you want to use these new features in your projects. If you don’t know better, you could end up creating inaccessible and unusable user interface elements with these new features, all the while assuming that the browser is “taking care of accessibility” for you."
+
+- [Easier layout with `margin-trim`](https://webkit.org/blog/16854/margin-trim/): "The margin-trim property lets you tell a container to trim the margins off its children — any margins that push up against the container. In one fell swoop, all of the margin space between the children and the container is eliminated. Even though Safari is the only browser with support at the moment, it makes sense to use it today. Put the hackier layout code in a feature query for the browsers without support ( like `@support not (margin-trim: block) { }`), while using margin-trim for the browsers that do have it."
+  Dit is super handig voor layouts en blogs, wil ik zeker toepassen op mijn I love Web!
+
+---
 **Tools:**
 - [Easing wizard](https://easingwizard.com/)
 - [Image to Gradient](https://photogradient.com/)
