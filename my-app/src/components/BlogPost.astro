@@ -1,5 +1,15 @@
 ---
 const { title, url, image, description, tags, date } = Astro.props;
+
+// Format date to dd-mm-yy
+function formatDate(dateString) {
+  const d = new Date(dateString);
+  const day = String(d.getDate()).padStart(2, '0');
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  const year = String(d.getFullYear());
+  return `${day}-${month}-${year}`;
+}
+const formattedDate = formatDate(date);
 ---
 
 <li>
@@ -8,7 +18,7 @@ const { title, url, image, description, tags, date } = Astro.props;
         <h2>{title}</h2>
         <p>{description}</p>
         <div class="container">
-            <p class="date">{date}</p>
+            <p class="date">{formattedDate}</p>
             <div class="tag-container">
                 { tags.filter((tag) => tag.trim() !== "").length > 0 &&
                     tags.slice(0, 2).map((tag) => 
