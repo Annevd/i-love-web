@@ -333,6 +333,25 @@
 
 - [h1 element styles](https://developer.mozilla.org/en-US/blog/h1-element-styles/): Browsers are starting to roll out changes in default UA styles for nested section headings. Alongside the changes in browser styles, page auditing tools like Lighthouse now flag cases of `<h1>`s without defined font-size as bad practice. 
 
+---
+
+- [Mastering carousels with GSAP from basics to advanced animation](https://tympanus.net/codrops/2025/04/21/mastering-carousels-with-gsap-from-basics-to-advanced-animation/)
+- [Astro Font: An Astro Plugin to Automatically Optimize Your Fonts](https://github.com/rishi-raj-jain/astro-font)
+
+---
+
+- [Polishing your typography with line height units](https://webkit.org/blog/16831/line-height-units/): Basically, `1lh` equals the height of one line of text, for the current font at the current line height. “LH” stands for Line Height. The accompanying `1rlh` unit is the equivalent of one line height at the root, just like how `rem` is the `em` at the root. “RLH” stands for Root Line Height.
+
+    Door `p { margin-block: 1lh; } ` te gebruiken in plaats van `1em`, zien blokken tekst er inderdaad nét even wat cleaner uit dan met `1em`. Interessante find! Misschien wel een idee om toe te passen op mijn we <3 web blog!
+
+---
+
+- [🥳 GSAP is now 100% FREE! 🥳](https://gsap.com/blog/3-13/): "Thanks to Webflow GSAP is now 100% FREE including ALL of the bonus plugins like SplitText, MorphSVG, and all the others that were exclusively available to Club GSAP members. That's right - the entire GSAP toolset is FREE, even for commercial use! 🤯" Dit is natuurlijk een super vette ontwikkeling, vooral omdat ik graag meer met creative coding bezig wil gaan. Dit is ideaal, unlimited practice material!!!
+
+- [Are 'CSS Carousels' accessible?](https://www.sarasoueidan.com/blog/css-carousels-accessibility/): "There’s a lot the browser doesn’t currently do and that _you_ need to take care of yourself if you want to use these new features in your projects. If you don’t know better, you could end up creating inaccessible and unusable user interface elements with these new features, all the while assuming that the browser is “taking care of accessibility” for you."
+
+- [Easier layout with `margin-trim`](https://webkit.org/blog/16854/margin-trim/): "The margin-trim property lets you tell a container to trim the margins off its children — any margins that push up against the container. In one fell swoop, all of the margin space between the children and the container is eliminated. Even though Safari is the only browser with support at the moment, it makes sense to use it today. Put the hackier layout code in a feature query for the browsers without support ( like `@support not (margin-trim: block) { }`), while using margin-trim for the browsers that do have it."
+  Dit is super handig voor layouts en blogs, wil ik zeker toepassen op mijn I love Web!
 
 ---
 **Tools:**
@@ -461,6 +480,19 @@ h1 {
 
 - [Faster Rendering with the content-visibility CSS Property](https://www.debugbear.com/blog/content-visibility-api?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-608-march-13-2025&_bhlid=ad591730496c0d6e709b19f40d295b9fb441e6dd): A CSS feature that tells browsers to skip rendering off-screen content until it's needed.
 
+---
+
+- [Curved Box Cutouts in CSS](https://frontendmasters.com/blog/curved-box-cutouts-in-css/?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-611-may-1-2025&_bhlid=3ebf4561b483eacfbfede5e59581209c65c7ab15): Deze UI style vind ik echt super tof! Zeker een goeie om te onthouden mocht ik dit een keer willen gebruiken.
+
+    <img width=500 src="https://github.com/user-attachments/assets/0e556058-f657-4186-b7c2-a316605ec160">
+
+- [Good vs Great Animations](https://emilkowal.ski/ui/good-vs-great-animations?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-611-may-1-2025&_bhlid=5a6ca61a498b5bf7573aab1805a68e5b2d469f93):
+    - **Origin-aware animations:** When we click on a button that opens a dropdown, we expect the dropdown to animate from where the button is. This feels natural, it then doesn't appear out of nowhere, it has a clear origin. The default `transform-origin` in CSS is `center`, so in most cases you'll have to adjust it.
+    - **Use the right easing:** Animations have to feel natural. Since we’re moving something that is already on the screen, the motion should mimic natural acceleration and deceleration, just like a car. The curve `ease-in-out` has does exactly that. You should default to `ease-out` in most cases. More on that [here](https://emilkowal.ski/ui/great-animations#great-animations-are-fast).
+    - **Use custom easing curves:** Plenty of sites offer custom easing curves; [easing.dev](https://easing.dev/) and [easings.co](https://easings.co/) are two good ones.
+    - **Spring-based interactions:** Changing a component based on mouse position is a nice way to add interactivity to your UI in a subtle way. However, tying visual changes directly to mouse position can feel artificial, as it lacks motion. To make the interaction feel more natural, use the `useSpring` hook from Framer Motion (now called Motion).
+    - **Know your tools:** Knowing which CSS properties to use in a specific situation is key to great animations.
+ Knowing what’s possible doesn’t just help you improve existing animations, it also helps you create new ones.
 
 ---
 
