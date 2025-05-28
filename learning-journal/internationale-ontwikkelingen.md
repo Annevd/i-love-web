@@ -354,6 +354,58 @@
   Dit is super handig voor layouts en blogs, wil ik zeker toepassen op mijn I love Web!
 
 ---
+
+- [CSS snippets](https://adactio.com/journal/21896):
+    - This puts a nice chunky focus ring on links when they’re tabbed to:
+      
+      ```CSS
+      a:focus-visible {
+          outline-offset: 0.25em;
+          outline-width: 0.25em;
+          outline-color: currentColor;
+      }
+      ```
+    - "Something I’m reaching for now is the text-wrap property with its new values of pretty and balance:"
+      
+        ```CSS
+        ul,ol,dl,dt,dd,p,figure,blockquote {
+          hanging-punctuation: first last;
+          text-wrap: pretty;
+        }
+        ```
+        And maybe this for headings, if they’re being centred:
+      
+        ```CSS
+        h1,h2,h3,h4,h5,h6 {
+          text-align: center;
+          text-wrap: balance;
+        }
+        ```
+
+- [Modern Scroll Shadows Using Scroll-Driven Animations](https://css-tricks.com/modern-scroll-shadows-using-scroll-driven-animations/): Interessant om te zien hoe dit op deze manier gedaan word! Ik heb dit effect namelijk toevallig ook op mijn tabel in Teamkeys toegepast, maar dan met `:before`'s en Tyepscript met onScroll.
+
+- [How to have the browser pick a contrasting color in CSS](https://webkit.org/blog/16929/contrast-color/):
+  Have you ever wished you could write simple CSS to declare a color, and then have the browser figure out whether black or white should be paired with that color? Well, now you can, with contrast-color(). Here’s how it works:
+  We can write this in our CSS:
+  
+  ```CSS
+  color: contrast-color(purple);
+  ```
+  
+  And the browser will set `color` to either black or white, whichever choice provides better contrast with `purple`.
+  
+  ```CSS
+  button {
+      background-color: var(--button-color);
+      color: contrast-color(var(--button-color));
+  }
+  ```
+
+  Now we only need to define one color, and the other follows! When we change the button color, the browser will reconsider whether the text should be black or white, and choose fresh the option with more contrast.
+  > Using the contrast-color() function does not guarantee that the resulting pair of colors will be accessible. It’s quite possible to pick a color (in this case a background color) that will not have enough contrast with either black or white. It’s still up to the humans involved — designers, developers, testers, and more — to ensure there’s enough contrast.
+
+
+---
 **Tools:**
 - [Easing wizard](https://easingwizard.com/)
 - [Image to Gradient](https://photogradient.com/)
@@ -361,10 +413,13 @@
 - [UI fonts: Test and preview fonts in real-time for all your design needs](https://www.uifonts.app/)
 - [Accessible UI palette generator](https://thisisfranciswu.com/enterprise-ui-palette-generator/#)
 - [Super color palette](https://supercolorpalette.com/)
+- [Fonts Ninja](https://fonts.ninja/): Een collectie van font combinations
 
 **Tutorials:**
 - [How to Create Wavy Boxes Using CSS](https://verpex.com/blog/website-tips/how-to-create-wavy-boxes-using-css)
 - [Pure CSS halftone effect in 3 declarations](https://frontendmasters.com/blog/pure-css-halftone-effect-in-3-declarations/)
+- [CSS Tips: Flexible Wrapping CSS Grid](https://www.youtube.com/watch?v=EeM5wnhO9iI): A quick tip that will show you how to create a flexible CSS Grid with a varying number of items that expands, shrinks, and wraps to accommodate the number of items that can fit in one grid row.
+
 
 ---
 ## CSS Weekly
@@ -499,6 +554,8 @@ h1 {
 **Tools:**
 
 - [MotifyX:](https://link.mail.beehiiv.com/ss/c/u001.R4n8MNPMCLyId5zI93tfGhTpTJDQTPeRl9dRCxjTXykxg9OLtDSe4X222dUUdDzqd4qsLI3qTeuBev90yl1Cf9TbrlMpbEOLYrUZ4yy-BKMmUT4Dp1g24Pozi--pAGJzhTF3w2P6JunguvknXjcPNWpIu2MOlzzNMDAq3A3EQfXPbVGpeCFViVEO1etWe5pXAVbACM5GL3PpX9o6zxRs8PB9dRtfNaGwTU2liVAzdzE/4ek/5f4BFbWuQpuNznl8aHuGkw/h33/h001.1v2iR4oBGNO-pilBCyL1WyqHTXBeH1hN2Jl_51JoJGw) collection of mesmerizing background patterns crafted for modern developers and designers
+- [SVG to CSS Shape converter](https://css-generators.com/svg-to-css/?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-613-may-22-2025&_bhlid=3cc414ba5b84e5c2696359851205161cf9bef9bc): This tool will convert an SVG shape created with <path d="..."> into a CSS Shape.
+- [CSS Boilerplate](https://fokus.dev/tools/css-boilerplate/?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-613-may-22-2025&_bhlid=e99b26ca0c1adb91000ab34455cb2b6e4cdb7fd6)
 
 ---
 
