@@ -404,7 +404,39 @@
   Now we only need to define one color, and the other follows! When we change the button color, the browser will reconsider whether the text should be black or white, and choose fresh the option with more contrast.
   > Using the contrast-color() function does not guarantee that the resulting pair of colors will be accessible. It’s quite possible to pick a color (in this case a background color) that will not have enough contrast with either black or white. It’s still up to the humans involved — designers, developers, testers, and more — to ensure there’s enough contrast.
 
+---
 
+- [Scroll-Driven Animations Inside a CSS Carousel
+](https://css-tricks.com/scroll-driven-animations-inside-a-css-carousel/): Je kunt heel makkelijk een scroll driven animation toeveogen in een carousel, simply by using keyframes and applying those to the carousel items.
+
+- [You can style alt text like any other text](https://piccalil.li/blog/you-can-style-alt-text-like-any-other-text/): The alt text is surfaced on the page when an image fails to load. By styling the `<img>` element, the alt text will have those styles applied because it is an attribute of the `<img>`.
+  **For example:**
+  ```CSS
+  img {
+      display: block; /* makes the <img> a block elementto make sure the it fills its parent.It gets rid of that annoying bit of whitespace at the bottom of the <img> too. */
+      max-width: 100%; /* ensures that if a large image is loaded, it won’t blow out of the confines of its parent. */
+      font-style: italic;
+      font-size: var(--size-step-1);
+      line-height: 1.5;
+      text-wrap: balance;
+    }
+  ```
+
+- [HTML5 Elements You Didn't Know You Need](https://dev.to/maxprilutskiy/html5-elements-you-didnt-know-you-need-gan):
+    1. `<dialog>` for native modal windows
+    2. `<details>` and `<summary>` for collapsible content
+    3. `<datalist>` for native autocomplete
+    4. `<meter>` for semantic measurement display
+    5. `<output>` for dynamic calculation results
+    6. `<mark>` for semantic highlighting
+    7. `<time>` for semantic dates and times
+    8. `<figure>` and `<figcaption>` for semantic image captions
+
+- [Animated Product Grid Preview with GSAP & Clip-Path](https://tympanus.net/codrops/2025/05/27/animated-product-grid-preview-with-gsap-clip-path/): Learn how to transform a simple product grid into an interactive, animated preview experience using GSAP in this hands-on tutorial. (Super cool!)
+
+- [From SplitText to MorphSVG: 5 Creative Demos Using Free GSAP Plugins](https://tympanus.net/codrops/2025/05/14/from-splittext-to-morphsvg-5-creative-demos-using-free-gsap-plugins/): De scribble animation 😍
+
+  
 ---
 **Tools:**
 - [Easing wizard](https://easingwizard.com/)
